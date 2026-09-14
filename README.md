@@ -8,7 +8,7 @@ End-to-end banking analytics project using **Python, MySQL, Statistics, and Powe
 
 ### Executive Dashboard
 
-![Executive Dashboard](Power%20Bi/Dashboards%20Screenshots/Executive%20Dashboard.png)
+![Executive Dashboard](./Power%20Bi/Dashboards%20Screenshots/Executive%20Dashboard.png)
 
 The Executive Dashboard provides an overview of customer activity, transaction performance, loan portfolio, default rate, fraud exposure, and customer profitability.
 
@@ -16,7 +16,7 @@ The Executive Dashboard provides an overview of customer activity, transaction p
 
 ### Fraud Analysis Dashboard
 
-![Fraud Analysis](Power%20Bi/Dashboards%20Screenshots/Fraud%20Analysis.png)
+![Fraud Analysis Dashboard](./Power%20Bi/Dashboards%20Screenshots/Fraud%20Analysis.png)
 
 The Fraud Analysis Dashboard focuses on suspicious transactions, fraud risk scores, branch-level fraud activity, and customer risk segments.
 
@@ -24,7 +24,7 @@ The Fraud Analysis Dashboard focuses on suspicious transactions, fraud risk scor
 
 ### Loan Analysis Dashboard
 
-![Loan Analysis](Power%20Bi/Dashboards%20Screenshots/Loan%20Analysis.png)
+![Loan Analysis Dashboard](./Power%20Bi/Dashboards%20Screenshots/Loan%20Analysis.png)
 
 The Loan Analysis Dashboard provides insights into loan portfolio performance, default rates, credit score distribution, loan risk segments, and branch-level loan risk.
 
