@@ -1,0 +1,3 @@
+loan_id,customer_id,branch_id,loan_type,loan_start_date,loan_amount,interest_rate_pct,term_months,emi_amount,outstanding_balance,loan_status,default_status,days_past_due
+L00221,C00106,B023,Education,2024-10-01,195388.27,-3.5,48,6622.03,61551.69,Active,No,6
+L00411,C00263,B005,Education,2025-11-29,-250000.0,14.47,48,16162.68,369928.02,Defaulted,Yes,92

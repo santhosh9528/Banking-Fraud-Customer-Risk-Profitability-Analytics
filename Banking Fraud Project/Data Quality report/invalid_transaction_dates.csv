@@ -1,0 +1,2 @@
+transaction_id,account_id,customer_id,branch_id,transaction_datetime,transaction_type,transaction_amount,currency,channel,merchant_category,transaction_city,device_id,transaction_status,fee_amount,operational_cost,fraud_confirmed
+T00002001,A000182,C00121,B015,,Debit,3483.54,INR,Branch,Grocery,Chennai,D00121-1,Success,4.28,25.76,No

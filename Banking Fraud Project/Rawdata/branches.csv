@@ -1,0 +1,27 @@
+branch_id,branch_name,city,state,branch_type,open_date,employee_count,monthly_operational_cost
+B001,Chennai Branch 1,Chennai,Tamil Nadu,Semi-Urban,2007-07-02,13,438389
+B002,Bengaluru Branch 1,Bengaluru,Karnataka,Metro,2010-01-03,20,257473
+B003,Mumbai Branch 1,Mumbai,Maharashtra,Semi-Urban,2017-03-26,17,769176
+B004,Delhi Branch 1,Delhi,Delhi,Urban,2005-09-18,13,248246
+B005,Hyderabad Branch 1,Hyderabad,Telangana,Metro,2010-03-21,44,781262
+B006,Pune Branch 1,Pune,Maharashtra,Metro,2017-08-03,24,831453
+B007,Kolkata Branch 1,Kolkata,West Bengal,Semi-Urban,2017-03-23,38,381148
+B008,Madurai Branch 1,Madurai,Tamil Nadu,Urban,2018-03-21,29,156814
+B009,Coimbatore Branch 1,Coimbatore,Tamil Nadu,Metro,2020-08-29,39,506778
+B010,Kochi Branch 1,Kochi,Kerala,Urban,2008-06-27,25,502944
+B011,Chennai Branch 2,Chennai,Tamil Nadu,Metro,2007-01-30,36,251414
+B012,Bengaluru Branch 2,Bengaluru,Karnataka,Urban,2012-09-18,28,195561
+B013,Mumbai Branch 2,Mumbai,Maharashtra,Semi-Urban,2015-04-22,19,546922
+B014,Delhi Branch 2,Delhi,Delhi,Metro,2017-05-20,30,809176
+B015,Hyderabad Branch 2,Hyderabad,Telangana,Semi-Urban,2013-02-10,24,888797
+B016,Pune Branch 2,Pune,Maharashtra,Metro,2006-01-11,26,453445
+B017,Kolkata Branch 2,Kolkata,West Bengal,Metro,2010-03-23,18,548591
+B018,Madurai Branch 2,Madurai,Tamil Nadu,Urban,2015-03-04,35,320555
+B019,Coimbatore Branch 2,Coimbatore,Tamil Nadu,Urban,2012-12-20,25,852729
+B020,Kochi Branch 2,Kochi,Kerala,Urban,2020-09-28,16,788720
+B021,Chennai Branch 3,Chennai,Tamil Nadu,Semi-Urban,2008-11-02,27,321339
+B022,Bengaluru Branch 3,Bengaluru,Karnataka,Urban,2013-07-06,29,821088
+B023,Mumbai Branch 3,Mumbai,Maharashtra,Semi-Urban,2017-06-29,26,867870
+B024,Delhi Branch 3,Delhi,Delhi,Urban,2006-04-04,26,183659
+B025,Hyderabad Branch 3,Hyderabad,Telangana,Urban,2013-12-31,29,219403
+B004,Delhi Branch 1,Delhi,Delhi,Urban,2005-09-18,13,248246

@@ -1,0 +1,13 @@
+Metric,Value
+Default Credit Score Mean,677.7985611510792
+Non Default Credit Score Mean,699.5177865612649
+T Statistic,-3.309073348997231
+T Test P Value,0.0010829697691827676
+Point Biserial Correlation,-0.12355249527555778
+Point Biserial P Value,0.0016676319186080405
+Regression R Squared,0.8205094988401591
+Observed Default Rate %,21.671826625387
+Default Rate CI Lower %,18.494611871299632
+Default Rate CI Upper %,24.84904137947436
+Loan Amount Outliers,0.0
+Transaction Amount Outliers,2199.0

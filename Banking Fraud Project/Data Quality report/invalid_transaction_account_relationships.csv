@@ -1,0 +1,2 @@
+transaction_id,account_id,customer_id,branch_id,transaction_datetime,transaction_type,transaction_amount,currency,channel,merchant_category,transaction_city,device_id,transaction_status,fee_amount,operational_cost,fraud_confirmed
+T00000501,A999999,C00808,B014,2026-05-29 13:30:16,Debit,3833.69,INR,Card,Healthcare,Hyderabad,D00808-1,Success,4.66,20.93,No

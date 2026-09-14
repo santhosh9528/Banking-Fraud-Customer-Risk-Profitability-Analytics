@@ -1,0 +1,2 @@
+login_id,customer_id,login_datetime,device_id,device_type,login_city,ip_address,login_status,failed_attempt_count
+LG0001501,C00415,,D00415-1,iOS,Hyderabad,10.232.15.94,Success,0

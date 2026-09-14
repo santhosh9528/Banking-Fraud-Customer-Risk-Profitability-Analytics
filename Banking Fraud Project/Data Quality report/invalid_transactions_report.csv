@@ -1,0 +1,2 @@
+transaction_id,account_id,customer_id,branch_id,transaction_datetime,transaction_type,transaction_amount,currency,channel,merchant_category,transaction_city,device_id,transaction_status,fee_amount,operational_cost,fraud_confirmed
+T00001201,A001278,C00888,B024,2024-12-25 10:19:08,Debit,-7500.0,INR,Card,ATM,Bengaluru,D00888-1,Success,3.56,5.99,No

@@ -1,0 +1,6 @@
+customer_id,merchant_category,merchant_transaction_count,merchant_transaction_value,customer_total_transactions,merchant_frequency_pct
+C00190,Travel,9,372370.68,22,40.909090909090914
+C00251,Transfer,7,259034.06,16,43.75
+C00597,Transfer,5,37462.45,12,41.66666666666667
+C00950,Electronics,9,279470.37,22,40.909090909090914
+C00962,Transfer,7,190907.21,17,41.17647058823529

@@ -1,0 +1,3 @@
+customer_id,customer_name,gender,age,city,state,customer_segment,occupation,annual_income,home_branch_id,join_date,email,phone,declared_risk_segment
+C00150,Sneha Reddy,Male,57,Madurai,Tamil Nadu,Retail,Self Employed,40857.0,B025,2021-05-04,sneha.reddy150@mail.com,9841139461,Low
+C00150,Sneha Reddy,Male,57,Madurai,Tamil Nadu,Retail,Self Employed,40857.0,B025,2021-05-04,sneha.reddy150@mail.com,9841139461,Low

@@ -1,0 +1,5 @@
+interest_rate_band,total_loans,defaults,average_loan_amount,default_rate_pct
+Low Rate,0,0,,
+Moderate Rate,29,2,797639.264137931,6.896551724137931
+High Rate,408,84,677696.144754902,20.588235294117645
+Very High Rate,209,54,748705.1704306221,25.837320574162682

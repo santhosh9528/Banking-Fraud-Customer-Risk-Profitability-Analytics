@@ -1,0 +1,8 @@
+customer_segment,total_customers,suspicious_customers,total_suspicious_transactions,high_risk_customer_pct
+Mass Affluent,194,21,46,10.824742268041238
+Premium,87,9,19,10.344827586206897
+Retail,402,48,121,11.940298507462686
+Senior Citizen,112,12,45,10.714285714285714
+Sme Owner,117,13,29,11.11111111111111
+Student,87,11,20,12.643678160919542
+,1,0,0,0.0

@@ -1,0 +1,2 @@
+account_id,customer_id,account_type,branch_id,open_date,current_balance,currency,account_status,last_activity_date,account_tier,monthly_service_cost
+A000431,C00302,Salary,B999,2025-06-11,24743.65,INR,Active,2025-11-03,Classic,131.37

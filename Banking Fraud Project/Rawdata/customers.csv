@@ -1,0 +1,1002 @@
+customer_id,customer_name,gender,age,city,state,customer_segment,occupation,annual_income,home_branch_id,join_date,email,phone,declared_risk_segment
+C00001,Sanjay Verma,Male,74,Pune,Maharashtra,Retail,Retired,17373,B005,2023-02-23,sanjay.verma1@mail.com,9899925830,Low
+C00002,Deepa Rao,Male,34,Kochi,Kerala,Mass Affluent,Business Owner,48703,B017,2019-07-21,deepa.rao2@mail.com,9217734861,Low
+C00003,Rohit Sharma,Female,68,Kolkata,West Bengal,Premium,Retired,142189,B022,2018-02-17,rohit.sharma3@mail.com,9925276600,Medium
+C00004,Rahul Singh,Female,36,Kolkata,West Bengal,Retail,Salaried,35173,B017,2020-01-02,rahul.singh4@mail.com,9786066793,Medium
+C00005,Vishal Verma,Female,30,Mumbai,Maharashtra,Retail,Self Employed,65051,B001,2023-12-13,vishal.verma5@mail.com,9120912992,Low
+C00006,Meena Iyer,Male,74,Hyderabad,Telangana,Retail,Self Employed,25706,B025,2018-10-11,meena.iyer6@mail.com,9237859287,Low
+C00007,Kavya Rao,Male,28,Hyderabad,Telangana,Mass Affluent,Business Owner,50165,B025,2024-01-18,kavya.rao7@mail.com,9865523129,Medium
+C00008,Anitha Gupta,Male,60,Pune,Maharashtra,Mass Affluent,Business Owner,51752,B011,2018-09-20,anitha.gupta8@mail.com,9731832764,Low
+C00009,Lakshmi Kumar,Female,22,Chennai,Tamil Nadu,Retail,Salaried,26063,B018,2020-05-27,lakshmi.kumar9@mail.com,9360916298,Low
+C00010,Kavya Gupta,Male,30,Bengaluru,Karnataka,Retail,Retired,43548,B002,2026-03-06,kavya.gupta10@mail.com,9165082363,Medium
+C00011,Ajay Iyer,Male,69,Bengaluru,Karnataka,Retail,Self Employed,57234,B009,2020-01-22,ajay.iyer11@mail.com,9575808013,Low
+C00012,Deepa Singh,Male,21,Coimbatore,Tamil Nadu,Senior Citizen,Salaried,29821,B013,2020-05-25,deepa.singh12@mail.com,9506919288,Medium
+C00013,Arun Gupta,Male,34,Madurai,Tamil Nadu,Retail,Professional,66300,B007,2019-09-27,arun.gupta13@mail.com,9721890096,Low
+C00014,Deepa Kumar,Male,65,Pune,Maharashtra,Retail,Business Owner,41915,B006,2023-12-16,deepa.kumar14@mail.com,9299528037,Low
+C00015,Karthik Verma,Female,22,Delhi,Delhi,Mass Affluent,Business Owner,30471,B003,2024-12-11,karthik.verma15@mail.com,9379995032,Low
+C00016,Sanjay Iyer,Male,33,Hyderabad,Telangana,Mass Affluent,Professional,70828,B003,2026-06-07,sanjay.iyer16@mail.com,9178663096,Low
+C00017,Deepa Nair,Male,50,Hyderabad,Telangana,Retail,Student,47520,B023,2024-02-04,deepa.nair17@mail.com,9817112652,Low
+C00018,Deepa Reddy,Female,60,Bengaluru,Karnataka,SME Owner,Self Employed,72107,B020,2021-02-28,deepa.reddy18@mail.com,9318610946,Low
+C00019,Vijay Rao,Male,49,Hyderabad,Telangana,SME Owner,Salaried,28218,B002,2021-02-07,vijay.rao19@mail.com,9784095277,Low
+C00020,Vijay Sharma,Female,65,Madurai,Tamil Nadu,Mass Affluent,Retired,58676,B005,2025-10-01,vijay.sharma20@mail.com,9725464884,Low
+C00021,Deepa Sharma,Female,45,Mumbai,Maharashtra,Retail,Student,38199,B012,2019-02-26,deepa.sharma21@mail.com,9766430218,Medium
+C00022,Rohit Nair,Male,73,Mumbai,Maharashtra,SME Owner,Self Employed,76828,B022,2022-08-14,rohit.nair22@mail.com,9386480450,Medium
+C00023,Divya Singh,Male,42,Chennai,Tamil Nadu,Senior Citizen,Self Employed,24950,B008,2020-07-21,divya.singh23@mail.com,9527849588,Low
+C00024,Rahul Reddy,Male,73,Bengaluru,Karnataka,SME Owner,Student,41307,B018,2025-08-15,rahul.reddy24@mail.com,9223847257,Low
+C00025,Vijay Sharma,Male,55,Hyderabad,Telangana,Retail,Business Owner,43811,B014,2021-07-08,vijay.sharma25@mail.com,9513600440,Low
+C00026,Suresh Nair,Male,34,Chennai,Tamil Nadu,Student,Salaried,60610,B024,2025-09-14,suresh.nair26@mail.com,9491079829,High
+C00027,Pooja Singh,Female,60,Pune,Maharashtra,Premium,Professional,177512,B017,2021-05-15,pooja.singh27@mail.com,9450236225,Low
+C00028,Ajay Reddy,Male,53,Mumbai,Maharashtra,Retail,Professional,147795,B013,2021-05-17,ajay.reddy28@mail.com,9426283245,Low
+C00029,Anitha Nair,Male,45,Kochi,Kerala,Premium,Student,51837,B017,2020-05-25,anitha.nair29@mail.com,9807435606,Low
+C00030,Karthik Reddy,Male,50,Kochi,Kerala,Retail,Self Employed,67871,B005,2020-03-26,karthik.reddy30@mail.com,9610173760,Low
+C00031,Geetha Singh,Male,47,Kolkata,West Bengal,SME Owner,Business Owner,21281,B013,2023-07-18,geetha.singh31@mail.com,9906341966,Low
+C00032,Meena Gupta,Female,32,Mumbai,Maharashtra,Senior Citizen,Professional,55989,B004,2020-10-17,meena.gupta32@mail.com,9816806128,Low
+C00033,Vishal Rao,Female,56,Pune,Maharashtra,SME Owner,Retired,80315,B014,2023-08-30,vishal.rao33@mail.com,9270894498,Medium
+C00034,Kavya Patel,Male,34,Delhi,Delhi,Senior Citizen,Student,92875,B008,2025-01-11,kavya.patel34@mail.com,9866162966,Low
+C00035,Anitha Nair,Female,35,Pune,Maharashtra,Retail,Business Owner,48282,B003,2020-05-26,anitha.nair35@mail.com,9682624278,Low
+C00036,Naveen Gupta,Female,21,Delhi,Delhi,Senior Citizen,Retired,137790,B001,2025-10-19,naveen.gupta36@mail.com,9612153089,Medium
+C00037,Arun Iyer,Female,37,Kolkata,West Bengal,Senior Citizen,Retired,63006,B008,2024-10-06,arun.iyer37@mail.com,9567975319,Low
+C00038,Kavya Kumar,Female,42,Pune,Maharashtra,Premium,Retired,207172,B020,2019-06-07,kavya.kumar38@mail.com,9735540030,Low
+C00039,Suresh Kumar,Female,23,Kolkata,West Bengal,Retail,Retired,36650,B007,2021-09-02,suresh.kumar39@mail.com,9917364173,Low
+C00040,Ajay Reddy,Male,66,Kolkata,West Bengal,Retail,Salaried,49190,B012,2018-08-02,ajay.reddy40@mail.com,9938842599,Low
+C00041,Priya Kumar,Male,33,Delhi,Delhi,Senior Citizen,Business Owner,37786,B004,2025-07-05,priya.kumar41@mail.com,9599326438,Low
+C00042,Vijay Iyer,Male,28,Kochi,Kerala,Premium,Professional,139006,B010,2019-11-02,vijay.iyer42@mail.com,9434961542,Low
+C00043,Suresh Gupta,Male,43,Delhi,Delhi,Retail,Professional,83036,B025,2025-10-26,suresh.gupta43@mail.com,9954942461,Low
+C00044,Suresh Kumar,Female,40,Coimbatore,Tamil Nadu,Mass Affluent,Student,24889,B004,2023-07-01,suresh.kumar44@mail.com,9782454310,Low
+C00045,Naveen Sharma,Female,45,Mumbai,Maharashtra,Student,Professional,17748,B025,2024-01-14,naveen.sharma45@mail.com,9986625773,Low
+C00046,Suresh Reddy,Female,38,Delhi,Delhi,Senior Citizen,Salaried,37619,B015,2026-06-01,suresh.reddy46@mail.com,9461203124,Low
+C00047,Arun Patel,Female,72,Pune,Maharashtra,Retail,Self Employed,45724,B020,2021-02-19,arun.patel47@mail.com,9696776072,Medium
+C00048,Arun Rao,Female,30,Bengaluru,Karnataka,Retail,Retired,52602,B016,2025-09-29,arun.rao48@mail.com,9581223755,Low
+C00049,Arun Singh,Female,36,Delhi,Delhi,Mass Affluent,Self Employed,35529,B018,2023-04-23,arun.singh49@mail.com,9900942073,Low
+C00050,Deepa Iyer,Male,40,Madurai,Tamil Nadu,Retail,Student,22089,B004,2021-07-16,deepa.iyer50@mail.com,9305665554,Medium
+C00051,Sanjay Patel,Male,35,Kochi,Kerala,SME Owner,Business Owner,85909,B006,2022-01-18,sanjay.patel51@mail.com,9394539550,Low
+C00052,Priya Kumar,Female,53,Hyderabad,Telangana,Student,Self Employed,93088,B001,2019-02-25,priya.kumar52@mail.com,9614015466,Low
+C00053,Naveen Iyer,Female,29,Chennai,Tamil Nadu,Retail,Retired,53996,B002,2025-09-12,naveen.iyer53@mail.com,9191462297,Low
+C00054,Lakshmi Singh,Female,53,Kolkata,West Bengal,Premium,Business Owner,31983,B015,2023-01-20,lakshmi.singh54@mail.com,9427899537,Low
+C00055,Suresh Verma,Male,21,Kochi,Kerala,SME Owner,Salaried,24640,B008,2019-10-06,suresh.verma55@mail.com,9268075622,Low
+C00056,Arun Gupta,Male,46,Kochi,Kerala,Mass Affluent,Salaried,23167,B015,2025-11-19,arun.gupta56@mail.com,9384063364,Low
+C00057,Suresh Nair,Female,45,Bengaluru,Karnataka,Mass Affluent,Professional,35034,B003,2019-08-06,suresh.nair57@mail.com,9738923667,Low
+C00058,Suresh Reddy,Female,46,Bengaluru,Karnataka,Mass Affluent,Student,55048,B020,2018-11-26,suresh.reddy58@mail.com,9888699799,Low
+C00059,Rahul Verma,Female,34,Chennai,Tamil Nadu,Retail,Professional,115994,B025,2018-03-26,rahul.verma59@mail.com,9718740490,Medium
+C00060,Priya Sharma,Female,48,Coimbatore,Tamil Nadu,Premium,Student,26644,B016,2025-02-13,priya.sharma60@mail.com,9473620340,High
+C00061,Pooja Iyer,Male,38,Bengaluru,Karnataka,Senior Citizen,Student,46623,B013,2025-06-06,pooja.iyer61@mail.com,9588365604,Medium
+C00062,Karthik Iyer,Female,34,Pune,Maharashtra,Retail,Retired,52952,B012,2023-10-25,karthik.iyer62@mail.com,9771527524,Low
+C00063,Naveen Kumar,Male,31,Hyderabad,Telangana,Mass Affluent,Student,45323,B001,2019-05-13,naveen.kumar63@mail.com,9862123506,High
+C00064,Divya Reddy,Female,53,Chennai,Tamil Nadu,Mass Affluent,Salaried,64849,B010,2026-01-14,divya.reddy64@mail.com,9546129354,Low
+C00065,Kavya Patel,Female,33,Madurai,Tamil Nadu,Mass Affluent,Retired,26540,B005,2026-05-15,kavya.patel65@mail.com,9929653607,Medium
+C00066,Pooja Iyer,Female,68,Coimbatore,Tamil Nadu,Retail,Salaried,41067,B019,2024-08-01,pooja.iyer66@mail.com,9259553112,High
+C00067,Naveen Rao,Female,48,Pune,Maharashtra,Retail,Business Owner,12000,B023,2020-02-12,naveen.rao67@mail.com,9350785761,Low
+C00068,Pooja Kumar,Male,38,Madurai,Tamil Nadu,Student,Retired,39953,B005,2025-04-24,pooja.kumar68@mail.com,9235555899,Low
+C00069,Vishal Verma,Female,39,Bengaluru,Karnataka,SME Owner,Retired,30533,B021,2022-06-17,vishal.verma69@mail.com,9824085842,Low
+C00070,Deepa Gupta,Male,38,Madurai,Tamil Nadu,SME Owner,Salaried,63571,B010,2025-09-04,deepa.gupta70@mail.com,9565973314,High
+C00071,Meena Singh,Male,46,Mumbai,Maharashtra,Student,Salaried,40264,B008,2019-08-20,meena.singh71@mail.com,9282518553,Low
+C00072,Divya Singh,Female,57,Kolkata,West Bengal,Premium,Self Employed,54710,B015,2020-08-09,divya.singh72@mail.com,9374154962,Low
+C00073,Arun Patel,Female,75,Hyderabad,Telangana,Premium,Self Employed,51882,B016,2022-04-25,arun.patel73@mail.com,9714097318,Low
+C00074,Sneha Verma,Male,36,Hyderabad,Telangana,Retail,Professional,49810,B025,2025-09-10,sneha.verma74@mail.com,9751124015,Medium
+C00075,Kavya Reddy,Male,67,Delhi,Delhi,Premium,Student,39644,B022,2020-10-23,kavya.reddy75@mail.com,9774576271,Medium
+C00076,Meena Kumar,Male,37,Madurai,Tamil Nadu,Retail,Student,69985,B011,2021-04-23,meena.kumar76@mail.com,9315601773,Medium
+C00077,Rohit Rao,Female,74,Pune,Maharashtra,Mass Affluent,Student,83678,B010,2023-05-28,rohit.rao77@mail.com,9963538119,Medium
+C00078,Meena Patel,Female,22,Mumbai,Maharashtra,Student,Self Employed,188573,B018,2022-06-16,meena.patel78@mail.com,9114945047,Low
+C00079,Vijay Rao,Male,25,Madurai,Tamil Nadu,Retail,Professional,81349,B012,2025-02-28,vijay.rao79@mail.com,9606244434,Low
+C00080,Arun Verma,Female,74,Coimbatore,Tamil Nadu,Retail,Business Owner,41541,B023,2023-03-17,arun.verma80@mail.com,9225279834,Low
+C00081,Rohit Kumar,Female,20,Hyderabad,Telangana,SME Owner,Salaried,29316,B024,2025-07-09,rohit.kumar81@mail.com,9730651895,Medium
+C00082,Rohit Gupta,Female,59,Bengaluru,Karnataka,Senior Citizen,Business Owner,12000,B023,2018-05-15,rohit.gupta82@mail.com,9577488537,Low
+C00083,Lakshmi Iyer,Female,24,Pune,Maharashtra,Mass Affluent,Professional,44069,B004,2020-02-17,lakshmi.iyer83@mail.com,9198433586,High
+C00084,Sanjay Verma,Male,19,Chennai,Tamil Nadu,Senior Citizen,Self Employed,62239,B011,2020-08-12,sanjay.verma84@mail.com,9397721596,Medium
+C00085,Rohit Sharma,Male,52,Hyderabad,Telangana,Senior Citizen,Salaried,64284,B012,2018-03-02,rohit.sharma85@mail.com,9732276010,Medium
+C00086,Rahul Kumar,Female,29,Hyderabad,Telangana,Retail,Professional,50561,B016,2018-09-18,rahul.kumar86@mail.com,9651085057,Low
+C00087,Suresh Singh,Male,46,Coimbatore,Tamil Nadu,Retail,Business Owner,113397,B021,2023-02-20,suresh.singh87@mail.com,9614302907,High
+C00088,Ajay Gupta,Female,61,Bengaluru,Karnataka,Mass Affluent,Retired,61356,B020,2021-01-31,ajay.gupta88@mail.com,9508992977,Low
+C00089,Geetha Rao,Female,36,Madurai,Tamil Nadu,Mass Affluent,Retired,142722,B024,2024-03-08,geetha.rao89@mail.com,9584853393,Medium
+C00090,Lakshmi Gupta,Male,39,Madurai,Tamil Nadu,Mass Affluent,Professional,28243,B009,2025-06-17,lakshmi.gupta90@mail.com,9837468465,Low
+C00091,Kavya Singh,Female,23,Bengaluru,Karnataka,Retail,Salaried,79455,B018,2019-06-17,kavya.singh91@mail.com,9819421270,Low
+C00092,Meena Gupta,Male,40,Kolkata,West Bengal,SME Owner,Professional,30362,B012,2021-07-03,meena.gupta92@mail.com,9266140258,Low
+C00093,Kavya Nair,Male,72,Bengaluru,Karnataka,Retail,Business Owner,32490,B008,2024-06-09,kavya.nair93@mail.com,9753903309,Medium
+C00094,Vijay Kumar,Female,29,Hyderabad,Telangana,Student,Student,101514,B005,2020-01-14,vijay.kumar94@mail.com,9174716780,Low
+C00095,Rohit Kumar,Male,23,Coimbatore,Tamil Nadu,Retail,Retired,52217,B024,2021-06-30,rohit.kumar95@mail.com,9156488296,Low
+C00096,Rohit Sharma,Female,66,Kochi,Kerala,Retail,Salaried,29115,B020,2023-06-13,rohit.sharma96@mail.com,9331465414,Low
+C00097,Vishal Singh,Female,40,Kolkata,West Bengal,Retail,Professional,76354,B010,2025-06-25,vishal.singh97@mail.com,9743520276,Low
+C00098,Priya Kumar,Female,31,Hyderabad,Telangana,SME Owner,Self Employed,78109,B001,2019-05-07,priya.kumar98@mail.com,9288650860,Low
+C00099,Rohit Gupta,Female,52,Delhi,Delhi,Mass Affluent,Professional,123062,B013,2024-06-06,rohit.gupta99@mail.com,9410864588,Medium
+C00100,Meena Gupta,Male,19,Pune,Maharashtra,Retail,Business Owner,48717,B003,2022-01-22,meena.gupta100@mail.com,9361259074,Low
+C00101,Pooja Verma,Male,43,Coimbatore,Tamil Nadu,Retail,Student,74089,B003,2019-11-20,pooja.verma101@mail.com,9669732591,Low
+C00102,Vishal Nair,Male,75,Pune,Maharashtra,Retail,Professional,81169,B009,2019-08-23,vishal.nair102@mail.com,9916274954,Low
+C00103,Karthik Sharma,Female,67,Madurai,Tamil Nadu,Mass Affluent,Business Owner,85821,B021,2024-05-01,karthik.sharma103@mail.com,9773469560,Low
+C00104,Rahul Sharma,Female,46,Bengaluru,Karnataka,Mass Affluent,Professional,42556,B012,2018-08-19,rahul.sharma104@mail.com,9595792218,Low
+C00105,Naveen Kumar,Male,21,Pune,Maharashtra,Senior Citizen,Salaried,21221,B015,2022-04-24,naveen.kumar105@mail.com,9582897882,Low
+C00106,Suresh Nair,Male,38,Kochi,Kerala,Mass Affluent,Self Employed,120700,B023,2021-11-07,suresh.nair106@mail.com,9142028540,Low
+C00107,Lakshmi Patel,Male,46,Coimbatore,Tamil Nadu,Mass Affluent,Self Employed,12000,B014,2022-05-06,lakshmi.patel107@mail.com,9947425963,Medium
+C00108,Rahul Singh,Female,39,Bengaluru,Karnataka,Mass Affluent,Retired,26314,B020,2025-05-13,rahul.singh108@mail.com,9187512088,Medium
+C00109,Suresh Sharma,Female,76,Pune,Maharashtra,Retail,Professional,74838,B023,2024-09-03,suresh.sharma109@mail.com,9700138002,High
+C00110,Ajay Iyer,Female,70,Mumbai,Maharashtra,Premium,Professional,55450,B006,2021-06-19,ajay.iyer110@mail.com,9922653967,High
+C00111,Kavya Nair,Male,32,Mumbai,Maharashtra,Retail,Student,28453,B020,2019-06-21,kavya.nair111@mail.com,9294181873,Low
+C00112,Geetha Sharma,Female,64,Madurai,Tamil Nadu,Retail,Student,68414,B020,2022-12-25,geetha.sharma112@mail.com,9351258749,Low
+C00113,Deepa Nair,Female,37,Madurai,Tamil Nadu,SME Owner,Self Employed,128565,B025,2021-02-28,deepa.nair113@mail.com,9274008639,Low
+C00114,Sanjay Verma,Male,26,Hyderabad,Telangana,Retail,Retired,121481,B023,2019-02-25,sanjay.verma114@mail.com,9406084084,Medium
+C00115,Karthik Sharma,Male,35,Madurai,Tamil Nadu,SME Owner,Self Employed,48148,B008,2022-03-12,karthik.sharma115@mail.com,9502559419,Low
+C00116,Lakshmi Kumar,Female,38,Bengaluru,Karnataka,Senior Citizen,Professional,45848,B010,2018-06-06,lakshmi.kumar116@mail.com,9847401602,Medium
+C00117,Rohit Patel,Male,46,Kochi,Kerala,Retail,Salaried,65723,B008,2021-03-26,rohit.patel117@mail.com,9356022467,Low
+C00118,Pooja Verma,Male,47,Bengaluru,Karnataka,Retail,Retired,60348,B019,2023-10-12,pooja.verma118@mail.com,9412750915,Low
+C00119,Pooja Kumar,Male,57,Pune,Maharashtra,Retail,Retired,22603,B012,2023-11-15,pooja.kumar119@mail.com,9519246503,Low
+C00120,Kavya Kumar,Male,58,Kolkata,West Bengal,SME Owner,Student,79067,B012,2018-10-04,kavya.kumar120@mail.com,9928393291,Low
+C00121,Suresh Iyer,Female,26,Chennai,Tamil Nadu,Retail,Student,78722,B015,2025-09-05,suresh.iyer121@mail.com,9778321204,High
+C00122,Divya Sharma,Male,22,Madurai,Tamil Nadu,Retail,Self Employed,208881,B016,2024-02-03,divya.sharma122@mail.com,9407209235,Low
+C00123,Sneha Kumar,Male,73,Pune,Maharashtra,Retail,Student,49808,B013,2022-12-07,sneha.kumar123@mail.com,9632794158,Low
+C00124,Kavya Iyer,Female,69,Coimbatore,Tamil Nadu,Retail,Salaried,69404,B006,2024-10-03,kavya.iyer124@mail.com,9210163669,Low
+C00125,Karthik Iyer,Female,60,Hyderabad,Telangana,Retail,Business Owner,70370,B012,2022-12-24,karthik.iyer125@mail.com,9760191749,Low
+C00126,Pooja Reddy,Male,58,Chennai,Tamil Nadu,Retail,Professional,45859,B022,2026-05-30,pooja.reddy126@mail.com,9253308283,Low
+C00127,Geetha Patel,Female,20,Mumbai,Maharashtra,Retail,Professional,44833,B002,2024-05-12,geetha.patel127@mail.com,9498320110,Low
+C00128,Sneha Patel,Male,66,Bengaluru,Karnataka,Mass Affluent,Business Owner,45797,B008,2021-02-15,sneha.patel128@mail.com,9889924866,High
+C00129,Divya Patel,Female,51,Kolkata,West Bengal,SME Owner,Salaried,40587,B007,2023-01-02,divya.patel129@mail.com,9845156039,High
+C00130,Kavya Nair,Female,25,Mumbai,Maharashtra,Senior Citizen,Retired,18723,B022,2018-12-26,kavya.nair130@mail.com,9817087513,High
+C00131,Sneha Singh,Female,53,Coimbatore,Tamil Nadu,Retail,Student,173763,B021,2025-11-08,sneha.singh131@mail.com,9646272321,Low
+C00132,Lakshmi Singh,Male,30,Mumbai,Maharashtra,Retail,Retired,29293,B005,2024-03-09,lakshmi.singh132@mail.com,9170596494,Low
+C00133,Anitha Gupta,Male,63,Madurai,Tamil Nadu,Mass Affluent,Retired,47454,B005,2021-11-12,anitha.gupta133@mail.com,9924399252,Medium
+C00134,Rohit Gupta,Female,50,Chennai,Tamil Nadu,Senior Citizen,Business Owner,37166,B023,2021-08-14,rohit.gupta134@mail.com,9184675178,Low
+C00135,Vijay Nair,Male,58,Coimbatore,Tamil Nadu,Retail,Professional,36912,B021,2023-08-21,vijay.nair135@mail.com,9283825267,Low
+C00136,Geetha Verma,Male,39,Kochi,Kerala,Retail,Salaried,77873,B025,2020-05-13,geetha.verma136@mail.com,9634764290,Low
+C00137,Deepa Reddy,Female,59,Hyderabad,Telangana,Mass Affluent,Professional,46767,B002,2025-09-21,deepa.reddy137@mail.com,9619960692,Low
+C00138,Naveen Nair,Female,39,Kochi,Kerala,Retail,Professional,43150,B017,2022-02-26,naveen.nair138@mail.com,9359564054,Low
+C00139,Naveen Singh,Female,35,Madurai,Tamil Nadu,Retail,Salaried,99271,B011,2019-10-17,naveen.singh139@mail.com,9303832812,High
+C00140,Divya Patel,Male,50,Madurai,Tamil Nadu,Mass Affluent,Student,54850,B017,2022-05-30,divya.patel140@mail.com,9331009561,Low
+C00141,Suresh Iyer,Male,21,Chennai,Tamil Nadu,Retail,Business Owner,156140,B010,2023-04-12,suresh.iyer141@mail.com,9562705171,Low
+C00142,Rohit Reddy,Female,64,Pune,Maharashtra,Senior Citizen,Student,60269,B003,2021-03-28,rohit.reddy142@mail.com,9920772671,Low
+C00143,Deepa Reddy,Female,70,Kochi,Kerala,Student,Salaried,59940,B007,2019-08-14,deepa.reddy143@mail.com,9636954564,Low
+C00144,Priya Kumar,Female,20,Mumbai,Maharashtra,Student,Retired,56191,B005,2023-10-13,priya.kumar144@mail.com,9274485243,Low
+C00145,Ajay Verma,Male,65,Hyderabad,Telangana,Premium,Business Owner,106663,B019,2025-12-12,ajay.verma145@mail.com,9495521185,Low
+C00146,Rahul Singh,Male,44,Kochi,Kerala,Retail,Professional,141788,B016,2024-09-10,rahul.singh146@mail.com,9874597473,Low
+C00147,Priya Verma,Male,48,Mumbai,Maharashtra,Mass Affluent,Professional,112013,B022,2019-08-29,priya.verma147@mail.com,9304853117,Low
+C00148,Arun Patel,Male,38,Kolkata,West Bengal,Retail,Professional,31390,B016,2024-11-09,arun.patel148@mail.com,9857820386,Medium
+C00149,Rohit Rao,Female,31,Coimbatore,Tamil Nadu,Retail,Professional,53228,B015,2019-12-11,rohit.rao149@mail.com,9686556403,Medium
+C00150,Sneha Reddy,Male,57,Madurai,Tamil Nadu,Retail,Self Employed,40857,B025,2021-05-04,sneha.reddy150@mail.com,9841139461,Low
+C00151,Kavya Iyer,Female,48,Pune,Maharashtra,Mass Affluent,Professional,43116,B018,2025-08-03,kavya.iyer151@mail.com,9978726109,Low
+C00152,Sneha Sharma,Female,36,Chennai,Tamil Nadu,Retail,Professional,98474,B007,2020-05-26,sneha.sharma152@mail.com,9703462253,Medium
+C00153,Vijay Sharma,Male,24,Kochi,Kerala,Student,Self Employed,26346,B008,2023-12-16,vijay.sharma153@mail.com,9207586738,Low
+C00154,Pooja Iyer,Female,63,Madurai,Tamil Nadu,Retail,Self Employed,108851,B016,2023-05-03,pooja.iyer154@mail.com,9444851196,Medium
+C00155,Anitha Kumar,Male,76,Bengaluru,Karnataka,Premium,Self Employed,61999,B006,2018-06-02,anitha.kumar155@mail.com,9139019611,Low
+C00156,Ajay Patel,Female,29,Hyderabad,Telangana,SME Owner,Salaried,34070,B010,2021-10-04,ajay.patel156@mail.com,9244096091,Low
+C00157,Vishal Patel,Female,35,Delhi,Delhi,Senior Citizen,Student,30532,B023,2020-11-19,vishal.patel157@mail.com,9949080318,Low
+C00158,Anitha Verma,Male,61,Delhi,Delhi,Retail,Professional,55875,B004,2025-07-04,anitha.verma158@mail.com,9612662437,Low
+C00159,Rahul Nair,Male,18,Hyderabad,Telangana,Mass Affluent,Retired,28022,B009,2018-02-16,rahul.nair159@mail.com,9166705490,Medium
+C00160,Meena Patel,Male,37,Mumbai,Maharashtra,Mass Affluent,Business Owner,125137,B010,2025-03-01,meena.patel160@mail.com,9335287540,Low
+C00161,Rohit Patel,Male,27,Madurai,Tamil Nadu,Student,Business Owner,36865,B025,2023-04-13,rohit.patel161@mail.com,9918040539,Low
+C00162,Lakshmi Verma,Male,73,Bengaluru,Karnataka,Mass Affluent,Business Owner,67753,B004,2024-04-29,lakshmi.verma162@mail.com,9714933740,Low
+C00163,Deepa Sharma,Female,28,Pune,Maharashtra,Senior Citizen,Retired,34870,B016,2024-07-16,deepa.sharma163@mail.com,9968326513,Low
+C00164,Priya Patel,Female,26,Coimbatore,Tamil Nadu,Mass Affluent,Business Owner,25308,B024,2021-06-16,priya.patel164@mail.com,9976659977,Low
+C00165,Arun Nair,Female,55,Bengaluru,Karnataka,Retail,Student,83046,B003,2018-09-04,arun.nair165@mail.com,9134075063,High
+C00166,Anitha Gupta,Female,29,Mumbai,Maharashtra,Senior Citizen,Professional,69741,B015,2022-04-16,anitha.gupta166@mail.com,9503346325,Medium
+C00167,Karthik Rao,Female,26,Pune,Maharashtra,Retail,Business Owner,48994,B001,2020-07-01,karthik.rao167@mail.com,9597146648,Medium
+C00168,Deepa Gupta,Male,52,Kolkata,West Bengal,Senior Citizen,Self Employed,52633,B024,2020-02-12,deepa.gupta168@mail.com,9969170578,Medium
+C00169,Pooja Verma,Female,67,Chennai,Tamil Nadu,Retail,Salaried,75059,B008,2018-07-19,pooja.verma169@mail.com,9571332733,Medium
+C00170,Lakshmi Rao,Male,31,Chennai,Tamil Nadu,Retail,Student,65189,B011,2025-07-17,lakshmi.rao170@mail.com,9808897689,Low
+C00171,Vishal Nair,Female,44,Hyderabad,Telangana,Retail,Business Owner,155346,B018,2022-10-16,vishal.nair171@mail.com,9790755362,Low
+C00172,Ajay Rao,Female,38,Kolkata,West Bengal,Mass Affluent,Student,34215,B008,2023-04-24,ajay.rao172@mail.com,9859754807,Medium
+C00173,Rohit Patel,Male,76,Chennai,Tamil Nadu,Mass Affluent,Retired,58542,B009,2020-09-21,rohit.patel173@mail.com,9582954920,Low
+C00174,Sneha Singh,Male,52,Delhi,Delhi,Retail,Retired,83097,B007,2018-10-26,sneha.singh174@mail.com,9614745610,Medium
+C00175,Sanjay Iyer,Female,37,Chennai,Tamil Nadu,Retail,Self Employed,29766,B013,2020-04-17,sanjay.iyer175@mail.com,9932701695,Medium
+C00176,Anitha Gupta,Female,47,Coimbatore,Tamil Nadu,Premium,Student,34658,B015,2023-07-30,anitha.gupta176@mail.com,9917792874,Low
+C00177,Rahul Nair,Male,41,Pune,Maharashtra,Mass Affluent,Business Owner,73004,B005,2021-04-24,rahul.nair177@mail.com,9507849850,Low
+C00178,Suresh Nair,Female,49,Coimbatore,Tamil Nadu,Premium,Professional,28779,B024,2023-06-25,suresh.nair178@mail.com,9594811370,Low
+C00179,Divya Iyer,Male,28,Mumbai,Maharashtra,Student,Retired,63289,B022,2018-11-01,divya.iyer179@mail.com,9542802779,Low
+C00180,Rohit Nair,Female,22,Mumbai,Maharashtra,Retail,Business Owner,52623,B022,2025-02-25,rohit.nair180@mail.com,9807901168,High
+C00181,Kavya Kumar,Male,18,Coimbatore,Tamil Nadu,Mass Affluent,Salaried,57662,B023,2023-08-20,kavya.kumar181@mail.com,9214908010,Medium
+C00182,Meena Rao,Female,27,Delhi,Delhi,Retail,Business Owner,38300,B003,2022-06-14,meena.rao182@mail.com,9592845076,Low
+C00183,Suresh Nair,Female,62,Delhi,Delhi,Retail,Salaried,152999,B003,2018-05-10,suresh.nair183@mail.com,9693458652,Low
+C00184,Kavya Kumar,Male,58,Chennai,Tamil Nadu,Student,Salaried,54987,B019,2021-09-18,kavya.kumar184@mail.com,9667106600,High
+C00185,Priya Nair,Female,31,Kochi,Kerala,Mass Affluent,Salaried,34947,B002,2025-05-19,priya.nair185@mail.com,9116812751,Low
+C00186,Sanjay Verma,Female,27,Kolkata,West Bengal,SME Owner,Student,36161,B022,2022-05-13,sanjay.verma186@mail.com,9512151733,Medium
+C00187,Rohit Singh,Female,50,Pune,Maharashtra,Retail,Retired,41838,B025,2024-10-14,rohit.singh187@mail.com,9930598266,Low
+C00188,Rahul Kumar,Female,58,Hyderabad,Telangana,Senior Citizen,Retired,54248,B014,2022-03-18,rahul.kumar188@mail.com,9192013357,Low
+C00189,Geetha Reddy,Female,69,Delhi,Delhi,Student,Salaried,38637,B005,2025-02-09,geetha.reddy189@mail.com,9487298927,Medium
+C00190,Meena Singh,Male,18,Hyderabad,Telangana,Mass Affluent,Student,47481,B014,2023-09-30,meena.singh190@mail.com,9480012570,Low
+C00191,Deepa Singh,Male,56,Kochi,Kerala,Senior Citizen,Retired,25087,B024,2018-12-13,deepa.singh191@mail.com,9714137833,Medium
+C00192,Vishal Sharma,Female,61,Kolkata,West Bengal,Retail,Student,37983,B006,2018-09-17,vishal.sharma192@mail.com,9421856529,Low
+C00193,Kavya Singh,Female,41,Hyderabad,Telangana,SME Owner,Professional,73535,B015,2020-03-11,kavya.singh193@mail.com,9107266407,Low
+C00194,Ajay Iyer,Female,71,Kochi,Kerala,Retail,Student,49812,B020,2025-04-20,ajay.iyer194@mail.com,9747693166,Low
+C00195,Sanjay Patel,Female,38,Mumbai,Maharashtra,SME Owner,Student,28854,B019,2023-07-05,sanjay.patel195@mail.com,9503786306,Medium
+C00196,Vijay Gupta,Female,41,Bengaluru,Karnataka,SME Owner,Self Employed,66609,B025,2025-08-24,vijay.gupta196@mail.com,9860603328,Low
+C00197,Sanjay Patel,Male,69,Hyderabad,Telangana,Senior Citizen,Salaried,46345,B010,2025-02-07,sanjay.patel197@mail.com,9867979226,Low
+C00198,Pooja Gupta,Female,22,Madurai,Tamil Nadu,SME Owner,Retired,64974,B014,2025-10-04,pooja.gupta198@mail.com,9853374076,Low
+C00199,Deepa Verma,Female,58,Bengaluru,Karnataka,Retail,Self Employed,69261,B020,2025-04-04,deepa.verma199@mail.com,9908186980,Low
+C00200,Rahul Gupta,Female,24,Chennai,Tamil Nadu,Retail,Self Employed,56163,B023,2024-07-05,rahul.gupta200@mail.com,9501707828,Low
+C00201,Ajay Patel,Male,67,Kochi,Kerala,Student,Self Employed,47340,B010,2019-03-05,ajay.patel201@mail.com,9224628497,Low
+C00202,Rohit Iyer,Female,37,Pune,Maharashtra,Mass Affluent,Self Employed,56707,B015,2019-02-04,rohit.iyer202@mail.com,9442426442,Medium
+C00203,Karthik Reddy,Male,20,Bengaluru,Karnataka,Retail,Student,84755,B024,2019-11-05,karthik.reddy203@mail.com,9692609167,Low
+C00204,Divya Iyer,Female,53,Kolkata,West Bengal,SME Owner,Self Employed,117466,B021,2020-02-03,divya.iyer204@mail.com,9131344962,Medium
+C00205,Geetha Nair,Male,46,Kochi,Kerala,Mass Affluent,Salaried,70144,B023,2026-06-09,geetha.nair205@mail.com,9719922596,Medium
+C00206,Meena Rao,Female,29,Pune,Maharashtra,Retail,Retired,18195,B017,2023-06-28,meena.rao206@mail.com,9740992546,High
+C00207,Ajay Verma,Male,43,Kochi,Kerala,Retail,Student,128939,B023,2025-07-22,ajay.verma207@mail.com,9821672704,Medium
+C00208,Rohit Iyer,Female,25,Delhi,Delhi,Retail,Self Employed,47851,B014,2022-05-11,rohit.iyer208@mail.com,9554234434,Low
+C00209,Divya Patel,Male,58,Coimbatore,Tamil Nadu,Student,Professional,35351,B011,2020-02-06,divya.patel209@mail.com,9485515372,Medium
+C00210,Arun Patel,Female,26,Delhi,Delhi,Senior Citizen,Business Owner,55561,B016,2025-09-05,arun.patel210@mail.com,9624737111,Low
+C00211,Divya Singh,Female,54,Chennai,Tamil Nadu,Senior Citizen,Self Employed,41963,B010,2024-01-12,divya.singh211@mail.com,9707362554,Low
+C00212,Kavya Rao,Male,50,Bengaluru,Karnataka,Mass Affluent,Student,27090,B025,2018-06-20,kavya.rao212@mail.com,9556506372,Medium
+C00213,Meena Nair,Female,37,Chennai,Tamil Nadu,Mass Affluent,Student,79820,B019,2026-04-10,meena.nair213@mail.com,9278221407,Medium
+C00214,Geetha Sharma,Female,68,Delhi,Delhi,Senior Citizen,Salaried,63351,B018,2024-09-10,geetha.sharma214@mail.com,9410669201,Low
+C00215,Suresh Reddy,Female,72,Coimbatore,Tamil Nadu,SME Owner,Professional,77584,B014,2026-05-31,suresh.reddy215@mail.com,9804263267,Medium
+C00216,Rohit Sharma,Female,33,Mumbai,Maharashtra,Student,Self Employed,117841,B005,2023-06-28,rohit.sharma216@mail.com,9774108885,Low
+C00217,Pooja Gupta,Female,46,Bengaluru,Karnataka,Premium,Salaried,38128,B012,2025-10-16,pooja.gupta217@mail.com,9451424185,Low
+C00218,Suresh Kumar,Female,73,Bengaluru,Karnataka,Student,Retired,83732,B018,2018-09-17,suresh.kumar218@mail.com,9985673417,Low
+C00219,Sanjay Patel,Male,35,Pune,Maharashtra,Senior Citizen,Student,57897,B011,2023-06-11,sanjay.patel219@mail.com,9149330844,Medium
+C00220,Meena Patel,Female,19,Bengaluru,Karnataka,SME Owner,Self Employed,67512,B010,2025-04-16,meena.patel220@mail.com,9200223044,Low
+C00221,Sneha Reddy,Male,23,Pune,Maharashtra,Premium,Professional,32607,B024,2021-06-05,sneha.reddy221@mail.com,9560883210,Medium
+C00222,Karthik Singh,Female,18,Delhi,Delhi,Mass Affluent,Self Employed,66106,B001,2022-12-28,karthik.singh222@mail.com,9977364141,Low
+C00223,Meena Gupta,Female,62,Mumbai,Maharashtra,Mass Affluent,Self Employed,36508,B004,2019-02-24,meena.gupta223@mail.com,9247241457,Low
+C00224,Ajay Sharma,Female,59,Mumbai,Maharashtra,Retail,Business Owner,44867,B024,2025-01-16,ajay.sharma224@mail.com,9761506578,Low
+C00225,Naveen Nair,Male,23,Bengaluru,Karnataka,Retail,Salaried,63088,B011,2022-10-25,naveen.nair225@mail.com,9397391755,Medium
+C00226,Karthik Nair,Female,53,Kochi,Kerala,Premium,Business Owner,85938,B017,2024-10-21,karthik.nair226@mail.com,9417335858,Low
+C00227,Priya Nair,Male,49,Kolkata,West Bengal,Retail,Retired,63280,B012,2018-02-19,priya.nair227@mail.com,9515364404,High
+C00228,Suresh Gupta,Female,41,Coimbatore,Tamil Nadu,Student,Retired,55931,B025,2023-08-15,suresh.gupta228@mail.com,9188506190,Low
+C00229,Deepa Rao,Female,57,Mumbai,Maharashtra,Retail,Student,37042,B022,2025-04-15,deepa.rao229@mail.com,9850197517,Low
+C00230,Pooja Nair,Male,21,Delhi,Delhi,Retail,Retired,21601,B010,2018-08-14,pooja.nair230@mail.com,9228250953,Medium
+C00231,Arun Sharma,Male,62,Chennai,Tamil Nadu,Retail,Student,60785,B009,2026-01-31,arun.sharma231@mail.com,9905066256,Low
+C00232,Vijay Singh,Female,67,Chennai,Tamil Nadu,Retail,Retired,43707,B019,2025-12-27,vijay.singh232@mail.com,9588764892,Low
+C00233,Vishal Iyer,Male,21,Madurai,Tamil Nadu,Senior Citizen,Self Employed,46513,B019,2019-02-26,vishal.iyer233@mail.com,9345247378,Medium
+C00234,Vishal Kumar,Female,20,Chennai,Tamil Nadu,Retail,Retired,12000,B002,2020-01-04,vishal.kumar234@mail.com,9341071485,Low
+C00235,Rahul Nair,Male,44,Pune,Maharashtra,Retail,Salaried,59381,B002,2025-07-20,rahul.nair235@mail.com,9530489781,Low
+C00236,Karthik Patel,Female,73,Hyderabad,Telangana,Senior Citizen,Student,38195,B012,2018-02-02,karthik.patel236@mail.com,9894113665,Low
+C00237,Geetha Nair,Female,47,Pune,Maharashtra,Premium,Retired,89215,B005,2020-10-01,geetha.nair237@mail.com,9125673445,Low
+C00238,Lakshmi Rao,Male,40,Chennai,Tamil Nadu,SME Owner,Salaried,81371,B024,2026-04-12,lakshmi.rao238@mail.com,9668883968,Low
+C00239,Lakshmi Gupta,Female,49,Chennai,Tamil Nadu,SME Owner,Self Employed,68546,B017,2020-08-06,lakshmi.gupta239@mail.com,9592265554,Low
+C00240,Karthik Verma,Male,24,Coimbatore,Tamil Nadu,Retail,Retired,21738,B022,2022-11-17,karthik.verma240@mail.com,9413184748,High
+C00241,Vijay Iyer,Male,69,Kolkata,West Bengal,Student,Professional,40762,B003,2020-08-14,vijay.iyer241@mail.com,9937450959,High
+C00242,Suresh Singh,Female,27,Bengaluru,Karnataka,Retail,Retired,45049,B025,2022-01-07,suresh.singh242@mail.com,9597514616,Low
+C00243,Vijay Singh,Female,23,Mumbai,Maharashtra,Senior Citizen,Student,151910,B007,2018-06-15,vijay.singh243@mail.com,9259261469,Medium
+C00244,Karthik Nair,Female,40,Kolkata,West Bengal,Mass Affluent,Professional,19150,B001,2019-12-14,karthik.nair244@mail.com,9696950800,High
+C00245,Deepa Nair,Male,24,Madurai,Tamil Nadu,Retail,Self Employed,77339,B013,2020-03-22,deepa.nair245@mail.com,9725265416,Low
+C00246,Suresh Reddy,Female,76,Bengaluru,Karnataka,Retail,Salaried,24575,B003,2019-06-12,suresh.reddy246@mail.com,9231563076,Medium
+C00247,Priya Patel,Male,21,Mumbai,Maharashtra,SME Owner,Retired,90833,B013,2018-05-01,priya.patel247@mail.com,9480043678,Medium
+C00248,Sanjay Sharma,Male,35,Hyderabad,Telangana,Mass Affluent,Self Employed,39136,B018,2022-08-15,sanjay.sharma248@mail.com,9400407178,Low
+C00249,Ajay Sharma,Female,44,Delhi,Delhi,Premium,Business Owner,57359,B023,2022-04-16,ajay.sharma249@mail.com,9469403820,Low
+C00250,Suresh Rao,Female,38,Kolkata,West Bengal,Retail,Salaried,44190,B002,2021-02-24,suresh.rao250@mail.com,9668473595,Medium
+C00251,Sneha Verma,Male,32,Mumbai,Maharashtra,Retail,Professional,32576,B002,2026-04-07,sneha.verma251@mail.com,9718144695,Medium
+C00252,Ajay Iyer,Female,71,Mumbai,Maharashtra,Retail,Business Owner,28549,B019,2022-01-09,ajay.iyer252@mail.com,9709511014,Low
+C00253,Suresh Sharma,Male,54,Delhi,Delhi,Senior Citizen,Retired,57716,B003,2018-06-05,suresh.sharma253@mail.com,9121397518,Low
+C00254,Vishal Patel,Male,18,Pune,Maharashtra,SME Owner,Self Employed,85279,B011,2019-12-28,vishal.patel254@mail.com,9729866807,Low
+C00255,Rohit Singh,Male,72,Coimbatore,Tamil Nadu,SME Owner,Salaried,49291,B011,2021-05-21,rohit.singh255@mail.com,9886356993,Low
+C00256,Pooja Patel,Female,59,Pune,Maharashtra,Retail,Business Owner,77940,B006,2024-08-09,pooja.patel256@mail.com,9236739271,Low
+C00257,Divya Kumar,Male,62,Kochi,Kerala,Mass Affluent,Business Owner,29999,B005,2023-07-26,divya.kumar257@mail.com,9355546183,Low
+C00258,Sneha Iyer,Male,28,Bengaluru,Karnataka,Senior Citizen,Professional,175086,B001,2023-01-04,sneha.iyer258@mail.com,9844292151,Low
+C00259,Karthik Iyer,Female,34,Bengaluru,Karnataka,Student,Salaried,36777,B014,2019-11-13,karthik.iyer259@mail.com,9477131597,Low
+C00260,Deepa Gupta,Male,24,Madurai,Tamil Nadu,Senior Citizen,Business Owner,86718,B015,2019-10-29,deepa.gupta260@mail.com,9416655712,Low
+C00261,Arun Iyer,Male,34,Bengaluru,Karnataka,Retail,Self Employed,85076,B018,2018-11-04,arun.iyer261@mail.com,9462871672,High
+C00262,Geetha Verma,Male,75,Madurai,Tamil Nadu,Student,Retired,85082,B011,2019-02-19,geetha.verma262@mail.com,9539460908,Low
+C00263,Deepa Rao,Male,34,Hyderabad,Telangana,Retail,Salaried,20389,B005,2023-07-04,deepa.rao263@mail.com,9559138405,Low
+C00264,Karthik Reddy,Female,70,Kochi,Kerala,Mass Affluent,Salaried,44405,B010,2019-04-19,karthik.reddy264@mail.com,9625163699,Medium
+C00265,Vijay Singh,Female,59,Coimbatore,Tamil Nadu,Mass Affluent,Student,97918,B002,2022-12-31,vijay.singh265@mail.com,9382824466,Low
+C00266,Lakshmi Reddy,Male,54,Chennai,Tamil Nadu,Retail,Professional,65376,B018,2021-11-09,lakshmi.reddy266@mail.com,9694425527,Low
+C00267,Priya Gupta,Male,70,Coimbatore,Tamil Nadu,Mass Affluent,Business Owner,60165,B003,2021-05-09,priya.gupta267@mail.com,9639127345,Low
+C00268,Suresh Rao,Male,69,Kochi,Kerala,Premium,Business Owner,21399,B007,2019-11-16,suresh.rao268@mail.com,9145822897,Medium
+C00269,Pooja Singh,Male,61,Kolkata,West Bengal,Retail,Professional,24212,B024,2021-08-02,pooja.singh269@mail.com,9193445007,Medium
+C00270,Ajay Rao,Female,43,Coimbatore,Tamil Nadu,Retail,Student,68826,B023,2018-02-20,ajay.rao270@mail.com,9220816186,Low
+C00271,Pooja Sharma,Female,27,Kochi,Kerala,Premium,Salaried,137571,B010,2019-02-18,pooja.sharma271@mail.com,9541189818,Medium
+C00272,Vijay Gupta,Female,59,Madurai,Tamil Nadu,Mass Affluent,Retired,30115,B020,2019-08-13,vijay.gupta272@mail.com,9141642429,Low
+C00273,Ajay Iyer,Male,62,Delhi,Delhi,Retail,Retired,42483,B023,2023-07-07,ajay.iyer273@mail.com,9244295352,Medium
+C00274,Anitha Patel,Female,67,Pune,Maharashtra,Retail,Retired,61319,B007,2022-12-15,anitha.patel274@mail.com,9895583423,Medium
+C00275,Kavya Rao,Male,73,Pune,Maharashtra,Senior Citizen,Business Owner,76612,B019,2023-11-18,kavya.rao275@mail.com,9994351711,Low
+C00276,Sanjay Kumar,Male,33,Chennai,Tamil Nadu,Mass Affluent,Student,71756,B017,2023-03-17,sanjay.kumar276@mail.com,9831405402,Low
+C00277,Arun Nair,Female,41,Madurai,Tamil Nadu,Premium,Self Employed,125754,B012,2024-03-08,arun.nair277@mail.com,9904190892,Low
+C00278,Karthik Reddy,Male,19,Kolkata,West Bengal,Retail,Business Owner,76967,B021,2020-06-25,karthik.reddy278@mail.com,9388926290,Low
+C00279,Pooja Rao,Female,19,Chennai,Tamil Nadu,Mass Affluent,Self Employed,77941,B008,2018-02-04,pooja.rao279@mail.com,9865299271,Low
+C00280,Vijay Gupta,Female,75,Kolkata,West Bengal,Senior Citizen,Retired,35465,B017,2025-08-05,vijay.gupta280@mail.com,9727588309,Medium
+C00281,Meena Kumar,Female,50,Pune,Maharashtra,Mass Affluent,Business Owner,63688,B016,2019-03-19,meena.kumar281@mail.com,9787833374,Low
+C00282,Rahul Reddy,Female,34,Hyderabad,Telangana,Retail,Business Owner,72629,B005,2025-08-20,rahul.reddy282@mail.com,9417403063,Medium
+C00283,Vijay Gupta,Male,43,Kolkata,West Bengal,Student,Business Owner,87014,B011,2020-02-17,vijay.gupta283@mail.com,9836928463,Medium
+C00284,Deepa Patel,Male,76,Pune,Maharashtra,Mass Affluent,Self Employed,39406,B024,2019-06-09,deepa.patel284@mail.com,9829835592,Low
+C00285,Rahul Singh,Female,32,Pune,Maharashtra,Retail,Student,28338,B009,2022-03-03,rahul.singh285@mail.com,9226466892,Low
+C00286,Kavya Kumar,Male,73,Kochi,Kerala,Premium,Business Owner,55187,B017,2022-04-13,kavya.kumar286@mail.com,9261897130,Low
+C00287,Rohit Nair,Male,39,Kolkata,West Bengal,SME Owner,Retired,45624,B009,2023-01-26,rohit.nair287@mail.com,9718774770,Low
+C00288,Divya Patel,Male,68,Bengaluru,Karnataka,Retail,Retired,67927,B013,2023-05-10,divya.patel288@mail.com,9884539206,Low
+C00289,Sneha Kumar,Female,75,Pune,Maharashtra,Student,Business Owner,22290,B024,2025-01-10,sneha.kumar289@mail.com,9435106513,Low
+C00290,Rohit Singh,Female,42,Coimbatore,Tamil Nadu,Premium,Self Employed,119709,B020,2023-11-02,rohit.singh290@mail.com,9837424573,Low
+C00291,Rohit Iyer,Female,75,Madurai,Tamil Nadu,Retail,Self Employed,55274,B021,2025-12-22,rohit.iyer291@mail.com,9787539531,Medium
+C00292,Vijay Rao,Female,57,Chennai,Tamil Nadu,Premium,Salaried,85496,B002,2018-03-22,vijay.rao292@mail.com,9577078832,Medium
+C00293,Ajay Singh,Male,53,Hyderabad,Telangana,Mass Affluent,Self Employed,22716,B010,2018-02-08,ajay.singh293@mail.com,9811335671,Low
+C00294,Vishal Reddy,Male,57,Kochi,Kerala,Student,Retired,77935,B020,2026-01-23,vishal.reddy294@mail.com,9942629710,Low
+C00295,Meena Patel,Male,30,Kochi,Kerala,Retail,Student,43825,B002,2019-10-19,meena.patel295@mail.com,9838953322,Low
+C00296,Kavya Iyer,Male,33,Chennai,Tamil Nadu,Retail,Salaried,66338,B025,2019-01-04,kavya.iyer296@mail.com,9374762050,Low
+C00297,Lakshmi Patel,Male,36,Hyderabad,Telangana,Mass Affluent,Salaried,92464,B011,2025-08-04,lakshmi.patel297@mail.com,9202003827,Low
+C00298,Priya Kumar,Male,72,Mumbai,Maharashtra,Premium,Self Employed,12000,B009,2024-12-21,priya.kumar298@mail.com,9500099988,Medium
+C00299,Rahul Sharma,Male,25,Kolkata,West Bengal,Mass Affluent,Retired,38739,B014,2023-05-13,rahul.sharma299@mail.com,9221393557,Low
+,Rohit Kumar,Female,72,Mumbai,Maharashtra,Retail,Business Owner,52953,B006,2022-11-30,rohit.kumar300@mail.com,9756441105,Low
+C00301,Arun Sharma,Male,48,Madurai,Tamil Nadu,Retail,Retired,51810,B011,2025-05-06,arun.sharma301@mail.com,9819239897,Low
+C00302,Rahul Rao,Male,51,Kochi,Kerala,Retail,Professional,83106,B022,2025-06-11,rahul.rao302@mail.com,9987380851,Low
+C00303,Deepa Verma,Female,21,Chennai,Tamil Nadu,Premium,Self Employed,55547,B006,2023-07-24,deepa.verma303@mail.com,9444277942,Low
+C00304,Lakshmi Iyer,Female,35,Chennai,Tamil Nadu,Mass Affluent,Business Owner,68988,B003,2020-08-20,lakshmi.iyer304@mail.com,9194510603,Low
+C00305,Kavya Patel,Male,38,Bengaluru,Karnataka,SME Owner,Professional,64624,B002,2022-08-16,kavya.patel305@mail.com,9986812783,Low
+C00306,Karthik Verma,Male,57,Hyderabad,Telangana,SME Owner,Business Owner,23698,B012,2021-10-28,karthik.verma306@mail.com,9587972689,Medium
+C00307,Rahul Rao,Male,67,Kochi,Kerala,Premium,Professional,92696,B004,2019-04-13,rahul.rao307@mail.com,9102358958,Medium
+C00308,Rahul Iyer,Female,71,Hyderabad,Telangana,Mass Affluent,Student,67165,B016,2019-11-04,rahul.iyer308@mail.com,9214849044,Low
+C00309,Vijay Verma,Male,30,Delhi,Delhi,Retail,Retired,35387,B014,2026-06-29,vijay.verma309@mail.com,9929084565,Low
+C00310,Naveen Patel,Male,60,Kochi,Kerala,SME Owner,Self Employed,90576,B019,2022-11-08,naveen.patel310@mail.com,9842833609,Low
+C00311,Suresh Sharma,Male,64,Mumbai,Maharashtra,Retail,Professional,123479,B013,2023-08-27,suresh.sharma311@mail.com,9393771337,Low
+C00312,Ajay Iyer,Female,36,Madurai,Tamil Nadu,Senior Citizen,Self Employed,41799,B017,2026-05-24,ajay.iyer312@mail.com,9864369269,Low
+C00313,Deepa Nair,Female,30,Delhi,Delhi,Premium,Student,16619,B017,2019-12-30,deepa.nair313@mail.com,9862735437,Low
+C00314,Meena Iyer,Female,53,Madurai,Tamil Nadu,Premium,Professional,101083,B010,2023-12-27,meena.iyer314@mail.com,9967910655,Medium
+C00315,Arun Rao,Female,24,Chennai,Tamil Nadu,Mass Affluent,Salaried,67229,B006,2026-05-31,arun.rao315@mail.com,9257226287,High
+C00316,Priya Reddy,Female,31,Coimbatore,Tamil Nadu,Retail,Retired,92635,B017,2020-08-31,priya.reddy316@mail.com,9844034445,Medium
+C00317,Priya Gupta,Female,42,Kolkata,West Bengal,SME Owner,Professional,37064,B024,2018-02-23,priya.gupta317@mail.com,9991187981,Low
+C00318,Lakshmi Iyer,Male,66,Kochi,Kerala,Mass Affluent,Business Owner,19418,B010,2020-03-03,lakshmi.iyer318@mail.com,9300764570,Low
+C00319,Divya Rao,Female,25,Kolkata,West Bengal,Retail,Student,58482,B009,2024-07-20,divya.rao319@mail.com,9862023079,Low
+C00320,Rohit Kumar,Male,27,Pune,Maharashtra,Premium,Professional,75940,B019,2023-07-03,rohit.kumar320@mail.com,9941847352,Low
+C00321,Rahul Rao,Male,32,Mumbai,Maharashtra,Mass Affluent,Business Owner,27219,B003,2022-07-11,rahul.rao321@mail.com,9812249975,Low
+C00322,Rahul Iyer,Male,41,Hyderabad,Telangana,Retail,Business Owner,32154,B020,2024-11-18,rahul.iyer322@mail.com,9832883943,Low
+C00323,Rahul Gupta,Male,76,Bengaluru,Karnataka,Mass Affluent,Business Owner,58949,B017,2023-10-08,rahul.gupta323@mail.com,9418293546,Low
+C00324,Sanjay Iyer,Male,50,Bengaluru,Karnataka,SME Owner,Self Employed,59818,B022,2020-05-13,sanjay.iyer324@mail.com,9835948208,Low
+C00325,Pooja Singh,Male,31,Coimbatore,Tamil Nadu,Senior Citizen,Professional,114666,B024,2018-10-23,pooja.singh325@mail.com,9593089342,Medium
+C00326,Rahul Kumar,Female,23,Bengaluru,Karnataka,Retail,Student,62569,B009,2020-07-21,rahul.kumar326@mail.com,9776690635,Low
+C00327,Ajay Gupta,Male,38,Chennai,Tamil Nadu,Mass Affluent,Salaried,60279,B003,2024-12-07,ajay.gupta327@mail.com,9852566344,Medium
+C00328,Karthik Iyer,Male,50,Bengaluru,Karnataka,Retail,Professional,44797,B013,2022-11-28,karthik.iyer328@mail.com,9608940398,Low
+C00329,Divya Rao,Female,32,Mumbai,Maharashtra,Student,Business Owner,32418,B022,2021-05-05,divya.rao329@mail.com,9111972445,Medium
+C00330,Deepa Rao,Female,27,Bengaluru,Karnataka,Retail,Business Owner,66978,B010,2018-12-15,deepa.rao330@mail.com,9327350811,Low
+C00331,Pooja Rao,Male,27,Mumbai,Maharashtra,Retail,Business Owner,81399,B022,2020-01-13,pooja.rao331@mail.com,9906425007,Medium
+C00332,Deepa Patel,Male,59,Coimbatore,Tamil Nadu,Retail,Professional,83296,B012,2021-09-17,deepa.patel332@mail.com,9207422565,Low
+C00333,Anitha Verma,Female,22,Delhi,Delhi,Retail,Retired,34184,B019,2025-10-11,anitha.verma333@mail.com,9967261018,Low
+C00334,Rahul Gupta,Female,28,Chennai,Tamil Nadu,Retail,Self Employed,96042,B012,2021-02-07,rahul.gupta334@mail.com,9615346649,Low
+C00335,Naveen Patel,Male,40,Hyderabad,Telangana,Mass Affluent,Salaried,25270,B005,2021-02-23,naveen.patel335@mail.com,9382646055,Medium
+C00336,Karthik Singh,Female,75,Chennai,Tamil Nadu,Senior Citizen,Professional,44212,B018,2018-05-31,karthik.singh336@mail.com,9802128517,Low
+C00337,Rohit Iyer,Female,43,Delhi,Delhi,SME Owner,Business Owner,75016,B017,2023-03-19,rohit.iyer337@mail.com,9490697670,Low
+C00338,Vishal Kumar,Male,60,Delhi,Delhi,Senior Citizen,Business Owner,112507,B015,2019-07-29,vishal.kumar338@mail.com,9890187877,Low
+C00339,Kavya Iyer,Female,20,Delhi,Delhi,Senior Citizen,Self Employed,28594,B022,2018-06-25,kavya.iyer339@mail.com,9516711804,Low
+C00340,Kavya Patel,Female,74,Chennai,Tamil Nadu,Retail,Professional,31407,B021,2023-11-06,kavya.patel340@mail.com,9721300772,Medium
+C00341,Deepa Verma,Male,29,Kolkata,West Bengal,Premium,Student,123990,B017,2018-11-15,deepa.verma341@mail.com,9654449982,Low
+C00342,Ajay Iyer,Female,70,Pune,Maharashtra,Mass Affluent,Retired,104679,B003,2020-07-31,ajay.iyer342@mail.com,9327114760,Low
+C00343,Rohit Sharma,Female,28,Pune,Maharashtra,Premium,Salaried,71308,B024,2021-09-14,rohit.sharma343@mail.com,9614345062,Low
+C00344,Sanjay Verma,Male,28,Kolkata,West Bengal,Retail,Salaried,23243,B021,2019-07-06,sanjay.verma344@mail.com,9160035062,Low
+C00345,Divya Reddy,Female,29,Coimbatore,Tamil Nadu,SME Owner,Business Owner,27875,B016,2023-04-15,divya.reddy345@mail.com,9745145663,Low
+C00346,Rohit Verma,Male,70,Mumbai,Maharashtra,Premium,Business Owner,24576,B015,2021-11-04,rohit.verma346@mail.com,9346760672,Low
+C00347,Ajay Gupta,Male,26,Bengaluru,Karnataka,Retail,Business Owner,109058,B005,2022-09-16,ajay.gupta347@mail.com,9610960640,Low
+C00348,Geetha Verma,Female,20,Coimbatore,Tamil Nadu,Mass Affluent,Salaried,17821,B018,2024-10-07,geetha.verma348@mail.com,9660540722,Medium
+C00349,Pooja Iyer,Male,73,Chennai,Tamil Nadu,Student,Retired,15123,B012,2022-04-11,pooja.iyer349@mail.com,9556865760,Low
+C00350,Rohit Reddy,Male,48,Delhi,Delhi,SME Owner,Salaried,49454,B024,2025-12-14,rohit.reddy350@mail.com,9658090039,Medium
+C00351,Arun Gupta,Female,59,Delhi,Delhi,Student,Student,49952,B021,2022-10-12,arun.gupta351@mail.com,9675638242,Low
+C00352,Pooja Verma,Female,41,Kochi,Kerala,Retail,Professional,48707,B018,2024-03-11,pooja.verma352@mail.com,9700322425,Low
+C00353,Deepa Patel,Female,34,Hyderabad,Telangana,Mass Affluent,Professional,49196,B004,2025-05-24,deepa.patel353@mail.com,9940857164,Medium
+C00354,Divya Singh,Female,31,Coimbatore,Tamil Nadu,Mass Affluent,Student,114753,B023,2025-09-04,divya.singh354@mail.com,9782767320,Low
+C00355,Arun Singh,Male,70,Mumbai,Maharashtra,Mass Affluent,Business Owner,51531,B012,2020-06-27,arun.singh355@mail.com,9877920274,Low
+C00356,Ajay Gupta,Female,57,Coimbatore,Tamil Nadu,Retail,Business Owner,30005,B007,2018-02-13,ajay.gupta356@mail.com,9309107461,Medium
+C00357,Priya Verma,Male,50,Coimbatore,Tamil Nadu,Student,Business Owner,82704,B013,2022-06-07,priya.verma357@mail.com,9891267770,Low
+C00358,Karthik Singh,Male,53,Hyderabad,Telangana,Student,Business Owner,100283,B008,2021-02-06,karthik.singh358@mail.com,9588293766,Low
+C00359,Ajay Verma,Male,18,Hyderabad,Telangana,Retail,Business Owner,69297,B019,2022-03-25,ajay.verma359@mail.com,9913330750,Low
+C00360,Rahul Patel,Male,61,Madurai,Tamil Nadu,SME Owner,Salaried,53753,B021,2022-04-17,rahul.patel360@mail.com,9826829775,Medium
+C00361,Lakshmi Iyer,Female,44,Pune,Maharashtra,Mass Affluent,Salaried,71133,B003,2021-03-22,lakshmi.iyer361@mail.com,9181635326,Low
+C00362,Deepa Sharma,Male,48,Pune,Maharashtra,Retail,Business Owner,54935,B008,2026-04-01,deepa.sharma362@mail.com,9346109712,Medium
+C00363,Sanjay Nair,Male,71,Kochi,Kerala,Retail,Salaried,128379,B025,2018-01-28,sanjay.nair363@mail.com,9617857180,Medium
+C00364,Sneha Verma,Male,38,Madurai,Tamil Nadu,SME Owner,Business Owner,108925,B009,2023-09-25,sneha.verma364@mail.com,9158141154,Low
+C00365,Vishal Gupta,Female,48,Coimbatore,Tamil Nadu,Retail,Student,39949,B015,2019-12-17,vishal.gupta365@mail.com,9438927967,High
+C00366,Arun Kumar,Male,61,Delhi,Delhi,Retail,Salaried,35944,B006,2020-11-29,arun.kumar366@mail.com,9389274886,Low
+C00367,Kavya Verma,Female,39,Pune,Maharashtra,Retail,Retired,22081,B012,2022-03-05,kavya.verma367@mail.com,9583966573,Medium
+C00368,Divya Verma,Male,26,Kochi,Kerala,Student,Salaried,159303,B014,2024-03-24,divya.verma368@mail.com,9256598517,Medium
+C00369,Rohit Patel,Male,69,Chennai,Tamil Nadu,Retail,Retired,71654,B016,2021-07-17,rohit.patel369@mail.com,9527780790,Low
+C00370,Meena Sharma,Female,21,Delhi,Delhi,Senior Citizen,Retired,75121,B018,2022-01-15,meena.sharma370@mail.com,9469517811,Low
+C00371,Arun Gupta,Female,25,Pune,Maharashtra,SME Owner,Business Owner,28150,B018,2025-04-12,arun.gupta371@mail.com,9481295430,Low
+C00372,Rahul Rao,Female,49,Madurai,Tamil Nadu,SME Owner,Retired,67176,B006,2019-08-17,rahul.rao372@mail.com,9552922001,Low
+C00373,Geetha Verma,Female,43,Bengaluru,Karnataka,Retail,Student,37786,B023,2021-04-08,geetha.verma373@mail.com,9391250425,Low
+C00374,Naveen Iyer,Female,65,Kochi,Kerala,Mass Affluent,Retired,49793,B005,2018-04-05,naveen.iyer374@mail.com,9898730065,Medium
+C00375,Karthik Nair,Male,28,Kolkata,West Bengal,Retail,Salaried,120258,B001,2018-08-09,karthik.nair375@mail.com,9211592272,Medium
+C00376,Vijay Verma,Male,27,Bengaluru,Karnataka,Premium,Retired,43308,B015,2021-03-09,vijay.verma376@mail.com,9665585273,Low
+C00377,Divya Kumar,Male,20,Pune,Maharashtra,SME Owner,Student,104832,B009,2024-01-24,divya.kumar377@mail.com,9849066860,Low
+C00378,Deepa Sharma,Female,55,Kochi,Kerala,Mass Affluent,Professional,73796,B021,2023-11-15,deepa.sharma378@mail.com,9472769123,Low
+C00379,Kavya Rao,Male,32,Bengaluru,Karnataka,Mass Affluent,Student,49859,B001,2018-02-13,kavya.rao379@mail.com,9469243620,Low
+C00380,Anitha Patel,Female,52,Chennai,Tamil Nadu,Student,Retired,123197,B025,2018-02-07,anitha.patel380@mail.com,9741027901,Low
+C00381,Lakshmi Kumar,Female,53,Pune,Maharashtra,Retail,Business Owner,50816,B024,2026-01-07,lakshmi.kumar381@mail.com,9336859315,Low
+C00382,Vijay Singh,Female,45,Delhi,Delhi,Mass Affluent,Business Owner,138045,B021,2021-03-12,vijay.singh382@mail.com,9543352165,Medium
+C00383,Sanjay Singh,Female,29,Mumbai,Maharashtra,Retail,Professional,50924,B020,2025-11-09,sanjay.singh383@mail.com,9120825650,Low
+C00384,Rohit Kumar,Male,52,Chennai,Tamil Nadu,Retail,Salaried,43482,B024,2022-12-01,rohit.kumar384@mail.com,9261795387,Low
+C00385,Arun Patel,Female,31,Pune,Maharashtra,Mass Affluent,Retired,82921,B005,2026-06-02,arun.patel385@mail.com,9176648733,Low
+C00386,Deepa Patel,Male,29,Delhi,Delhi,SME Owner,Student,19530,B008,2022-12-20,deepa.patel386@mail.com,9313867761,Medium
+C00387,Naveen Singh,Female,51,Delhi,Delhi,Mass Affluent,Professional,16811,B018,2026-05-09,naveen.singh387@mail.com,9616716343,Low
+C00388,Anitha Nair,Male,41,Chennai,Tamil Nadu,SME Owner,Self Employed,51638,B019,2021-02-04,anitha.nair388@mail.com,9109588354,Low
+C00389,Priya Verma,Female,68,Madurai,Tamil Nadu,Student,Self Employed,48137,B016,2019-10-08,priya.verma389@mail.com,9915571513,Low
+C00390,Priya Kumar,Female,40,Mumbai,Maharashtra,Student,Salaried,34717,B021,2024-04-06,priya.kumar390@mail.com,9887255513,Medium
+C00391,Sanjay Kumar,Male,62,Kolkata,West Bengal,Retail,Self Employed,85579,B023,2024-02-02,sanjay.kumar391@mail.com,9683708118,Low
+C00392,Sneha Iyer,Female,64,Madurai,Tamil Nadu,Retail,Business Owner,132317,B017,2018-10-10,sneha.iyer392@mail.com,9979843968,Low
+C00393,Vijay Rao,Male,41,Madurai,Tamil Nadu,Retail,Professional,56173,B020,2018-03-18,vijay.rao393@mail.com,9444342661,Medium
+C00394,Karthik Rao,Female,70,Kolkata,West Bengal,Retail,Professional,54717,B010,2024-11-16,karthik.rao394@mail.com,9218609961,Low
+C00395,Meena Rao,Female,60,Bengaluru,Karnataka,Retail,Self Employed,34767,B019,2018-05-11,meena.rao395@mail.com,9806437569,Low
+C00396,Kavya Rao,Male,57,Kochi,Kerala,Retail,Student,21615,B007,2018-02-23,kavya.rao396@mail.com,9602574675,Medium
+C00397,Priya Iyer,Male,53,Kolkata,West Bengal,Senior Citizen,Professional,60970,B003,2021-05-29,priya.iyer397@mail.com,9208689641,High
+C00398,Lakshmi Rao,Female,42,Delhi,Delhi,Retail,Professional,29213,B018,2020-01-03,lakshmi.rao398@mail.com,9901127771,Medium
+C00399,Meena Verma,Female,40,Madurai,Tamil Nadu,Student,Retired,84847,B018,2020-01-09,meena.verma399@mail.com,9806019487,Low
+C00400,Divya Rao,Female,56,Madurai,Tamil Nadu,SME Owner,Student,95681,B014,2025-02-06,divya.rao400@mail.com,9753278884,Medium
+C00401,Lakshmi Verma,Male,52,Delhi,Delhi,Retail,Business Owner,94291,B015,2023-01-28,lakshmi.verma401@mail.com,9879872949,High
+C00402,Priya Reddy,Male,56,Chennai,Tamil Nadu,Mass Affluent,Student,37135,B009,2025-09-26,priya.reddy402@mail.com,9201240032,Medium
+C00403,Priya Patel,Female,40,Mumbai,Maharashtra,Retail,Student,89784,B010,2020-11-15,priya.patel403@mail.com,9711028819,Low
+C00404,Sanjay Singh,Male,64,Pune,Maharashtra,Senior Citizen,Self Employed,49293,B019,2025-11-18,sanjay.singh404@mail.com,9739124632,Medium
+C00405,Anitha Kumar,Male,64,Kochi,Kerala,Mass Affluent,Salaried,100018,B014,2022-11-14,anitha.kumar405@mail.com,9927200028,High
+C00406,Lakshmi Verma,Male,18,Kolkata,West Bengal,Retail,Business Owner,21463,B011,2019-09-05,lakshmi.verma406@mail.com,9264494545,Low
+C00407,Priya Gupta,Male,46,Kochi,Kerala,Mass Affluent,Salaried,38020,B005,2022-06-04,priya.gupta407@mail.com,9610945043,Low
+C00408,Suresh Kumar,Male,53,Kolkata,West Bengal,Retail,Retired,55419,B025,2019-06-19,suresh.kumar408@mail.com,9623836867,Low
+C00409,Ajay Verma,Male,30,Coimbatore,Tamil Nadu,Premium,Professional,56686,B025,2020-12-26,ajay.verma409@mail.com,9220828027,Low
+C00410,Pooja Gupta,Female,41,Pune,Maharashtra,Retail,Student,60226,B006,2021-06-02,pooja.gupta410@mail.com,9769136744,High
+C00411,Rohit Patel,Male,20,Delhi,Delhi,Retail,Student,16640,B004,2018-12-18,rohit.patel411@mail.com,9766796289,Medium
+C00412,Rohit Reddy,Male,18,Pune,Maharashtra,Student,Salaried,38846,B007,2021-09-21,rohit.reddy412@mail.com,9318830034,Medium
+C00413,Deepa Rao,Male,66,Hyderabad,Telangana,Mass Affluent,Business Owner,70809,B022,2025-11-02,deepa.rao413@mail.com,9374294163,Low
+C00414,Divya Kumar,Female,36,Delhi,Delhi,Senior Citizen,Business Owner,36744,B003,2018-02-04,divya.kumar414@mail.com,9811871111,Low
+C00415,Sneha Singh,Male,19,Hyderabad,Telangana,SME Owner,Professional,56548,B016,2021-07-16,sneha.singh415@mail.com,9300164147,Medium
+C00416,Sanjay Rao,Female,47,Coimbatore,Tamil Nadu,SME Owner,Salaried,38339,B006,2026-05-08,sanjay.rao416@mail.com,9481584364,Low
+C00417,Anitha Nair,Male,50,Hyderabad,Telangana,Senior Citizen,Professional,37873,B018,2018-05-01,anitha.nair417@mail.com,9262895422,High
+C00418,Rahul Gupta,Male,60,Mumbai,Maharashtra,Retail,Retired,58442,B022,2025-01-06,rahul.gupta418@mail.com,9715145139,Low
+C00419,Rohit Gupta,Male,37,Kochi,Kerala,Retail,Business Owner,20238,B018,2024-07-07,rohit.gupta419@mail.com,9248294102,Medium
+C00420,Anitha Rao,Male,76,Mumbai,Maharashtra,Mass Affluent,Self Employed,77175,B011,2019-10-10,anitha.rao420@mail.com,9297713683,Low
+C00421,Rahul Sharma,Female,64,Chennai,Tamil Nadu,Senior Citizen,Retired,102716,B021,2026-05-13,rahul.sharma421@mail.com,9263162642,High
+C00422,Sanjay Singh,Male,26,Mumbai,Maharashtra,Retail,Business Owner,72756,B008,2024-11-13,sanjay.singh422@mail.com,9838066391,Low
+C00423,Arun Iyer,Male,23,Madurai,Tamil Nadu,Retail,Business Owner,50563,B013,2020-01-24,arun.iyer423@mail.com,9275864280,Low
+C00424,Sanjay Nair,Male,20,Kolkata,West Bengal,Senior Citizen,Salaried,24799,B025,2020-04-10,sanjay.nair424@mail.com,9571678892,Low
+C00425,Geetha Patel,Female,62,Pune,Maharashtra,SME Owner,Self Employed,40523,B024,2024-10-26,geetha.patel425@mail.com,9523216102,Medium
+C00426,Geetha Verma,Male,56,Coimbatore,Tamil Nadu,Mass Affluent,Professional,96746,B015,2023-01-24,geetha.verma426@mail.com,9363841612,Medium
+C00427,Vishal Rao,Female,43,Chennai,Tamil Nadu,Mass Affluent,Business Owner,32628,B025,2021-06-01,vishal.rao427@mail.com,9278763625,Medium
+C00428,Pooja Reddy,Male,57,Chennai,Tamil Nadu,Student,Self Employed,49910,B024,2019-01-06,pooja.reddy428@mail.com,9936156197,Low
+C00429,Suresh Rao,Male,26,Kolkata,West Bengal,Mass Affluent,Retired,24211,B007,2025-12-28,suresh.rao429@mail.com,9368523822,Medium
+C00430,Rahul Sharma,Male,63,Bengaluru,Karnataka,Retail,Professional,51028,B023,2023-11-16,rahul.sharma430@mail.com,9506603082,Low
+C00431,Deepa Gupta,Female,20,Mumbai,Maharashtra,SME Owner,Business Owner,37888,B002,2025-12-26,deepa.gupta431@mail.com,9884005207,Low
+C00432,Naveen Reddy,Male,58,Mumbai,Maharashtra,Retail,Self Employed,54754,B020,2018-01-24,naveen.reddy432@mail.com,9332866519,Medium
+C00433,Suresh Patel,Male,47,Kolkata,West Bengal,Mass Affluent,Business Owner,62326,B009,2024-02-20,suresh.patel433@mail.com,9152526165,Low
+C00434,Divya Sharma,Male,21,Pune,Maharashtra,Retail,Salaried,145483,B011,2021-05-07,divya.sharma434@mail.com,9216917219,High
+C00435,Pooja Sharma,Female,28,Hyderabad,Telangana,Premium,Professional,85472,B006,2024-04-21,pooja.sharma435@mail.com,9138482956,High
+C00436,Karthik Reddy,Female,38,Pune,Maharashtra,SME Owner,Salaried,25319,B023,2019-05-15,karthik.reddy436@mail.com,9665918566,Medium
+C00437,Pooja Rao,Female,31,Delhi,Delhi,Premium,Salaried,56671,B023,2026-02-13,pooja.rao437@mail.com,9558545314,Low
+C00438,Geetha Iyer,Female,34,Coimbatore,Tamil Nadu,Mass Affluent,Business Owner,46940,B016,2024-04-23,geetha.iyer438@mail.com,9628822629,Low
+C00439,Divya Verma,Female,32,Hyderabad,Telangana,SME Owner,Salaried,28054,B024,2019-04-29,divya.verma439@mail.com,9544573290,Medium
+C00440,Priya Iyer,Female,40,Coimbatore,Tamil Nadu,Senior Citizen,Self Employed,20599,B010,2021-06-14,priya.iyer440@mail.com,9923594990,Low
+C00441,Arun Singh,Female,61,Pune,Maharashtra,Retail,Professional,280812,B007,2019-12-21,arun.singh441@mail.com,9822062338,Low
+C00442,Kavya Patel,Female,69,Chennai,Tamil Nadu,Premium,Retired,30099,B011,2024-01-09,kavya.patel442@mail.com,9897344195,Low
+C00443,Priya Rao,Female,37,Kochi,Kerala,Student,Student,57996,B022,2024-06-23,priya.rao443@mail.com,9171095709,Low
+C00444,Rohit Reddy,Male,71,Chennai,Tamil Nadu,Retail,Retired,117304,B020,2024-05-27,rohit.reddy444@mail.com,9940035404,Low
+C00445,Anitha Iyer,Female,63,Chennai,Tamil Nadu,Retail,Salaried,54799,B010,2023-01-26,anitha.iyer445@mail.com,9287918507,Low
+C00446,Meena Iyer,Female,68,Chennai,Tamil Nadu,Senior Citizen,Salaried,52087,B017,2023-05-31,meena.iyer446@mail.com,9619124046,Low
+C00447,Vishal Reddy,Male,67,Pune,Maharashtra,Retail,Salaried,66658,B002,2026-02-15,vishal.reddy447@mail.com,9104412943,Low
+C00448,Anitha Kumar,Female,61,Kochi,Kerala,SME Owner,Student,53227,B025,2023-11-03,anitha.kumar448@mail.com,9124137992,Medium
+C00449,Suresh Reddy,Male,58,Delhi,Delhi,Retail,Self Employed,35758,B022,2022-12-12,suresh.reddy449@mail.com,9269110063,Low
+C00450,Vijay Singh,Female,18, chennai ,Kerala,Mass Affluent,Salaried,35916,B009,2021-07-28,vijay.singh450@mail.com,9716416868,Low
+C00451,Lakshmi Sharma,Male,22,Hyderabad,Telangana,Premium,Student,57263,B016,2018-04-29,lakshmi.sharma451@mail.com,9213738160,Medium
+C00452,Ajay Kumar,Female,23,Kolkata,West Bengal,Mass Affluent,Professional,68719,B023,2025-09-27,ajay.kumar452@mail.com,9435480597,Low
+C00453,Rahul Nair,Female,63,Coimbatore,Tamil Nadu,Retail,Retired,59018,B015,2025-11-01,rahul.nair453@mail.com,9834952627,Low
+C00454,Naveen Patel,Female,32,Delhi,Delhi,Retail,Business Owner,38424,B023,2020-01-22,naveen.patel454@mail.com,9946944681,Medium
+C00455,Rahul Patel,Male,49,Chennai,Tamil Nadu,Retail,Salaried,42400,B010,2019-12-01,rahul.patel455@mail.com,9645406800,Medium
+C00456,Meena Gupta,Male,70,Bengaluru,Karnataka,Retail,Professional,30790,B013,2023-03-04,meena.gupta456@mail.com,9766659283,Low
+C00457,Lakshmi Rao,Female,28,Madurai,Tamil Nadu,Mass Affluent,Student,22365,B014,2022-11-01,lakshmi.rao457@mail.com,9684681287,Low
+C00458,Lakshmi Sharma,Male,60,Bengaluru,Karnataka,Student,Professional,63034,B020,2024-08-22,lakshmi.sharma458@mail.com,9982640532,Low
+C00459,Naveen Sharma,Male,37,Kolkata,West Bengal,Retail,Salaried,84861,B011,2022-04-02,naveen.sharma459@mail.com,9197209076,Low
+C00460,Sanjay Sharma,Female,74,Kochi,Kerala,SME Owner,Professional,183238,B005,2025-05-30,sanjay.sharma460@mail.com,9518740692,Low
+C00461,Geetha Verma,Female,46,Delhi,Delhi,Retail,Student,21944,B010,2025-08-15,geetha.verma461@mail.com,9870722451,Medium
+C00462,Sneha Singh,Male,55,Chennai,Tamil Nadu,Premium,Business Owner,49586,B002,2021-04-19,sneha.singh462@mail.com,9100905503,Low
+C00463,Deepa Iyer,Female,25,Hyderabad,Telangana,SME Owner,Self Employed,46998,B011,2025-01-04,deepa.iyer463@mail.com,9509702344,Medium
+C00464,Pooja Rao,Male,31,Mumbai,Maharashtra,Mass Affluent,Self Employed,76792,B014,2022-01-15,pooja.rao464@mail.com,9244179313,Low
+C00465,Arun Singh,Female,59,Chennai,Tamil Nadu,Retail,Retired,36929,B015,2022-08-31,arun.singh465@mail.com,9769207967,Medium
+C00466,Divya Patel,Female,50,Kolkata,West Bengal,Mass Affluent,Retired,47791,B020,2022-10-06,divya.patel466@mail.com,9884812266,Low
+C00467,Lakshmi Rao,Male,35,Kolkata,West Bengal,SME Owner,Business Owner,68389,B019,2019-04-09,lakshmi.rao467@mail.com,9252565264,Low
+C00468,Vishal Reddy,Male,47,Coimbatore,Tamil Nadu,Retail,Business Owner,26344,B022,2026-04-26,vishal.reddy468@mail.com,9834518883,High
+C00469,Deepa Verma,Female,37,Kochi,Kerala,Retail,Student,56868,B017,2023-02-03,deepa.verma469@mail.com,9552062605,Medium
+C00470,Sneha Reddy,Female,36,Mumbai,Maharashtra,Retail,Business Owner,130230,B009,2024-04-27,sneha.reddy470@mail.com,9720774271,Low
+C00471,Divya Verma,Female,21,Hyderabad,Telangana,Senior Citizen,Business Owner,23142,B017,2019-06-04,divya.verma471@mail.com,9370637678,Low
+C00472,Rohit Verma,Female,35,Hyderabad,Telangana,Senior Citizen,Salaried,97741,B024,2024-08-20,rohit.verma472@mail.com,9497034107,Low
+C00473,Divya Reddy,Male,68,Delhi,Delhi,Mass Affluent,Business Owner,92491,B005,2018-12-12,divya.reddy473@mail.com,9999381416,Low
+C00474,Kavya Gupta,Male,67,Kolkata,West Bengal,Retail,Retired,71051,B024,2024-06-24,kavya.gupta474@mail.com,9789622604,Medium
+C00475,Vijay Singh,Female,21,Mumbai,Maharashtra,Mass Affluent,Retired,26285,B018,2026-06-09,vijay.singh475@mail.com,9609586681,Low
+C00476,Vijay Sharma,Male,51,Kolkata,West Bengal,Retail,Retired,46741,B022,2023-12-12,vijay.sharma476@mail.com,9670471890,High
+C00477,Sneha Gupta,Male,57,Hyderabad,Telangana,Retail,Student,80672,B013,2024-07-20,sneha.gupta477@mail.com,9888463067,Low
+C00478,Suresh Nair,Female,51,Pune,Maharashtra,Premium,Self Employed,46105,B015,2025-09-08,suresh.nair478@mail.com,9370471388,Low
+C00479,Sanjay Kumar,Male,19,Kochi,Kerala,Retail,Business Owner,135012,B021,2024-09-21,sanjay.kumar479@mail.com,9192756659,Low
+C00480,Geetha Sharma,Female,42,Kochi,Kerala,Senior Citizen,Self Employed,35541,B021,2018-11-07,geetha.sharma480@mail.com,9926093073,Low
+C00481,Pooja Iyer,Female,34,Mumbai,Maharashtra,Senior Citizen,Student,84011,B002,2021-09-24,pooja.iyer481@mail.com,9291050332,Low
+C00482,Naveen Singh,Male,49,Delhi,Delhi,Premium,Self Employed,64154,B025,2024-01-24,naveen.singh482@mail.com,9574144746,Low
+C00483,Vijay Singh,Male,20,Bengaluru,Karnataka,Retail,Professional,35968,B005,2023-08-01,vijay.singh483@mail.com,9140625696,Medium
+C00484,Ajay Reddy,Male,27,Pune,Maharashtra,SME Owner,Business Owner,89773,B024,2022-07-13,ajay.reddy484@mail.com,9679958795,Medium
+C00485,Lakshmi Kumar,Male,42,Madurai,Tamil Nadu,Retail,Business Owner,104336,B010,2025-08-24,lakshmi.kumar485@mail.com,9492297332,Low
+C00486,Deepa Iyer,Female,23,Madurai,Tamil Nadu,Senior Citizen,Student,65150,B013,2018-06-11,deepa.iyer486@mail.com,9847197907,Medium
+C00487,Ajay Singh,Male,58,Pune,Maharashtra,Mass Affluent,Professional,51169,B007,2018-05-27,ajay.singh487@mail.com,9625309452,Low
+C00488,Ajay Singh,Male,68,Coimbatore,Tamil Nadu,Premium,Retired,66722,B001,2023-01-15,ajay.singh488@mail.com,9462622584,Low
+C00489,Priya Gupta,Male,25,Delhi,Delhi,Senior Citizen,Professional,79158,B005,2024-01-07,priya.gupta489@mail.com,9177345357,Medium
+C00490,Priya Sharma,Male,49,Chennai,Tamil Nadu,Mass Affluent,Business Owner,36096,B010,2018-07-24,priya.sharma490@mail.com,9589824472,Medium
+C00491,Geetha Sharma,Male,71,Kochi,Kerala,Retail,Salaried,22388,B008,2024-11-26,geetha.sharma491@mail.com,9557641077,Low
+C00492,Rahul Gupta,Male,38,Bengaluru,Karnataka,SME Owner,Business Owner,58624,B025,2020-05-23,rahul.gupta492@mail.com,9460244389,Low
+C00493,Karthik Singh,Male,35,Mumbai,Maharashtra,Student,Self Employed,83267,B008,2022-12-02,karthik.singh493@mail.com,9243205892,High
+C00494,Meena Verma,Male,42,Mumbai,Maharashtra,Retail,Retired,62227,B025,2025-10-11,meena.verma494@mail.com,9321362854,Low
+C00495,Rohit Reddy,Male,51,Madurai,Tamil Nadu,Mass Affluent,Self Employed,61295,B023,2020-01-08,rohit.reddy495@mail.com,9773441905,Low
+C00496,Anitha Iyer,Male,44,Chennai,Tamil Nadu,Mass Affluent,Self Employed,25511,B020,2019-01-27,anitha.iyer496@mail.com,9598448142,Low
+C00497,Sanjay Reddy,Female,21,Delhi,Delhi,Retail,Self Employed,53411,B002,2025-07-07,sanjay.reddy497@mail.com,9406085699,Low
+C00498,Sanjay Gupta,Female,34,Pune,Maharashtra,Premium,Retired,92800,B003,2019-04-21,sanjay.gupta498@mail.com,9736413935,Medium
+C00499,Suresh Iyer,Female,44,Delhi,Delhi,Student,Student,41310,B004,2020-07-21,suresh.iyer499@mail.com,9314700940,Low
+C00500,Ajay Nair,Female,22,Madurai,Tamil Nadu,Premium,Salaried,84625,B015,2024-11-01,ajay.nair500@mail.com,9246463340,Low
+C00501,Naveen Nair,Male,58,Pune,Maharashtra,SME Owner,Self Employed,46868,B002,2024-05-18,naveen.nair501@mail.com,9599863643,Low
+C00502,Naveen Gupta,Male,28,Pune,Maharashtra,Retail,Student,87529,B020,2025-02-26,naveen.gupta502@mail.com,9192851105,Medium
+C00503,Pooja Rao,Female,49,Delhi,Delhi,Premium,Retired,25420,B008,2026-04-04,pooja.rao503@mail.com,9722197986,Low
+C00504,Lakshmi Verma,Female,27,Kochi,Kerala,SME Owner,Retired,48796,B014,2018-05-18,lakshmi.verma504@mail.com,9969426488,Low
+C00505,Meena Patel,Male,49,Delhi,Delhi,Retail,Salaried,74774,B005,2020-06-11,meena.patel505@mail.com,9795398363,Low
+C00506,Karthik Kumar,Female,48,Hyderabad,Telangana,Retail,Retired,24148,B023,2019-07-22,karthik.kumar506@mail.com,9773033141,Low
+C00507,Naveen Kumar,Male,73,Bengaluru,Karnataka,Mass Affluent,Professional,46727,B025,2022-10-11,naveen.kumar507@mail.com,9945777677,Low
+C00508,Karthik Verma,Female,74,Pune,Maharashtra,Student,Salaried,64189,B002,2022-01-30,karthik.verma508@mail.com,9599668842,Low
+C00509,Geetha Kumar,Male,41,Pune,Maharashtra,Retail,Business Owner,85406,B005,2020-04-18,geetha.kumar509@mail.com,9679427414,High
+C00510,Meena Patel,Female,65,Kochi,Kerala,SME Owner,Professional,18792,B011,2020-07-12,meena.patel510@mail.com,9640699840,Low
+C00511,Pooja Reddy,Female,21,Bengaluru,Karnataka,Retail,Retired,53510,B016,2019-05-18,pooja.reddy511@mail.com,9585308092,Medium
+C00512,Geetha Iyer,Male,69,Bengaluru,Karnataka,Retail,Retired,29028,B010,2020-01-03,geetha.iyer512@mail.com,9217429693,High
+C00513,Divya Reddy,Male,25,Mumbai,Maharashtra,Mass Affluent,Self Employed,57957,B014,2021-04-15,divya.reddy513@mail.com,9608851530,High
+C00514,Sneha Gupta,Female,46,Chennai,Tamil Nadu,Retail,Salaried,106189,B014,2021-10-07,sneha.gupta514@mail.com,9621997861,Low
+C00515,Suresh Rao,Male,71,Coimbatore,Tamil Nadu,Mass Affluent,Student,102633,B006,2021-06-09,suresh.rao515@mail.com,9619952085,Medium
+C00516,Sneha Reddy,Male,67,Chennai,Tamil Nadu,Retail,Student,52323,B023,2019-10-21,sneha.reddy516@mail.com,9288290663,Low
+C00517,Rohit Sharma,Male,33,Bengaluru,Karnataka,Retail,Student,62370,B006,2022-02-23,rohit.sharma517@mail.com,9814632395,Low
+C00518,Rahul Iyer,Male,27,Pune,Maharashtra,Mass Affluent,Self Employed,57023,B013,2018-04-13,rahul.iyer518@mail.com,9591817492,High
+C00519,Rahul Sharma,Male,18,Coimbatore,Tamil Nadu,SME Owner,Student,66990,B025,2021-04-02,rahul.sharma519@mail.com,9958538383,High
+C00520,Suresh Patel,Male,39,Bengaluru,Karnataka,Student,Salaried,25781,B001,2021-06-15,suresh.patel520@mail.com,9578859534,Low
+C00521,Sneha Singh,Female,38,Chennai,Tamil Nadu,premium ,Self Employed,60857,B007,2021-02-12,sneha.singh521@mail.com,9826991279,Low
+C00522,Karthik Rao,Female,43,Delhi,Delhi,Mass Affluent,Business Owner,317056,B012,2025-06-24,karthik.rao522@mail.com,9496887155,Low
+C00523,Ajay Iyer,Female,18,Hyderabad,Telangana,Retail,Student,82280,B014,2026-03-01,ajay.iyer523@mail.com,9249859658,Medium
+C00524,Suresh Verma,Female,23,Mumbai,Maharashtra,Retail,Retired,63079,B014,2018-01-28,suresh.verma524@mail.com,9545081036,Low
+C00525,Divya Rao,Female,47,Kochi,Kerala,Student,Self Employed,37239,B019,2021-05-21,divya.rao525@mail.com,9341076755,Low
+C00526,Arun Kumar,Female,27,Hyderabad,Telangana,Retail,Professional,100007,B022,2025-05-02,arun.kumar526@mail.com,9292599550,Medium
+C00527,Kavya Nair,Female,19,Bengaluru,Karnataka,Senior Citizen,Retired,95622,B014,2024-05-05,kavya.nair527@mail.com,9845439994,Medium
+C00528,Meena Iyer,Female,50,Kochi,Kerala,Retail,Student,13587,B012,2019-07-09,meena.iyer528@mail.com,9487796299,Low
+C00529,Pooja Iyer,Male,21,Hyderabad,Telangana,Retail,Professional,128276,B006,2025-01-16,pooja.iyer529@mail.com,9683806675,Medium
+C00530,Rahul Iyer,Male,70,Hyderabad,Telangana,Retail,Professional,66945,B012,2024-07-03,rahul.iyer530@mail.com,9247048346,Medium
+C00531,Vishal Reddy,Male,41,Madurai,Tamil Nadu,Mass Affluent,Self Employed,35290,B007,2020-06-24,vishal.reddy531@mail.com,9548122132,Medium
+C00532,Naveen Singh,Female,25,Mumbai,Maharashtra,SME Owner,Retired,34596,B015,2019-07-24,naveen.singh532@mail.com,9284906027,Medium
+C00533,Anitha Kumar,Male,65,Bengaluru,Karnataka,Retail,Professional,35553,B007,2019-05-29,anitha.kumar533@mail.com,9556130975,Low
+C00534,Meena Singh,Male,19,Madurai,Tamil Nadu,Student,Salaried,79672,B004,2023-04-06,meena.singh534@mail.com,9171132564,Medium
+C00535,Anitha Kumar,Female,66,Bengaluru,Karnataka,Senior Citizen,Business Owner,34767,B005,2019-01-07,anitha.kumar535@mail.com,9722503273,Medium
+C00536,Sneha Iyer,Male,28,Coimbatore,Tamil Nadu,Senior Citizen,Business Owner,31202,B019,2019-02-10,sneha.iyer536@mail.com,9868596889,Medium
+C00537,Sanjay Reddy,Male,28,Coimbatore,Tamil Nadu,Retail,Professional,33973,B023,2023-08-28,sanjay.reddy537@mail.com,9572087589,Low
+C00538,Meena Sharma,Male,71,Pune,Maharashtra,SME Owner,Retired,38796,B025,2019-04-08,meena.sharma538@mail.com,9600258136,High
+C00539,Meena Rao,Female,26,Madurai,Tamil Nadu,Senior Citizen,Professional,26799,B011,2018-12-03,meena.rao539@mail.com,9404525471,Low
+C00540,Naveen Verma,Female,65,Hyderabad,Telangana,Student,Retired,35550,B007,2022-10-19,naveen.verma540@mail.com,9829211472,Medium
+C00541,Sneha Sharma,Female,18,Madurai,Tamil Nadu,Premium,Retired,46347,B004,2018-12-15,sneha.sharma541@mail.com,9846290420,Low
+C00542,Suresh Singh,Female,65,Mumbai,Maharashtra,Retail,Self Employed,37766,B004,2022-07-14,suresh.singh542@mail.com,9878678109,Low
+C00543,Kavya Reddy,Female,66,Kochi,Kerala,Premium,Professional,105299,B020,2025-06-23,kavya.reddy543@mail.com,9649127152,High
+C00544,Vijay Sharma,Male,67,Madurai,Tamil Nadu,Retail,Student,54285,B001,2019-07-06,vijay.sharma544@mail.com,9991541224,Low
+C00545,Karthik Patel,Male,61,Chennai,Tamil Nadu,SME Owner,Retired,63685,B020,2021-05-25,karthik.patel545@mail.com,9809829892,Low
+C00546,Vishal Patel,Male,68,Madurai,Tamil Nadu,Retail,Professional,54780,B011,2024-01-31,vishal.patel546@mail.com,9920301073,Medium
+C00547,Priya Gupta,Female,74,Bengaluru,Karnataka,Mass Affluent,Student,99944,B002,2018-05-28,priya.gupta547@mail.com,9858125303,Low
+C00548,Divya Patel,Female,45,Mumbai,Maharashtra,Retail,Retired,54273,B016,2025-07-27,divya.patel548@mail.com,9611005607,Medium
+C00549,Deepa Sharma,Female,50,Chennai,Tamil Nadu,Mass Affluent,Retired,63142,B012,2025-08-02,deepa.sharma549@mail.com,9444115773,Medium
+C00550,Priya Kumar,Female,55,Chennai,Tamil Nadu,Retail,Student,31643,B025,2018-04-21,priya.kumar550@mail.com,9508637554,Medium
+C00551,Meena Gupta,Male,40,Pune,Maharashtra,Mass Affluent,Salaried,67325,B010,2025-04-08,meena.gupta551@mail.com,9427397259,Low
+C00552,Meena Iyer,Female,28,Chennai,Tamil Nadu,Mass Affluent,Salaried,41988,B017,2024-05-15,meena.iyer552@mail.com,9121906773,Medium
+C00553,Kavya Verma,Male,19,Pune,Maharashtra,Retail,Retired,45678,B004,2023-06-24,kavya.verma553@mail.com,9460742313,Medium
+C00554,Kavya Rao,Male,69,Pune,Maharashtra,Retail,Student,43759,B021,2023-07-29,kavya.rao554@mail.com,9675347404,Medium
+C00555,Sanjay Reddy,Male,34,Chennai,Tamil Nadu,Retail,Business Owner,48809,B003,2026-05-01,sanjay.reddy555@mail.com,9735509839,Medium
+C00556,Rahul Reddy,Female,22,Kochi,Kerala,Senior Citizen,Retired,49499,B021,2018-11-11,rahul.reddy556@mail.com,9564834095,Medium
+C00557,Deepa Iyer,Male,30,Kolkata,West Bengal,Mass Affluent,Business Owner,57482,B006,2024-02-21,deepa.iyer557@mail.com,9719380774,Medium
+C00558,Kavya Nair,Male,60,Madurai,Tamil Nadu,Retail,Professional,59584,B019,2022-11-12,kavya.nair558@mail.com,9660782698,Medium
+C00559,Sanjay Iyer,Male,47,Mumbai,Maharashtra,Retail,Professional,70612,B014,2022-11-19,sanjay.iyer559@mail.com,9780674456,Low
+C00560,Sanjay Gupta,Male,35,Hyderabad,Telangana,Premium,Student,69278,B004,2020-09-03,sanjay.gupta560@mail.com,9363696611,Low
+C00561,Anitha Patel,Female,49,Coimbatore,Tamil Nadu,SME Owner,Retired,63515,B009,2019-10-15,anitha.patel561@mail.com,9947901530,Low
+C00562,Vijay Rao,Female,29,Chennai,Tamil Nadu,SME Owner,Retired,94880,B003,2021-05-05,vijay.rao562@mail.com,9490234548,Medium
+C00563,Karthik Gupta,Male,71,Mumbai,Maharashtra,Retail,Business Owner,62083,B009,2023-11-22,karthik.gupta563@mail.com,9355633079,Low
+C00564,Geetha Singh,Male,67,Pune,Maharashtra,Retail,Business Owner,174202,B008,2026-05-06,geetha.singh564@mail.com,9254917225,High
+C00565,Meena Sharma,Female,31,Hyderabad,Telangana,Mass Affluent,Student,61097,B011,2019-04-08,meena.sharma565@mail.com,9833084825,Low
+C00566,Lakshmi Reddy,Male,74,Mumbai,Maharashtra,Retail,Professional,45922,B020,2025-03-28,lakshmi.reddy566@mail.com,9841614639,Low
+C00567,Lakshmi Reddy,Female,53,Kolkata,West Bengal,Retail,Professional,27608,B018,2019-05-15,lakshmi.reddy567@mail.com,9517117581,Medium
+C00568,Arun Gupta,Female,76,Hyderabad,Telangana,Retail,Self Employed,14121,B015,2019-10-19,arun.gupta568@mail.com,9947523110,Low
+C00569,Priya Reddy,Male,73,Bengaluru,Karnataka,Senior Citizen,Retired,52502,B023,2021-09-24,priya.reddy569@mail.com,9985193689,Low
+C00570,Divya Reddy,Male,50,Bengaluru,Karnataka,Retail,Business Owner,88726,B015,2021-08-31,divya.reddy570@mail.com,9788668793,Medium
+C00571,Divya Patel,Male,68,Mumbai,Maharashtra,Retail,Self Employed,65609,B004,2018-12-03,divya.patel571@mail.com,9737819952,Low
+C00572,Pooja Iyer,Female,46,Madurai,Tamil Nadu,SME Owner,Self Employed,26704,B010,2021-09-03,pooja.iyer572@mail.com,9494707031,Low
+C00573,Divya Gupta,Male,74,Kolkata,West Bengal,SME Owner,Business Owner,198324,B007,2023-03-10,divya.gupta573@mail.com,9153454051,Low
+C00574,Ajay Verma,Female,45,Kochi,Kerala,Retail,Salaried,58655,B014,2023-11-24,ajay.verma574@mail.com,9988260922,Medium
+C00575,Kavya Singh,Male,32,Delhi,Delhi,Retail,Student,37033,B014,2019-06-18,kavya.singh575@mail.com,9984858711,Medium
+C00576,Anitha Nair,Female,44,Mumbai,Maharashtra,Mass Affluent,Self Employed,34908,B012,2020-10-14,anitha.nair576@mail.com,9192061206,Low
+C00577,Arun Patel,Female,26,Pune,Maharashtra,SME Owner,Retired,101732,B014,2025-12-11,arun.patel577@mail.com,9178442874,Medium
+C00578,Meena Rao,Male,21,Chennai,Tamil Nadu,Retail,Self Employed,52712,B022,2024-10-19,meena.rao578@mail.com,9105756315,High
+C00579,Vijay Rao,Female,57,Kolkata,West Bengal,Retail,Retired,66257,B002,2024-04-10,vijay.rao579@mail.com,9282392760,Low
+C00580,Vishal Patel,Male,39,Madurai,Tamil Nadu,Retail,Student,78036,B004,2020-12-02,vishal.patel580@mail.com,9636023317,Low
+C00581,Vijay Iyer,Male,45,Hyderabad,Telangana,SME Owner,Student,85989,B017,2020-12-16,vijay.iyer581@mail.com,9438811626,Low
+C00582,Kavya Sharma,Female,53,Madurai,Tamil Nadu,Retail,Self Employed,53184,B014,2023-03-29,kavya.sharma582@mail.com,9143799764,Low
+C00583,Naveen Iyer,Male,63,Coimbatore,Tamil Nadu,Mass Affluent,Retired,33008,B010,2020-04-14,naveen.iyer583@mail.com,9905238350,Low
+C00584,Vishal Reddy,Female,54,Kochi,Kerala,Retail,Salaried,58237,B003,2022-09-02,vishal.reddy584@mail.com,9826824988,Low
+C00585,Meena Iyer,Male,19,Hyderabad,Telangana,Student,Professional,31124,B011,2019-03-11,meena.iyer585@mail.com,9594171613,Low
+C00586,Kavya Patel,Male,58,Hyderabad,Telangana,Premium,Salaried,46479,B015,2024-12-24,kavya.patel586@mail.com,9326953436,Low
+C00587,Priya Reddy,Female,38,Chennai,Tamil Nadu,Student,Business Owner,109573,B009,2022-06-22,priya.reddy587@mail.com,9195765217,Low
+C00588,Arun Nair,Female,28,Kolkata,West Bengal,Senior Citizen,Student,34539,B024,2022-11-06,arun.nair588@mail.com,9835472281,Medium
+C00589,Geetha Sharma,Female,40,Bengaluru,Karnataka,Senior Citizen,Business Owner,33005,B016,2022-05-09,geetha.sharma589@mail.com,9196875511,Low
+C00590,Pooja Iyer,Male,57,Mumbai,Maharashtra,Mass Affluent,Retired,24981,B022,2023-03-14,pooja.iyer590@mail.com,9631848216,Low
+C00591,Vishal Rao,Female,23,Hyderabad,Telangana,Mass Affluent,Salaried,114758,B005,2019-09-01,vishal.rao591@mail.com,9366989670,Medium
+C00592,Vishal Gupta,Female,36,Kochi,Kerala,Retail,Salaried,123535,B014,2023-09-23,vishal.gupta592@mail.com,9809587923,Low
+C00593,Suresh Reddy,Female,40,Hyderabad,Telangana,Premium,Business Owner,46689,B002,2022-05-29,suresh.reddy593@mail.com,9437097333,Low
+C00594,Suresh Patel,Female,66,Madurai,Tamil Nadu,Premium,Student,79685,B024,2018-11-17,suresh.patel594@mail.com,9823067158,High
+C00595,Meena Gupta,Female,52,Chennai,Tamil Nadu,Retail,Salaried,51632,B024,2025-05-18,meena.gupta595@mail.com,9425129005,Low
+C00596,Geetha Verma,Male,41,Kolkata,West Bengal,Senior Citizen,Salaried,25192,B008,2025-04-15,geetha.verma596@mail.com,9192442244,Low
+C00597,Anitha Patel,Female,27,Madurai,Tamil Nadu,Mass Affluent,Salaried,37925,B015,2025-11-17,anitha.patel597@mail.com,9121075163,High
+C00598,Naveen Verma,Female,33,Delhi,Delhi,Retail,Retired,84453,B016,2022-08-30,naveen.verma598@mail.com,9139746932,Medium
+C00599,Kavya Gupta,Female,49,Coimbatore,Tamil Nadu,Premium,Business Owner,86396,B017,2018-09-06,kavya.gupta599@mail.com,9694053774,Low
+C00600,Karthik Reddy,Male,75,Kolkata,West Bengal,SME Owner,Salaried,50743,B015,2021-11-21,karthik.reddy600@mail.com,9273230463,Medium
+C00601,Anitha Nair,Female,48,Pune,Maharashtra,Mass Affluent,Business Owner,37559,B022,2026-01-08,anitha.nair601@mail.com,9876309973,Low
+C00602,Ajay Gupta,Male,71,Pune,Maharashtra,Senior Citizen,Self Employed,64557,B003,2026-05-27,ajay.gupta602@mail.com,9286069909,Medium
+C00603,Sanjay Sharma,Male,56,Madurai,Tamil Nadu,Retail,Retired,125593,B007,2020-08-19,sanjay.sharma603@mail.com,9485244337,Low
+C00604,Vijay Iyer,Female,61,Mumbai,Maharashtra,Retail,Business Owner,46347,B018,2019-05-10,vijay.iyer604@mail.com,9465420342,Low
+C00605,Sneha Kumar,Male,67,Coimbatore,Tamil Nadu,Retail,Self Employed,61385,B015,2018-07-26,sneha.kumar605@mail.com,9213700517,Medium
+C00606,Geetha Verma,Male,68,Bengaluru,Karnataka,Senior Citizen,Salaried,55457,B007,2019-04-29,geetha.verma606@mail.com,9882059080,Medium
+C00607,Anitha Patel,Female,66,Coimbatore,Tamil Nadu,Mass Affluent,Salaried,32939,B004,2019-07-19,anitha.patel607@mail.com,9546407987,Medium
+C00608,Arun Nair,Male,71,Madurai,Tamil Nadu,Retail,Business Owner,36043,B025,2026-01-08,arun.nair608@mail.com,9262791297,Low
+C00609,Vishal Gupta,Female,68,Delhi,Delhi,Retail,Retired,47895,B017,2023-02-23,vishal.gupta609@mail.com,9131957698,Medium
+C00610,Naveen Sharma,Male,67,Chennai,Tamil Nadu,Student,Business Owner,112955,B005,2025-03-12,naveen.sharma610@mail.com,9778183455,Medium
+C00611,Vishal Reddy,Male,44,Kolkata,West Bengal,SME Owner,Professional,59148,B011,2026-05-01,vishal.reddy611@mail.com,9987988308,Medium
+C00612,Vijay Rao,Female,57,Mumbai,Maharashtra,Student,Retired,183995,B020,2025-01-01,vijay.rao612@mail.com,9971696978,Medium
+C00613,Ajay Nair,Female,74,Hyderabad,Telangana,Retail,Business Owner,31164,B005,2026-04-20,ajay.nair613@mail.com,9329495689,Low
+C00614,Karthik Rao,Female,53,Hyderabad,Telangana,Mass Affluent,Professional,109299,B025,2020-09-15,karthik.rao614@mail.com,9642534457,Low
+C00615,Meena Kumar,Male,71,Pune,Maharashtra,Retail,Business Owner,47614,B004,2025-04-20,meena.kumar615@mail.com,9586563056,Low
+C00616,Rahul Nair,Male,69,Kochi,Kerala,Mass Affluent,Professional,150152,B012,2020-08-15,rahul.nair616@mail.com,9867028521,Low
+C00617,Ajay Rao,Female,65,Delhi,Delhi,Retail,Business Owner,85287,B015,2022-01-19,ajay.rao617@mail.com,9989528128,Low
+C00618,Pooja Singh,Female,23,Chennai,Tamil Nadu,Mass Affluent,Self Employed,52819,B022,2022-02-21,pooja.singh618@mail.com,9383138961,Low
+C00619,Suresh Patel,Male,58,Kolkata,West Bengal,SME Owner,Professional,122005,B006,2022-09-04,suresh.patel619@mail.com,9620511813,Low
+C00620,Naveen Sharma,Female,63,Coimbatore,Tamil Nadu,SME Owner,Salaried,77036,B024,2018-05-14,naveen.sharma620@mail.com,9227524085,Low
+C00621,Geetha Gupta,Female,25,Bengaluru,Karnataka,Retail,Student,38330,B005,2019-08-09,geetha.gupta621@mail.com,9152238662,Medium
+C00622,Anitha Reddy,Female,31,Mumbai,Maharashtra,Senior Citizen,Retired,53602,B011,2023-01-27,anitha.reddy622@mail.com,9995994586,Medium
+C00623,Geetha Sharma,Female,66,Mumbai,Maharashtra,Mass Affluent,Retired,115501,B024,2019-09-03,geetha.sharma623@mail.com,9515790548,Low
+C00624,Lakshmi Gupta,Female,39,Coimbatore,Tamil Nadu,Retail,Professional,153611,B001,2025-12-06,lakshmi.gupta624@mail.com,9702416787,Low
+C00625,Meena Rao,Female,23,Delhi,Delhi,SME Owner,Business Owner,59376,B017,2024-05-24,meena.rao625@mail.com,9639704301,Low
+C00626,Arun Singh,Female,60,Coimbatore,Tamil Nadu,Retail,Salaried,42097,B019,2025-11-30,arun.singh626@mail.com,9531427170,Low
+C00627,Suresh Kumar,Male,49,Chennai,Tamil Nadu,Retail,Self Employed,31046,B013,2021-07-23,suresh.kumar627@mail.com,9206658672,Low
+C00628,Deepa Sharma,Male,36,Mumbai,Maharashtra,Retail,Salaried,65786,B006,2021-08-25,deepa.sharma628@mail.com,9420001194,Low
+C00629,Ajay Singh,Female,38,Mumbai,Maharashtra,Mass Affluent,Student,29895,B016,2020-08-26,ajay.singh629@mail.com,9223567680,Low
+C00630,Vijay Kumar,Male,38,Madurai,Tamil Nadu,Mass Affluent,Salaried,53630,B001,2020-08-15,vijay.kumar630@mail.com,9364479890,Low
+C00631,Deepa Sharma,Male,37,Kochi,Kerala,Mass Affluent,Salaried,105779,B012,2019-08-07,deepa.sharma631@mail.com,9939691516,Low
+C00632,Lakshmi Rao,Female,45,Coimbatore,Tamil Nadu,Mass Affluent,Salaried,76376,B001,2019-11-17,lakshmi.rao632@mail.com,9393456795,Low
+C00633,Geetha Reddy,Male,71,Kolkata,West Bengal,SME Owner,Professional,43003,B019,2023-12-28,geetha.reddy633@mail.com,9524455403,Low
+C00634,Meena Sharma,Female,64,Coimbatore,Tamil Nadu,SME Owner,Retired,31701,B022,2021-07-27,meena.sharma634@mail.com,9908199028,High
+C00635,Naveen Reddy,Male,33,Pune,Maharashtra,Retail,Retired,104818,B005,2025-10-04,naveen.reddy635@mail.com,9753679794,Low
+C00636,Kavya Kumar,Male,75,Chennai,Tamil Nadu,Premium,Retired,65416,B025,2023-06-26,kavya.kumar636@mail.com,9945362558,Low
+C00637,Karthik Rao,Male,19,Madurai,Tamil Nadu,Premium,Student,112339,B012,2024-09-28,karthik.rao637@mail.com,9233964179,Low
+C00638,Naveen Iyer,Female,30,Madurai,Tamil Nadu,Retail,Professional,29283,B012,2025-12-14,naveen.iyer638@mail.com,9968028454,Low
+C00639,Lakshmi Nair,Female,49,Pune,Maharashtra,Retail,Retired,39091,B013,2025-02-28,lakshmi.nair639@mail.com,9711068865,Low
+C00640,Vishal Patel,Male,28,Coimbatore,Tamil Nadu,Retail,Professional,66855,B006,2024-05-03,vishal.patel640@mail.com,9900982881,Low
+C00641,Karthik Sharma,Female,34,Kochi,Kerala,Senior Citizen,Business Owner,74065,B001,2025-08-09,karthik.sharma641@mail.com,9830874965,High
+C00642,Deepa Patel,Male,18,Kolkata,West Bengal,Premium,Professional,28238,B016,2023-03-27,deepa.patel642@mail.com,9874404381,Low
+C00643,Lakshmi Kumar,Female,35,Kolkata,West Bengal,Mass Affluent,Student,21885,B024,2018-04-14,lakshmi.kumar643@mail.com,9179929734,Low
+C00644,Lakshmi Nair,Female,28,Pune,Maharashtra,Retail,Professional,62112,B001,2022-11-05,lakshmi.nair644@mail.com,9368875123,Low
+C00645,Lakshmi Singh,Female,48,Delhi,Delhi,SME Owner,Salaried,103455,B003,2020-08-27,lakshmi.singh645@mail.com,9920444599,Medium
+C00646,Meena Patel,Male,55,Bengaluru,Karnataka,Retail,Salaried,103425,B003,2025-10-11,meena.patel646@mail.com,9961556586,Medium
+C00647,Naveen Kumar,Male,37,Kochi,Kerala,Premium,Salaried,43160,B008,2022-08-11,naveen.kumar647@mail.com,9586846620,Medium
+C00648,Ajay Patel,Female,68,Kolkata,West Bengal,SME Owner,Business Owner,18720,B001,2025-07-30,ajay.patel648@mail.com,9731159790,Low
+C00649,Sanjay Singh,Female,24,Chennai,Tamil Nadu,Premium,Salaried,95371,B005,2024-06-05,sanjay.singh649@mail.com,9481598412,Low
+C00650,Pooja Patel,Female,64,Kochi,Kerala,Mass Affluent,Self Employed,23613,B021,2023-10-03,pooja.patel650@mail.com,9726706507,Medium
+C00651,Deepa Sharma,Male,27,Madurai,Tamil Nadu,Retail,Student,57746,B002,2019-08-16,deepa.sharma651@mail.com,9553184702,Low
+C00652,Sneha Nair,Female,30,Delhi,Delhi,Senior Citizen,Student,31445,B015,2025-10-04,sneha.nair652@mail.com,9721063811,Low
+C00653,Suresh Iyer,Male,57,Hyderabad,Telangana,Mass Affluent,Self Employed,118605,B021,2018-01-16,suresh.iyer653@mail.com,9600940025,Low
+C00654,Geetha Nair,Male,33,Madurai,Tamil Nadu,Student,Student,87521,B006,2022-06-28,geetha.nair654@mail.com,9489571951,Medium
+C00655,Arun Singh,Male,40,Chennai,Tamil Nadu,Mass Affluent,Self Employed,43036,B025,2024-07-26,arun.singh655@mail.com,9313806556,Low
+C00656,Sanjay Reddy,Male,29,Delhi,Delhi,SME Owner,Professional,40821,B009,2019-12-23,sanjay.reddy656@mail.com,9992758059,Medium
+C00657,Rohit Gupta,Female,59,Bengaluru,Karnataka,Retail,Self Employed,43175,B022,2022-03-06,rohit.gupta657@mail.com,9863368317,Low
+C00658,Karthik Singh,Male,27,Mumbai,Maharashtra,Senior Citizen,Self Employed,60814,B020,2021-07-26,karthik.singh658@mail.com,9149601706,Low
+C00659,Geetha Verma,Female,30,Coimbatore,Tamil Nadu,Retail,Self Employed,46321,B005,2021-02-21,geetha.verma659@mail.com,9324667128,Medium
+C00660,Karthik Patel,Female,68,Kochi,Kerala,Retail,Business Owner,22409,B017,2026-06-04,karthik.patel660@mail.com,9292198192,Low
+C00661,Rahul Iyer,Male,51,Madurai,Tamil Nadu,Student,Retired,51842,B019,2025-02-26,rahul.iyer661@mail.com,9335714544,Low
+C00662,Sanjay Patel,Male,73,Delhi,Delhi,Mass Affluent,Student,49095,B012,2019-10-06,sanjay.patel662@mail.com,9244236074,Low
+C00663,Karthik Reddy,Female,46,Coimbatore,Tamil Nadu,Retail,Business Owner,22638,B014,2021-10-09,karthik.reddy663@mail.com,9539109702,Low
+C00664,Sneha Patel,Female,38,Hyderabad,Telangana,Mass Affluent,Self Employed,51029,B012,2018-11-07,sneha.patel664@mail.com,9638765977,Medium
+C00665,Vishal Rao,Female,59,Bengaluru,Karnataka,Senior Citizen,Self Employed,35895,B024,2021-05-24,vishal.rao665@mail.com,9304700754,Medium
+C00666,Geetha Sharma,Male,72,Coimbatore,Tamil Nadu,SME Owner,Salaried,78427,B013,2021-11-20,geetha.sharma666@mail.com,9606810427,High
+C00667,Vishal Sharma,Female,73,Kolkata,West Bengal,Retail,Professional,86022,B019,2023-10-14,vishal.sharma667@mail.com,9875789582,Medium
+C00668,Naveen Iyer,Male,68,Bengaluru,Karnataka,Retail,Self Employed,17293,B007,2022-09-07,naveen.iyer668@mail.com,9502331243,Low
+C00669,Rohit Verma,Female,73,Mumbai,Maharashtra,Retail,Professional,88687,B014,2022-09-13,rohit.verma669@mail.com,9919094911,Medium
+C00670,Deepa Reddy,Female,38,Kochi,Kerala,Retail,Salaried,104064,B020,2025-01-23,deepa.reddy670@mail.com,9509437695,Medium
+C00671,Sanjay Gupta,Male,22,Coimbatore,Tamil Nadu,Mass Affluent,Retired,23325,B021,2023-01-24,sanjay.gupta671@mail.com,9284064756,Medium
+C00672,Meena Rao,Male,29,Chennai,Tamil Nadu,Senior Citizen,Business Owner,54278,B013,2018-10-12,meena.rao672@mail.com,9412572176,Low
+C00673,Vishal Singh,Female,47,Chennai,Tamil Nadu,Retail,Salaried,49777,B005,2019-03-30,vishal.singh673@mail.com,9897943460,Low
+C00674,Karthik Gupta,Female,75,Delhi,Delhi,Retail,Self Employed,20524,B016,2025-06-15,karthik.gupta674@mail.com,9730814687,Low
+C00675,Sanjay Rao,Female,63,Madurai,Tamil Nadu,Retail,Salaried,126889,B020,2022-06-24,sanjay.rao675@mail.com,9711205057,Medium
+C00676,Kavya Patel,Male,47,Kochi,Kerala,Retail,Salaried,47931,B010,2025-12-24,kavya.patel676@mail.com,9545659507,Low
+C00677,Lakshmi Sharma,Male,75,Kochi,Kerala,Student,Retired,39969,B019,2025-11-01,lakshmi.sharma677@mail.com,9357370819,Low
+C00678,Divya Reddy,Male,74,Coimbatore,Tamil Nadu,Retail,Salaried,107823,B016,2020-06-08,divya.reddy678@mail.com,9495923044,Low
+C00679,Karthik Singh,Female,50,Pune,Maharashtra,Mass Affluent,Self Employed,34296,B001,2023-03-09,karthik.singh679@mail.com,9509262673,Low
+C00680,Rahul Gupta,Female,72,Delhi,Delhi,Mass Affluent,Salaried,24493,B011,2019-07-14,rahul.gupta680@mail.com,9620506264,Medium
+C00681,Naveen Singh,Male,23,Coimbatore,Tamil Nadu,Premium,Professional,32243,B024,2023-12-30,naveen.singh681@mail.com,9820901832,Low
+C00682,Arun Reddy,Male,27,Madurai,Tamil Nadu,Retail,Self Employed,58087,B021,2018-07-15,arun.reddy682@mail.com,9519423299,Medium
+C00683,Anitha Patel,Male,21,Kochi,Kerala,Retail,Retired,47087,B001,2019-01-10,anitha.patel683@mail.com,9461976234,Low
+C00684,Sanjay Singh,Female,32,Bengaluru,Karnataka,Senior Citizen,Professional,37755,B017,2022-08-30,sanjay.singh684@mail.com,9446474552,Low
+C00685,Deepa Nair,Female,57,Delhi,Delhi,SME Owner,Retired,36147,B001,2019-12-13,deepa.nair685@mail.com,9112864905,Low
+C00686,Ajay Nair,Female,47,Delhi,Delhi,Retail,Student,68823,B007,2018-10-03,ajay.nair686@mail.com,9209321507,Low
+C00687,Deepa Verma,Male,28,Hyderabad,Telangana,SME Owner,Business Owner,35105,B022,2022-05-11,deepa.verma687@mail.com,9456532271,High
+C00688,Divya Iyer,Male,72,Madurai,Tamil Nadu,Retail,Salaried,70394,B017,2022-04-16,divya.iyer688@mail.com,9640543154,Low
+C00689,Suresh Kumar,Male,32,Chennai,Tamil Nadu,Premium,Salaried,27637,B008,2026-06-29,suresh.kumar689@mail.com,9247699074,Low
+C00690,Sneha Patel,Female,36,Delhi,Delhi,Retail,Self Employed,65577,B020,2026-02-18,sneha.patel690@mail.com,9893769688,High
+C00691,Rahul Sharma,Male,35,Pune,Maharashtra,Premium,Salaried,132326,B010,2025-04-08,rahul.sharma691@mail.com,9886916528,Medium
+C00692,Rahul Iyer,Female,33,Delhi,Delhi,Mass Affluent,Professional,69791,B017,2022-04-12,rahul.iyer692@mail.com,9776223826,Low
+C00693,Arun Singh,Female,73,Madurai,Tamil Nadu,Retail,Self Employed,27795,B008,2020-04-17,arun.singh693@mail.com,9878451124,Low
+C00694,Naveen Reddy,Male,28,Delhi,Delhi,Retail,Self Employed,63475,B015,2024-06-19,naveen.reddy694@mail.com,9391908293,High
+C00695,Kavya Singh,Female,41,Kolkata,West Bengal,Retail,Retired,49181,B014,2026-03-30,kavya.singh695@mail.com,9121271982,Medium
+C00696,Ajay Gupta,Female,72,Bengaluru,Karnataka,Student,Student,61150,B006,2026-02-24,ajay.gupta696@mail.com,9428401021,Low
+C00697,Naveen Reddy,Male,42,Coimbatore,Tamil Nadu,Premium,Salaried,31673,B005,2020-03-12,naveen.reddy697@mail.com,9113780688,Medium
+C00698,Vishal Iyer,Male,49,Kolkata,West Bengal,SME Owner,Retired,111666,B010,2023-06-29,vishal.iyer698@mail.com,9538932325,Low
+C00699,Priya Singh,Female,42,Kochi,Kerala,Retail,Retired,79180,B016,2025-12-14,priya.singh699@mail.com,9847813304,Low
+C00700,Priya Gupta,Male,45,Delhi,Delhi,Retail,Salaried,102521,B022,2025-12-04,priya.gupta700@mail.com,9380601699,Low
+C00701,Geetha Patel,Male,61,Mumbai,Maharashtra,Retail,Business Owner,,B001,2019-10-24,geetha.patel701@mail.com,9791916428,Low
+C00702,Ajay Gupta,Female,63,Kochi,Kerala,SME Owner,Salaried,56198,B006,2022-09-29,ajay.gupta702@mail.com,9842854111,Medium
+C00703,Anitha Rao,Female,52,Kolkata,West Bengal,Premium,Professional,28010,B003,2026-02-28,anitha.rao703@mail.com,9974270684,Low
+C00704,Rohit Reddy,Female,65,Delhi,Delhi,SME Owner,Retired,29718,B003,2019-02-01,rohit.reddy704@mail.com,9663673646,Medium
+C00705,Pooja Reddy,Male,64,Kolkata,West Bengal,Retail,Student,39076,B006,2023-06-16,pooja.reddy705@mail.com,9583893332,Low
+C00706,Suresh Nair,Male,29,Delhi,Delhi,Retail,Self Employed,78911,B015,2022-08-02,suresh.nair706@mail.com,9783365422,Low
+C00707,Divya Singh,Male,36,Bengaluru,Karnataka,Retail,Student,33826,B001,2019-02-17,divya.singh707@mail.com,9814384353,Low
+C00708,Suresh Kumar,Female,24,Delhi,Delhi,Mass Affluent,Salaried,43072,B016,2020-12-24,suresh.kumar708@mail.com,9748939011,Low
+C00709,Pooja Iyer,Male,41,Pune,Maharashtra,SME Owner,Self Employed,48699,B011,2021-12-29,pooja.iyer709@mail.com,9590613316,Medium
+C00710,Ajay Sharma,Female,19,Kochi,Kerala,Retail,Business Owner,27534,B012,2020-10-15,ajay.sharma710@mail.com,9652884702,Low
+C00711,Pooja Nair,Male,18,Pune,Maharashtra,Retail,Student,109746,B020,2020-08-14,pooja.nair711@mail.com,9474020739,Low
+C00712,Pooja Patel,Male,60,Bengaluru,Karnataka,Student,Student,78130,B019,2023-11-01,pooja.patel712@mail.com,9237290086,Medium
+C00713,Kavya Singh,Male,37,Coimbatore,Tamil Nadu,SME Owner,Retired,31239,B016,2019-04-19,kavya.singh713@mail.com,9361301518,Medium
+C00714,Sanjay Sharma,Female,66,Bengaluru,Karnataka,Retail,Professional,42173,B008,2021-02-22,sanjay.sharma714@mail.com,9820052632,Medium
+C00715,Meena Sharma,Male,52,Madurai,Tamil Nadu,Retail,Professional,44884,B025,2024-06-17,meena.sharma715@mail.com,9791475283,High
+C00716,Rahul Gupta,Female,76,Kolkata,West Bengal,Premium,Business Owner,120141,B008,2020-08-13,rahul.gupta716@mail.com,9194146051,Low
+C00717,Meena Singh,Male,39,Kochi,Kerala,SME Owner,Professional,146008,B011,2019-06-06,meena.singh717@mail.com,9433717796,High
+C00718,Priya Verma,Male,52,Delhi,Delhi,Senior Citizen,Retired,42069,B005,2025-08-14,priya.verma718@mail.com,9214445764,Low
+C00719,Ajay Kumar,Male,52,Madurai,Tamil Nadu,Retail,Student,103904,B005,2023-02-10,ajay.kumar719@mail.com,9902149493,Low
+C00720,Priya Verma,Female,38,Hyderabad,Telangana,Mass Affluent,Professional,79904,B016,2020-06-02,priya.verma720@mail.com,9163149529,Low
+C00721,Rahul Sharma,Female,70,Delhi,Delhi,Senior Citizen,Self Employed,67149,B016,2020-01-04,rahul.sharma721@mail.com,9975112646,Medium
+C00722,Divya Kumar,Female,53,Kolkata,West Bengal,Retail,Professional,52923,B013,2022-05-23,divya.kumar722@mail.com,9403186123,Low
+C00723,Sanjay Rao,Female,43,Bengaluru,Karnataka,Retail,Business Owner,99139,B006,2025-05-05,sanjay.rao723@mail.com,9847276554,Low
+C00724,Kavya Reddy,Male,75,Mumbai,Maharashtra,Retail,Professional,24142,B024,2022-01-23,kavya.reddy724@mail.com,9828338194,Medium
+C00725,Rohit Gupta,Female,45,Mumbai,Maharashtra,SME Owner,Salaried,42450,B004,2018-08-03,rohit.gupta725@mail.com,9737150229,High
+C00726,Pooja Sharma,Female,58,Kolkata,West Bengal,Retail,Salaried,34096,B020,2025-09-18,pooja.sharma726@mail.com,9933062386,High
+C00727,Karthik Patel,Male,73,Kolkata,West Bengal,Retail,Professional,52192,B003,2019-04-23,karthik.patel727@mail.com,9124724799,Low
+C00728,Suresh Verma,Female,54,Madurai,Tamil Nadu,Retail,Professional,21491,B016,2022-04-22,suresh.verma728@mail.com,9420365200,High
+C00729,Suresh Sharma,Male,24,Pune,Maharashtra,Retail,Business Owner,66042,B003,2023-06-25,suresh.sharma729@mail.com,9909073286,Low
+C00730,Sanjay Singh,Male,29,Kochi,Kerala,Student,Salaried,71247,B002,2019-05-19,sanjay.singh730@mail.com,9800767402,Low
+C00731,Divya Singh,Female,53,Hyderabad,Telangana,Senior Citizen,Salaried,67078,B017,2018-07-09,divya.singh731@mail.com,9807765063,Medium
+C00732,Deepa Patel,Male,26,Kochi,Kerala,Mass Affluent,Student,253934,B020,2021-12-13,deepa.patel732@mail.com,9838659551,Low
+C00733,Meena Kumar,Female,33,Chennai,Tamil Nadu,Retail,Student,84390,B020,2019-07-04,meena.kumar733@mail.com,9397851389,Low
+C00734,Rohit Verma,Female,45,Bengaluru,Karnataka,Mass Affluent,Student,17279,B015,2022-06-27,rohit.verma734@mail.com,9826413906,Low
+C00735,Pooja Sharma,Male,52,Delhi,Delhi,Retail,Professional,30394,B007,2025-03-29,pooja.sharma735@mail.com,9550634913,Medium
+C00736,Rohit Iyer,Female,68,Kolkata,West Bengal,Retail,Business Owner,39682,B004,2023-12-17,rohit.iyer736@mail.com,9170823325,Medium
+C00737,Rahul Singh,Male,41,Pune,Maharashtra,Senior Citizen,Self Employed,86215,B004,2018-02-10,rahul.singh737@mail.com,9506553391,Low
+C00738,Meena Singh,Female,29,Coimbatore,Tamil Nadu,Student,Student,84871,B017,2019-01-27,meena.singh738@mail.com,9692213965,Low
+C00739,Vijay Verma,Female,24,Chennai,Tamil Nadu,Retail,Retired,121694,B020,2024-03-09,vijay.verma739@mail.com,9612026532,Medium
+C00740,Suresh Sharma,Male,34,Chennai,Tamil Nadu,Student,Professional,37911,B019,2022-04-01,suresh.sharma740@mail.com,9878913009,Medium
+C00741,Sneha Nair,Male,61,Kochi,Kerala,Mass Affluent,Retired,96842,B014,2021-02-03,sneha.nair741@mail.com,9427692509,Low
+C00742,Karthik Reddy,Male,44,Pune,Maharashtra,Senior Citizen,Professional,60830,B014,2018-02-13,karthik.reddy742@mail.com,9615026653,Medium
+C00743,Kavya Rao,Male,61,Coimbatore,Tamil Nadu,Student,Retired,47244,B008,2021-11-14,kavya.rao743@mail.com,9752162382,High
+C00744,Naveen Sharma,Female,61,Coimbatore,Tamil Nadu,SME Owner,Self Employed,72173,B016,2022-09-28,naveen.sharma744@mail.com,9221583552,Low
+C00745,Rahul Nair,Female,71,Coimbatore,Tamil Nadu,Senior Citizen,Salaried,37491,B007,2020-12-20,rahul.nair745@mail.com,9333499326,Low
+C00746,Anitha Rao,Female,70,Chennai,Tamil Nadu,SME Owner,Business Owner,23182,B012,2021-05-07,anitha.rao746@mail.com,9875707160,Low
+C00747,Divya Gupta,Female,40,Chennai,Tamil Nadu,Retail,Retired,30003,B014,2019-09-22,divya.gupta747@mail.com,9107420042,Low
+C00748,Rohit Reddy,Female,32,Madurai,Tamil Nadu,Mass Affluent,Student,16799,B009,2024-01-07,rohit.reddy748@mail.com,9804674903,Low
+C00749,Naveen Sharma,Male,26,Pune,Maharashtra,Student,Salaried,19719,B004,2020-03-23,naveen.sharma749@mail.com,9243538161,Low
+C00750,Ajay Gupta,Female,65,Pune,Maharashtra,SME Owner,Self Employed,27203,B022,2023-07-23,ajay.gupta750@mail.com,9906476640,Medium
+C00751,Ajay Rao,Male,64,Kolkata,West Bengal,Retail,Salaried,75443,B017,2021-11-10,ajay.rao751@mail.com,9155877346,Low
+C00752,Rahul Gupta,Male,56,Chennai,Tamil Nadu,Mass Affluent,Student,43962,B008,2022-10-23,rahul.gupta752@mail.com,9367862922,Low
+C00753,Vijay Singh,Male,73,Hyderabad,Telangana,SME Owner,Self Employed,72403,B023,2023-04-26,vijay.singh753@mail.com,9852848656,Medium
+C00754,Vishal Verma,Female,29,Delhi,Delhi,SME Owner,Business Owner,63447,B005,2019-05-09,vishal.verma754@mail.com,9306348901,Low
+C00755,Rohit Gupta,Male,19,Kochi,Kerala,Retail,Salaried,43366,B021,2025-11-07,rohit.gupta755@mail.com,9460968220,High
+C00756,Pooja Patel,Male,21,Coimbatore,Tamil Nadu,Mass Affluent,Salaried,42718,B012,2021-02-23,pooja.patel756@mail.com,9443426534,Medium
+C00757,Priya Sharma,Male,20,Chennai,Tamil Nadu,Retail,Professional,43460,B020,2021-02-21,priya.sharma757@mail.com,9370865381,Low
+C00758,Kavya Iyer,Female,39,Hyderabad,Telangana,Retail,Professional,91653,B012,2026-04-25,kavya.iyer758@mail.com,9355821370,Medium
+C00759,Vijay Nair,Female,55,Kolkata,West Bengal,Retail,Salaried,23125,B007,2025-05-04,vijay.nair759@mail.com,9205911113,Low
+C00760,Karthik Rao,Female,57,Pune,Maharashtra,Retail,Retired,68386,B014,2020-02-25,karthik.rao760@mail.com,9915351389,Low
+C00761,Deepa Iyer,Male,75,Pune,Maharashtra,Mass Affluent,Professional,28996,B014,2023-06-01,deepa.iyer761@mail.com,9279245228,Low
+C00762,Geetha Reddy,Female,62,Mumbai,Maharashtra,Retail,Business Owner,54450,B003,2023-10-05,geetha.reddy762@mail.com,9703978257,Low
+C00763,Ajay Gupta,Female,56,Hyderabad,Telangana,Retail,Salaried,36496,B001,2025-10-24,ajay.gupta763@mail.com,9640970200,Medium
+C00764,Vishal Reddy,Male,37,Delhi,Delhi,Retail,Student,58363,B018,2018-07-06,vishal.reddy764@mail.com,9786781749,Low
+C00765,Rohit Reddy,Female,26,Hyderabad,Telangana,SME Owner,Salaried,65776,B018,2020-05-10,rohit.reddy765@mail.com,9779338069,Low
+C00766,Geetha Iyer,Male,38,Bengaluru,Karnataka,SME Owner,Business Owner,42536,B010,2024-11-09,geetha.iyer766@mail.com,9772114391,Low
+C00767,Arun Iyer,Female,32,Hyderabad,Telangana,Retail,Salaried,289579,B004,2024-07-17,arun.iyer767@mail.com,9802038944,Medium
+C00768,Vijay Verma,Female,53,Delhi,Delhi,Senior Citizen,Self Employed,44658,B025,2025-01-23,vijay.verma768@mail.com,9348810825,Low
+C00769,Pooja Iyer,Male,27,Madurai,Tamil Nadu,Retail,Self Employed,44680,B007,2019-12-23,pooja.iyer769@mail.com,9795316843,Low
+C00770,Anitha Kumar,Female,37,Mumbai,Maharashtra,SME Owner,Retired,68375,B003,2019-08-11,anitha.kumar770@mail.com,9792690988,Low
+C00771,Ajay Singh,Male,64,Coimbatore,Tamil Nadu,Retail,Salaried,64327,B004,2018-03-26,ajay.singh771@mail.com,9241926172,Medium
+C00772,Lakshmi Singh,Female,35,Mumbai,Maharashtra,SME Owner,Business Owner,77021,B003,2025-12-07,lakshmi.singh772@mail.com,9915691332,Low
+C00773,Suresh Patel,Male,70,Mumbai,Maharashtra,Retail,Retired,89456,B001,2019-05-20,suresh.patel773@mail.com,9684805001,Medium
+C00774,Anitha Singh,Male,50,Kolkata,West Bengal,Retail,Self Employed,25111,B012,2019-08-27,anitha.singh774@mail.com,9834887664,Medium
+C00775,Ajay Singh,Male,49,Mumbai,Maharashtra,SME Owner,Self Employed,38744,B012,2019-04-30,ajay.singh775@mail.com,9146543311,High
+C00776,Geetha Sharma,Female,29,Kolkata,West Bengal,Mass Affluent,Business Owner,32597,B022,2025-06-26,geetha.sharma776@mail.com,9474076273,Low
+C00777,Meena Reddy,Male,76,Madurai,Tamil Nadu,Premium,Student,151845,B001,2018-11-09,meena.reddy777@mail.com,9935139248,Medium
+C00778,Rohit Iyer,Male,27,Kolkata,West Bengal,Mass Affluent,Retired,76868,B024,2022-10-17,rohit.iyer778@mail.com,9446875956,Low
+C00779,Rohit Sharma,Female,67,Kolkata,West Bengal,Retail,Retired,43506,B020,2022-08-23,rohit.sharma779@mail.com,9248413965,Medium
+C00780,Lakshmi Gupta,Female,44,Coimbatore,Tamil Nadu,Mass Affluent,Business Owner,54178,B013,2020-07-31,lakshmi.gupta780@mail.com,9665803901,Low
+C00781,Suresh Nair,Female,62,Bengaluru,Karnataka,Retail,Salaried,42971,B004,2019-07-02,suresh.nair781@mail.com,9487468897,Low
+C00782,Rohit Reddy,Male,47,Mumbai,Maharashtra,Senior Citizen,Business Owner,13412,B024,2018-08-17,rohit.reddy782@mail.com,9505295431,Low
+C00783,Arun Gupta,Female,41,Chennai,Tamil Nadu,Student,Professional,63720,B006,2024-08-29,arun.gupta783@mail.com,9251695555,Low
+C00784,Karthik Nair,Female,22,Chennai,Tamil Nadu,Mass Affluent,Retired,36711,B005,2026-05-04,karthik.nair784@mail.com,9604856763,Medium
+C00785,Pooja Iyer,Female,46,Chennai,Tamil Nadu,Retail,Self Employed,61946,B001,2019-10-19,pooja.iyer785@mail.com,9830040870,Low
+C00786,Naveen Rao,Female,63,Hyderabad,Telangana,SME Owner,Business Owner,43400,B009,2019-10-05,naveen.rao786@mail.com,9234360915,High
+C00787,Sanjay Gupta,Female,57,Chennai,Tamil Nadu,Retail,Self Employed,61238,B015,2025-10-07,sanjay.gupta787@mail.com,9988256872,Low
+C00788,Ajay Sharma,Female,21,Pune,Maharashtra,Premium,Self Employed,43160,B020,2022-01-25,ajay.sharma788@mail.com,9130117239,Medium
+C00789,Lakshmi Reddy,Male,28,Coimbatore,Tamil Nadu,Retail,Self Employed,80130,B007,2021-06-20,lakshmi.reddy789@mail.com,9358057908,Low
+C00790,Vijay Singh,Female,54,Kochi,Kerala,Retail,Retired,29427,B001,2021-06-18,vijay.singh790@mail.com,9527495689,High
+C00791,Vishal Nair,Male,38,Kolkata,West Bengal,Student,Self Employed,67977,B024,2022-07-27,vishal.nair791@mail.com,9125431905,Low
+C00792,Suresh Gupta,Male,48,Kochi,Kerala,SME Owner,Salaried,43551,B003,2023-03-12,suresh.gupta792@mail.com,9871443460,Medium
+C00793,Lakshmi Nair,Female,69,Mumbai,Maharashtra,Senior Citizen,Self Employed,60479,B005,2023-01-07,lakshmi.nair793@mail.com,9769446639,Low
+C00794,Pooja Kumar,Female,75,Kolkata,West Bengal,Retail,Business Owner,79143,B016,2018-12-24,pooja.kumar794@mail.com,9282232921,Low
+C00795,Anitha Sharma,Female,22,Hyderabad,Telangana,Mass Affluent,Student,34299,B009,2023-03-03,anitha.sharma795@mail.com,9919422169,High
+C00796,Naveen Sharma,Female,25,Kochi,Kerala,Mass Affluent,Student,96812,B022,2024-12-13,naveen.sharma796@mail.com,9650270404,Low
+C00797,Geetha Iyer,Male,41,Bengaluru,Karnataka,Student,Business Owner,37457,B002,2025-08-27,geetha.iyer797@mail.com,9895688388,Low
+C00798,Lakshmi Rao,Female,18,Mumbai,Maharashtra,Senior Citizen,Student,41878,B008,2018-10-26,lakshmi.rao798@mail.com,9818494947,Low
+C00799,Karthik Iyer,Male,47,Madurai,Tamil Nadu,Premium,Retired,35072,B013,2019-03-20,karthik.iyer799@mail.com,9531129323,Medium
+C00800,Rahul Singh,Male,38,Pune,Maharashtra,SME Owner,Retired,19284,B009,2019-04-14,rahul.singh800@mail.com,9604623813,Low
+C00801,Rohit Nair,Male,38,Kochi,Kerala,Retail,Business Owner,72477,B014,2022-01-20,rohit.nair801@mail.com,9158065294,High
+C00802,Sanjay Kumar,Female,66,Kolkata,West Bengal,Retail,Professional,38523,B013,2021-01-26,sanjay.kumar802@mail.com,9550672916,Low
+C00803,Vishal Nair,Female,60,Hyderabad,Telangana,Retail,Salaried,30066,B007,2019-11-05,vishal.nair803@mail.com,9617141182,Low
+C00804,Kavya Rao,Male,62,Mumbai,Maharashtra,SME Owner,Retired,35194,B001,2022-05-13,kavya.rao804@mail.com,9183546470,Low
+C00805,Suresh Verma,Female,27,Pune,Maharashtra,Premium,Professional,131315,B001,2021-07-20,suresh.verma805@mail.com,9258362512,Low
+C00806,Kavya Iyer,Male,25,Kolkata,West Bengal,Retail,Professional,78742,B021,2023-01-15,kavya.iyer806@mail.com,9139176517,High
+C00807,Sanjay Nair,Male,44,Coimbatore,Tamil Nadu,Senior Citizen,Business Owner,46067,B022,2020-02-22,sanjay.nair807@mail.com,9497559799,Low
+C00808,Sneha Kumar,Female,37,Hyderabad,Telangana,Mass Affluent,Salaried,93971,B014,2023-02-11,sneha.kumar808@mail.com,9989257792,Low
+C00809,Deepa Gupta,Female,51,Pune,Maharashtra,Retail,Self Employed,51694,B020,2024-03-14,deepa.gupta809@mail.com,9509700501,Low
+C00810,Anitha Gupta,Male,58,Hyderabad,Telangana,Student,Salaried,18923,B014,2024-11-29,anitha.gupta810@mail.com,9780242454,Low
+C00811,Naveen Rao,Female,55,Chennai,Tamil Nadu,Premium,Retired,16262,B013,2024-03-09,naveen.rao811@mail.com,9233617038,Low
+C00812,Sneha Patel,Female,44,Kolkata,West Bengal,Retail,Student,94446,B022,2021-01-01,sneha.patel812@mail.com,9822951244,Low
+C00813,Lakshmi Kumar,Female,75,Kolkata,West Bengal,Retail,Salaried,32607,B024,2023-10-27,lakshmi.kumar813@mail.com,9282977147,Low
+C00814,Suresh Gupta,Female,33,Coimbatore,Tamil Nadu,SME Owner,Self Employed,65901,B019,2018-07-31,suresh.gupta814@mail.com,9881805071,Low
+C00815,Divya Gupta,Female,75,Pune,Maharashtra,Mass Affluent,Retired,22918,B017,2019-06-02,divya.gupta815@mail.com,9918375813,Low
+C00816,Vijay Rao,Male,28,Pune,Maharashtra,Retail,Salaried,74303,B023,2024-12-06,vijay.rao816@mail.com,9713958957,Low
+C00817,Ajay Kumar,Female,65,Mumbai,Maharashtra,SME Owner,Professional,66728,B021,2020-09-08,ajay.kumar817@mail.com,9308122210,Medium
+C00818,Deepa Nair,Female,64,Kolkata,West Bengal,Senior Citizen,Professional,36324,B006,2020-12-09,deepa.nair818@mail.com,9488047414,Low
+C00819,Sanjay Gupta,Male,24,Madurai,Tamil Nadu,Senior Citizen,Retired,46333,B006,2023-01-21,sanjay.gupta819@mail.com,9291853043,Low
+C00820,Suresh Verma,Male,72,Chennai,Tamil Nadu,Retail,Student,69722,B017,2019-10-11,suresh.verma820@mail.com,9307066016,Medium
+C00821,Geetha Kumar,Male,52,Chennai,Tamil Nadu,Mass Affluent,Self Employed,36084,B001,2020-06-07,geetha.kumar821@mail.com,9189595982,Low
+C00822,Rohit Reddy,Female,35,Madurai,Tamil Nadu,Retail,Salaried,39993,B015,2021-04-20,rohit.reddy822@mail.com,9568217996,Medium
+C00823,Vishal Gupta,Female,30,Hyderabad,Telangana,Retail,Professional,174627,B004,2022-05-29,vishal.gupta823@mail.com,9277868678,Low
+C00824,Sanjay Patel,Male,45,Madurai,Tamil Nadu,Mass Affluent,Professional,40088,B020,2019-03-17,sanjay.patel824@mail.com,9708964125,Low
+C00825,Sneha Iyer,Female,75,Bengaluru,Karnataka,Mass Affluent,Salaried,98102,B010,2022-08-06,sneha.iyer825@mail.com,9527678529,Low
+C00826,Arun Singh,Female,29,Pune,Maharashtra,Mass Affluent,Self Employed,47588,B012,2025-05-14,arun.singh826@mail.com,9231322499,Low
+C00827,Arun Iyer,Female,62,Chennai,Tamil Nadu,Student,Self Employed,46889,B018,2020-08-10,arun.iyer827@mail.com,9746179886,Low
+C00828,Sanjay Rao,Female,31,Bengaluru,Karnataka,Mass Affluent,Professional,131658,B003,2025-07-12,sanjay.rao828@mail.com,9832433572,Low
+C00829,Pooja Iyer,Female,70,Pune,Maharashtra,Retail,Salaried,97228,B014,2021-01-29,pooja.iyer829@mail.com,9283759887,Low
+C00830,Geetha Iyer,Female,55,Kolkata,West Bengal,Retail,Salaried,31128,B001,2024-06-16,geetha.iyer830@mail.com,9240722504,Medium
+C00831,Ajay Kumar,Female,75,Coimbatore,Tamil Nadu,SME Owner,Salaried,46543,B024,2022-08-28,ajay.kumar831@mail.com,9909270926,Low
+C00832,Sneha Gupta,Male,23,Coimbatore,Tamil Nadu,Senior Citizen,Retired,65498,B015,2025-10-23,sneha.gupta832@mail.com,9501478598,Low
+C00833,Geetha Singh,Female,19,Delhi,Delhi,Retail,Salaried,189411,B006,2020-07-16,geetha.singh833@mail.com,9976331829,Low
+C00834,Deepa Kumar,Male,62,Chennai,Tamil Nadu,Retail,Salaried,30249,B013,2024-11-14,deepa.kumar834@mail.com,9247922246,Low
+C00835,Suresh Patel,Male,25,Mumbai,Maharashtra,Retail,Self Employed,116336,B022,2023-01-05,suresh.patel835@mail.com,9720498993,Low
+C00836,Kavya Patel,Male,35,Pune,Maharashtra,Senior Citizen,Retired,38703,B023,2021-04-28,kavya.patel836@mail.com,9808112095,Low
+C00837,Sanjay Singh,Female,22,Madurai,Tamil Nadu,Retail,Salaried,74426,B007,2022-04-27,sanjay.singh837@mail.com,9324048532,Low
+C00838,Suresh Rao,Male,50,Pune,Maharashtra,Senior Citizen,Student,97326,B004,2023-08-29,suresh.rao838@mail.com,9490459543,Medium
+C00839,Ajay Patel,Male,73,Kochi,Kerala,Mass Affluent,Retired,36584,B022,2019-11-04,ajay.patel839@mail.com,9258151146,Low
+C00840,Naveen Singh,Male,65,Bengaluru,Karnataka,Retail,Retired,72703,B004,2020-12-23,naveen.singh840@mail.com,9480562915,High
+C00841,Pooja Nair,Female,27,Kolkata,West Bengal,Mass Affluent,Business Owner,41534,B004,2022-02-23,pooja.nair841@mail.com,9885980740,Low
+C00842,Pooja Nair,Male,36,Delhi,Delhi,Mass Affluent,Business Owner,32096,B014,2023-10-26,pooja.nair842@mail.com,9794007506,Low
+C00843,Lakshmi Singh,Female,32,Bengaluru,Karnataka,Retail,Salaried,60375,B004,2023-12-20,lakshmi.singh843@mail.com,9520808111,Low
+C00844,Ajay Singh,Male,32,Hyderabad,Telangana,Mass Affluent,Self Employed,83145,B023,2021-03-25,ajay.singh844@mail.com,9201192189,Low
+C00845,Divya Rao,Male,76,Kochi,Kerala,Mass Affluent,Student,159704,B011,2019-11-29,divya.rao845@mail.com,9301159530,Medium
+C00846,Rahul Patel,Male,27,Chennai,Tamil Nadu,Premium,Retired,45465,B003,2020-12-16,rahul.patel846@mail.com,9737808176,Low
+C00847,Sneha Patel,Female,55,Chennai,Tamil Nadu,Mass Affluent,Self Employed,53529,B019,2018-03-13,sneha.patel847@mail.com,9996959935,Medium
+C00848,Lakshmi Rao,Female,50,Mumbai,Maharashtra,Student,Salaried,40565,B018,2021-12-07,lakshmi.rao848@mail.com,9372233117,Low
+C00849,Sneha Patel,Male,18,Pune,Maharashtra,Retail,Student,60895,B017,2025-09-09,sneha.patel849@mail.com,9258806824,Medium
+C00850,Pooja Nair,Male,60,Mumbai,Maharashtra,Retail,Salaried,21671,B012,2022-10-31,pooja.nair850@mail.com,9308136381,Low
+C00851,Ajay Singh,Female,35,Coimbatore,Tamil Nadu,SME Owner,Retired,44437,B014,2024-08-10,ajay.singh851@mail.com,9432133365,High
+C00852,Sanjay Kumar,Male,55,Coimbatore,Tamil Nadu,Student,Business Owner,74477,B010,2021-11-22,sanjay.kumar852@mail.com,9635718802,Low
+C00853,Rohit Patel,Female,61,Mumbai,Maharashtra,Mass Affluent,Student,77890,B016,2021-05-28,rohit.patel853@mail.com,9116742210,Low
+C00854,Naveen Kumar,Male,31,Hyderabad,Telangana,Senior Citizen,Salaried,29964,B012,2022-10-29,naveen.kumar854@mail.com,9153581912,Medium
+C00855,Vijay Sharma,Male,40,Hyderabad,Telangana,Senior Citizen,Business Owner,108016,B003,2019-09-28,vijay.sharma855@mail.com,9887109809,Medium
+C00856,Sanjay Gupta,Female,55,Bengaluru,Karnataka,Retail,Salaried,52884,B021,2025-08-11,sanjay.gupta856@mail.com,9205375617,Low
+C00857,Vijay Reddy,Male,56,Hyderabad,Telangana,Retail,Retired,70563,B005,2024-06-26,vijay.reddy857@mail.com,9368457410,Medium
+C00858,Rohit Gupta,Female,53,Delhi,Delhi,Retail,Salaried,52586,B004,2022-11-25,rohit.gupta858@mail.com,9845320049,Low
+C00859,Rahul Rao,Male,61,Pune,Maharashtra,Mass Affluent,Retired,24258,B001,2023-03-05,rahul.rao859@mail.com,9923312698,Medium
+C00860,Pooja Singh,Female,66,Mumbai,Maharashtra,Premium,Student,104768,B005,2022-03-09,pooja.singh860@mail.com,9157483870,Low
+C00861,Ajay Sharma,Male,43,Chennai,Tamil Nadu,Mass Affluent,Business Owner,52859,B009,2018-08-13,ajay.sharma861@mail.com,9458075133,Medium
+C00862,Geetha Singh,Male,70,Hyderabad,Telangana,Mass Affluent,Professional,46425,B019,2026-04-21,geetha.singh862@mail.com,9853307914,Medium
+C00863,Sanjay Rao,Male,27,Coimbatore,Tamil Nadu,Student,Retired,64279,B010,2025-01-17,sanjay.rao863@mail.com,9965024499,Medium
+C00864,Kavya Verma,Female,62,Delhi,Delhi,Retail,Salaried,56383,B016,2019-03-01,kavya.verma864@mail.com,9519525848,Low
+C00865,Priya Singh,Male,37,Kolkata,West Bengal,Mass Affluent,Self Employed,70424,B015,2025-08-22,priya.singh865@mail.com,9564236248,Medium
+C00866,Rohit Kumar,Female,29,Mumbai,Maharashtra,Senior Citizen,Professional,33329,B018,2025-11-05,rohit.kumar866@mail.com,9411423990,Low
+C00867,Anitha Singh,Female,55,Madurai,Tamil Nadu,Retail,Student,39164,B015,2019-03-16,anitha.singh867@mail.com,9259092607,Low
+C00868,Arun Reddy,Male,47,Bengaluru,Karnataka,Mass Affluent,Salaried,59501,B022,2025-04-18,arun.reddy868@mail.com,9480885074,Low
+C00869,Rohit Patel,Female,74,Madurai,Tamil Nadu,Retail,Self Employed,21677,B007,2023-08-24,rohit.patel869@mail.com,9650878040,Low
+C00870,Karthik Sharma,Female,59,Mumbai,Maharashtra,Retail,Professional,61409,B009,2019-07-28,karthik.sharma870@mail.com,9522977752,Medium
+C00871,Karthik Patel,Female,42,Madurai,Tamil Nadu,Premium,Self Employed,147781,B017,2025-05-22,karthik.patel871@mail.com,9732275127,Low
+C00872,Suresh Iyer,Male,55,Kochi,Kerala,Senior Citizen,Salaried,50130,B008,2026-03-20,suresh.iyer872@mail.com,9881859239,Low
+C00873,Ajay Gupta,Female,22,Chennai,Tamil Nadu,Premium,Salaried,50357,B001,2025-01-29,ajay.gupta873@mail.com,9215600122,High
+C00874,Naveen Gupta,Male,26,Kochi,Kerala,Mass Affluent,Self Employed,36312,B008,2021-03-17,naveen.gupta874@mail.com,9566071607,Low
+C00875,Vishal Nair,Female,23,Kochi,Kerala,Retail,Professional,100186,B011,2018-10-22,vishal.nair875@mail.com,9304157942,Low
+C00876,Sanjay Verma,Female,70,Madurai,Tamil Nadu,Mass Affluent,Student,70856,B003,2019-07-19,sanjay.verma876@mail.com,9176093527,Low
+C00877,Suresh Singh,Female,26,Coimbatore,Tamil Nadu,Retail,Salaried,54929,B011,2024-01-24,suresh.singh877@mail.com,9989217681,Low
+C00878,Vijay Gupta,Male,63,Pune,Maharashtra,Retail,Self Employed,89269,B017,2024-11-08,vijay.gupta878@mail.com,9686200347,Low
+C00879,Meena Verma,Male,48,Hyderabad,Telangana,Premium,Salaried,44727,B025,2021-10-02,meena.verma879@mail.com,9687430562,Low
+C00880,Rahul Kumar,Male,33,Madurai,Tamil Nadu,Retail,Business Owner,69844,B018,2018-11-27,rahul.kumar880@mail.com,9390456188,Low
+C00881,Priya Singh,Male,20,Madurai,Tamil Nadu,Mass Affluent,Professional,41966,B001,2020-07-21,priya.singh881@mail.com,9930660891,High
+C00882,Sanjay Rao,Male,56,Kolkata,West Bengal,Student,Professional,22856,B025,2022-05-05,sanjay.rao882@mail.com,9561406882,Low
+C00883,Pooja Rao,Male,26,Bengaluru,Karnataka,Mass Affluent,Business Owner,113001,B011,2020-03-04,pooja.rao883@mail.com,9355733316,Low
+C00884,Lakshmi Singh,Male,55,Chennai,Tamil Nadu,Retail,Professional,189960,B019,2024-01-06,lakshmi.singh884@mail.com,9872908197,Low
+C00885,Lakshmi Kumar,Female,22,Chennai,Tamil Nadu,Retail,Self Employed,40782,B021,2024-10-03,lakshmi.kumar885@mail.com,9239281757,Medium
+C00886,Geetha Gupta,Female,48,Bengaluru,Karnataka,Premium,Salaried,32813,B023,2023-07-21,geetha.gupta886@mail.com,9336531677,Medium
+C00887,Naveen Reddy,Female,41,Coimbatore,Tamil Nadu,Retail,Professional,37887,B002,2019-03-04,naveen.reddy887@mail.com,9857526651,Low
+C00888,Geetha Patel,Male,35,Bengaluru,Karnataka,Retail,Self Employed,107756,B024,2021-06-03,geetha.patel888@mail.com,9499850700,Low
+C00889,Rohit Kumar,Male,33,Madurai,Tamil Nadu,Premium,Retired,84963,B013,2024-08-06,rohit.kumar889@mail.com,9164123910,Low
+C00890,Vijay Verma,Female,42,Madurai,Tamil Nadu,Retail,Retired,49079,B013,2020-04-22,vijay.verma890@mail.com,9671758865,Low
+C00891,Priya Reddy,Male,20,Coimbatore,Tamil Nadu,Senior Citizen,Salaried,22377,B025,2020-12-11,priya.reddy891@mail.com,9466086242,Low
+C00892,Geetha Gupta,Female,73,Kolkata,West Bengal,Senior Citizen,Professional,189391,B013,2024-03-16,geetha.gupta892@mail.com,9674195660,High
+C00893,Naveen Gupta,Male,54,Kochi,Kerala,Senior Citizen,Student,32875,B008,2026-05-13,naveen.gupta893@mail.com,9401399464,Low
+C00894,Vijay Singh,Male,33,Coimbatore,Tamil Nadu,Retail,Business Owner,42464,B009,2022-01-21,vijay.singh894@mail.com,9233472999,Medium
+C00895,Anitha Verma,Female,60,Pune,Maharashtra,Senior Citizen,Self Employed,52111,B015,2018-02-06,anitha.verma895@mail.com,9615619319,Low
+C00896,Deepa Nair,Female,44,Chennai,Tamil Nadu,Mass Affluent,Salaried,32009,B003,2021-07-10,deepa.nair896@mail.com,9922461359,Low
+C00897,Vijay Reddy,Female,73,Madurai,Tamil Nadu,Retail,Professional,66628,B002,2025-05-05,vijay.reddy897@mail.com,9722652915,Low
+C00898,Rahul Kumar,Male,53,Delhi,Delhi,Retail,Professional,112698,B020,2018-07-03,rahul.kumar898@mail.com,9183192595,Low
+C00899,Vishal Patel,Female,25,Coimbatore,Tamil Nadu,Retail,Self Employed,42345,B014,2025-08-21,vishal.patel899@mail.com,9403959566,Low
+C00900,Rohit Kumar,Male,38,Kochi,Kerala,Senior Citizen,Student,46159,B019,2019-09-07,rohit.kumar900@mail.com,9967620130,Low
+C00901,Rahul Rao,Male,63,Coimbatore,Tamil Nadu,Senior Citizen,Professional,45600,B002,2024-07-14,rahul.rao901@mail.com,9509191906,Medium
+C00902,Karthik Singh,Male,32,Kochi,Kerala,Mass Affluent,Business Owner,87315,B024,2024-01-17,karthik.singh902@mail.com,9751870820,Low
+C00903,Kavya Rao,Female,51,Madurai,Tamil Nadu,Retail,Self Employed,86125,B011,2020-09-26,kavya.rao903@mail.com,9347917000,Low
+C00904,Naveen Iyer,Female,65,Bengaluru,Karnataka,Student,Retired,44980,B003,2023-09-03,naveen.iyer904@mail.com,9749848507,Medium
+C00905,Lakshmi Patel,Male,68,Kolkata,West Bengal,Retail,Self Employed,93627,B022,2022-07-28,lakshmi.patel905@mail.com,9750199707,Low
+C00906,Vijay Reddy,Male,39,Pune,Maharashtra,Retail,Retired,66857,B006,2020-03-22,vijay.reddy906@mail.com,9279068942,Medium
+C00907,Meena Gupta,Male,34,Coimbatore,Tamil Nadu,Student,Retired,71495,B014,2018-05-20,meena.gupta907@mail.com,9178398946,Low
+C00908,Rohit Rao,Male,73,Coimbatore,Tamil Nadu,SME Owner,Retired,43703,B008,2024-03-31,rohit.rao908@mail.com,9461645150,Medium
+C00909,Rahul Verma,Female,56,Kochi,Kerala,Retail,Professional,42905,B021,2022-08-02,rahul.verma909@mail.com,9410623993,Low
+C00910,Kavya Sharma,Female,64,Mumbai,Maharashtra,Student,Business Owner,63270,B015,2025-04-13,kavya.sharma910@mail.com,9289754082,Low
+C00911,Vishal Verma,Female,35,Bengaluru,Karnataka,Retail,Retired,38993,B019,2023-11-22,vishal.verma911@mail.com,9406292586,Low
+C00912,Rahul Gupta,Female,38,Mumbai,Maharashtra,SME Owner,Salaried,167958,B007,2026-03-14,rahul.gupta912@mail.com,9717549533,Low
+C00913,Geetha Iyer,Female,24,Pune,Maharashtra,Retail,Salaried,37240,B006,2020-07-05,geetha.iyer913@mail.com,9750870273,Low
+C00914,Meena Nair,Male,60,Hyderabad,Telangana,Retail,Self Employed,60795,B001,2019-11-23,meena.nair914@mail.com,9679637778,Low
+C00915,Deepa Nair,Male,18,Madurai,Tamil Nadu,Senior Citizen,Salaried,46336,B014,2024-05-28,deepa.nair915@mail.com,9992320057,Medium
+C00916,Naveen Reddy,Female,76,Bengaluru,Karnataka,Student,Salaried,50145,B003,2020-12-13,naveen.reddy916@mail.com,9885585745,Medium
+C00917,Meena Iyer,Male,69,Bengaluru,Karnataka,Student,Self Employed,75652,B011,2023-09-08,meena.iyer917@mail.com,9858931242,Low
+C00918,Rahul Kumar,Male,45,Bengaluru,Karnataka,SME Owner,Business Owner,18570,B021,2025-05-31,rahul.kumar918@mail.com,9364047863,Low
+C00919,Rohit Verma,Male,42,Delhi,Delhi,Premium,Student,52072,B024,2020-02-06,rohit.verma919@mail.com,9313216097,Low
+C00920,Karthik Rao,Female,72,Delhi,Delhi,Retail,Salaried,53771,B006,2025-12-18,karthik.rao920@mail.com,9758609850,Low
+C00921,Ajay Verma,Female,33,Pune,Maharashtra,Mass Affluent,Professional,75056,B013,2025-01-24,ajay.verma921@mail.com,9417201826,Low
+C00922,Meena Nair,Female,25,Hyderabad,Telangana,Mass Affluent,Retired,33761,B006,2019-04-20,meena.nair922@mail.com,9809327660,Low
+C00923,Meena Iyer,Male,62,Kolkata,West Bengal,Student,Retired,74603,B010,2018-04-29,meena.iyer923@mail.com,9940555052,Low
+C00924,Pooja Kumar,Male,53,Pune,Maharashtra,Retail,Student,35471,B013,2022-10-08,pooja.kumar924@mail.com,9388103439,Low
+C00925,Kavya Nair,Male,39,Chennai,Tamil Nadu,Retail,Retired,64165,B020,2019-03-28,kavya.nair925@mail.com,9749572144,Low
+C00926,Deepa Kumar,Male,64,Chennai,Tamil Nadu,Senior Citizen,Salaried,81794,B025,2021-12-15,deepa.kumar926@mail.com,9803227434,Medium
+C00927,Priya Rao,Male,31,Pune,Maharashtra,Mass Affluent,Self Employed,93238,B008,2026-01-19,priya.rao927@mail.com,9501450537,Low
+C00928,Rahul Gupta,Male,31,Coimbatore,Tamil Nadu,Student,Salaried,45621,B010,2019-10-05,rahul.gupta928@mail.com,9778127557,Low
+C00929,Lakshmi Kumar,Male,35,Bengaluru,Karnataka,Senior Citizen,Retired,65102,B009,2026-04-22,lakshmi.kumar929@mail.com,9179339044,Medium
+C00930,Vishal Gupta,Male,19,Chennai,Tamil Nadu,Student,Business Owner,61805,B019,2026-04-03,vishal.gupta930@mail.com,9992785957,Medium
+C00931,Geetha Reddy,Female,68,Pune,Maharashtra,Mass Affluent,Professional,29604,B004,2020-04-10,geetha.reddy931@mail.com,9504350473,Low
+C00932,Anitha Gupta,Female,23,Delhi,Delhi,SME Owner,Business Owner,41072,B018,2025-11-18,anitha.gupta932@mail.com,9118481810,Low
+C00933,Kavya Gupta,Female,41,Coimbatore,Tamil Nadu,Student,Retired,48482,B016,2022-02-23,kavya.gupta933@mail.com,9456949875,Low
+C00934,Rohit Singh,Male,24,Coimbatore,Tamil Nadu,Retail,Retired,60554,B020,2022-07-10,rohit.singh934@mail.com,9163278782,Medium
+C00935,Kavya Reddy,Female,44,Hyderabad,Telangana,Student,Self Employed,113508,B023,2021-01-03,kavya.reddy935@mail.com,9685821445,Low
+C00936,Kavya Iyer,Male,59,Delhi,Delhi,Retail,Professional,53053,B024,2026-04-18,kavya.iyer936@mail.com,9557094067,Low
+C00937,Karthik Gupta,Female,26,Chennai,Tamil Nadu,Retail,Professional,35246,B002,2019-04-11,karthik.gupta937@mail.com,9283311445,Medium
+C00938,Vishal Patel,Female,26,Coimbatore,Tamil Nadu,Mass Affluent,Salaried,39158,B024,2021-04-20,vishal.patel938@mail.com,9661008736,High
+C00939,Rahul Verma,Female,74,Pune,Maharashtra,Mass Affluent,Self Employed,27054,B020,2020-04-17,rahul.verma939@mail.com,9657679799,High
+C00940,Geetha Reddy,Male,48,Madurai,Tamil Nadu,Retail,Student,80791,B023,2023-11-18,geetha.reddy940@mail.com,9441114921,Medium
+C00941,Pooja Sharma,Female,27,Madurai,Tamil Nadu,Retail,Salaried,44202,B004,2025-10-13,pooja.sharma941@mail.com,9201698998,Low
+C00942,Priya Verma,Male,47,Kochi,Kerala,Retail,Student,165687,B021,2021-11-13,priya.verma942@mail.com,9394828690,Low
+C00943,Anitha Gupta,Male,55,Hyderabad,Telangana,Retail,Retired,139913,B022,2025-03-12,anitha.gupta943@mail.com,9210569940,Low
+C00944,Sanjay Reddy,Female,29,Hyderabad,Telangana,Mass Affluent,Self Employed,108431,B011,2022-04-18,sanjay.reddy944@mail.com,9966831325,Low
+C00945,Geetha Patel,Female,31,Mumbai,Maharashtra,Retail,Self Employed,76913,B016,2019-11-07,geetha.patel945@mail.com,9183523612,Medium
+C00946,Priya Sharma,Female,50,Madurai,Tamil Nadu,Mass Affluent,Retired,39677,B008,2019-04-26,priya.sharma946@mail.com,9930989868,Low
+C00947,Ajay Patel,Female,40,Hyderabad,Telangana,Senior Citizen,Student,70485,B006,2020-05-26,ajay.patel947@mail.com,9863803756,High
+C00948,Rohit Gupta,Male,53,Madurai,Tamil Nadu,Mass Affluent,Student,81691,B021,2022-11-19,rohit.gupta948@mail.com,9492653615,Low
+C00949,Naveen Iyer,Female,64,Kolkata,West Bengal,Retail,Business Owner,34515,B001,2026-05-21,naveen.iyer949@mail.com,9664790986,Low
+C00950,Sanjay Kumar,Female,55,Hyderabad,Telangana,Retail,Student,121074,B020,2018-02-23,sanjay.kumar950@mail.com,9788992272,Low
+C00951,Kavya Gupta,Male,20,Hyderabad,Telangana,Retail,Salaried,54052,B025,2025-04-06,kavya.gupta951@mail.com,9141010063,Low
+C00952,Sneha Kumar,Male,57,Mumbai,Maharashtra,Student,Self Employed,82299,B004,2022-09-15,sneha.kumar952@mail.com,9437408933,Low
+C00953,Meena Rao,Female,35,Delhi,Delhi,Premium,Professional,88946,B006,2025-12-15,meena.rao953@mail.com,9654416338,Medium
+C00954,Arun Gupta,Male,44,Chennai,Tamil Nadu,Retail,Business Owner,34946,B015,2019-12-08,arun.gupta954@mail.com,9839503930,Low
+C00955,Vishal Gupta,Female,29,Chennai,Tamil Nadu,Retail,Business Owner,44407,B023,2024-05-16,vishal.gupta955@mail.com,9194663182,Low
+C00956,Meena Singh,Female,29,Bengaluru,Karnataka,Retail,Business Owner,62131,B001,2019-11-25,meena.singh956@mail.com,9594296083,Low
+C00957,Karthik Nair,Male,37,Delhi,Delhi,Student,Professional,69664,B019,2019-07-30,karthik.nair957@mail.com,9996869990,Low
+C00958,Sanjay Reddy,Female,74,Delhi,Delhi,Retail,Student,36677,B016,2019-01-14,sanjay.reddy958@mail.com,9474584710,Low
+C00959,Vishal Patel,Female,71,Mumbai,Maharashtra,Retail,Business Owner,43548,B023,2020-05-12,vishal.patel959@mail.com,9322744472,Low
+C00960,Rahul Rao,Male,53,Hyderabad,Telangana,Retail,Self Employed,35829,B004,2018-05-09,rahul.rao960@mail.com,9610252663,Low
+C00961,Rohit Patel,Female,55,Pune,Maharashtra,Retail,Retired,249707,B023,2021-08-13,rohit.patel961@mail.com,9108480736,Low
+C00962,Divya Gupta,Male,48,Pune,Maharashtra,Retail,Salaried,34725,B015,2019-10-29,divya.gupta962@mail.com,9571382013,Low
+C00963,Geetha Patel,Female,55,Kochi,Kerala,Student,Professional,31025,B024,2020-10-31,geetha.patel963@mail.com,9618142267,Low
+C00964,Ajay Reddy,Male,20,Delhi,Delhi,Senior Citizen,Business Owner,28871,B019,2021-01-08,ajay.reddy964@mail.com,9276121538,Low
+C00965,Vishal Sharma,Female,37,Kochi,Kerala,SME Owner,Business Owner,72272,B002,2021-09-26,vishal.sharma965@mail.com,9951330633,High
+C00966,Rohit Iyer,Male,47,Kolkata,West Bengal,Retail,Salaried,66320,B010,2019-12-06,rohit.iyer966@mail.com,9353600185,Low
+C00967,Sanjay Gupta,Female,23,Delhi,Delhi,Retail,Business Owner,92624,B006,2023-05-10,sanjay.gupta967@mail.com,9690374468,Low
+C00968,Ajay Nair,Male,76,Madurai,Tamil Nadu,Premium,Retired,125028,B013,2019-01-28,ajay.nair968@mail.com,9529371703,Low
+C00969,Rahul Reddy,Male,70,Kolkata,West Bengal,Premium,Business Owner,24965,B019,2026-04-21,rahul.reddy969@mail.com,9924466143,Low
+C00970,Lakshmi Iyer,Female,41,Pune,Maharashtra,Mass Affluent,Salaried,83718,B021,2018-11-13,lakshmi.iyer970@mail.com,9301831842,Low
+C00971,Priya Nair,Female,37,Kolkata,West Bengal,Retail,Retired,70840,B010,2021-03-13,priya.nair971@mail.com,9137394844,Low
+C00972,Vijay Gupta,Male,29,Mumbai,Maharashtra,Mass Affluent,Business Owner,99157,B012,2018-12-05,vijay.gupta972@mail.com,9804233550,Medium
+C00973,Ajay Kumar,Female,28,Pune,Maharashtra,Retail,Business Owner,44997,B021,2023-06-15,ajay.kumar973@mail.com,9553609821,High
+C00974,Priya Reddy,Female,45,Hyderabad,Telangana,Student,Salaried,90219,B017,2023-01-19,priya.reddy974@mail.com,9864529386,Low
+C00975,Rahul Rao,Female,41,Bengaluru,Karnataka,Senior Citizen,Retired,57735,B003,2025-07-26,rahul.rao975@mail.com,9859741828,Low
+C00976,Suresh Reddy,Female,30,Coimbatore,Tamil Nadu,Senior Citizen,Professional,102389,B010,2023-03-19,suresh.reddy976@mail.com,9594190442,Low
+C00977,Sneha Kumar,Female,74,Kochi,Kerala,Student,Student,44328,B018,2018-04-07,sneha.kumar977@mail.com,9483202737,Low
+C00978,Pooja Kumar,Male,46,Pune,Maharashtra,Retail,Salaried,63303,B018,2018-05-30,pooja.kumar978@mail.com,9288155696,Medium
+C00979,Karthik Rao,Male,24,Mumbai,Maharashtra,Student,Professional,51921,B015,2021-11-15,karthik.rao979@mail.com,9986450549,Medium
+C00980,Vishal Verma,Male,47,Chennai,Tamil Nadu,Retail,Student,169601,B013,2019-02-19,vishal.verma980@mail.com,9462680716,Low
+C00981,Anitha Gupta,Male,43,Chennai,Tamil Nadu,Retail,Professional,28400,B014,2018-11-21,anitha.gupta981@mail.com,9712993971,High
+C00982,Vijay Reddy,Female,57,Coimbatore,Tamil Nadu,Mass Affluent,Self Employed,66688,B016,2024-06-06,vijay.reddy982@mail.com,9395050028,Low
+C00983,Divya Reddy,Female,50,Chennai,Tamil Nadu,Premium,Self Employed,69305,B007,2022-07-26,divya.reddy983@mail.com,9805676856,Low
+C00984,Rohit Reddy,Male,35,Madurai,Tamil Nadu,Premium,Professional,44123,B023,2018-03-16,rohit.reddy984@mail.com,9756471019,Low
+C00985,Anitha Verma,Female,70,Madurai,Tamil Nadu,Premium,Professional,66906,B018,2023-05-03,anitha.verma985@mail.com,9443213850,Low
+C00986,Sneha Patel,Male,27,Madurai,Tamil Nadu,Senior Citizen,Retired,22289,B013,2025-07-19,sneha.patel986@mail.com,9809419607,Low
+C00987,Suresh Singh,Female,58,Madurai,Tamil Nadu,Mass Affluent,Student,57251,B011,2026-06-03,suresh.singh987@mail.com,9131744717,Low
+C00988,Rohit Verma,Male,55,Mumbai,Maharashtra,Premium,Business Owner,61062,B013,2020-08-19,rohit.verma988@mail.com,9506334876,High
+C00989,Geetha Singh,Female,24,Kolkata,West Bengal,Retail,Salaried,59656,B025,2019-10-14,geetha.singh989@mail.com,9690633547,Medium
+C00990,Pooja Iyer,Female,66,Delhi,Delhi,Mass Affluent,Business Owner,22159,B004,2025-01-25,pooja.iyer990@mail.com,9639345534,Medium
+C00991,Deepa Rao,Male,43,Delhi,Delhi,Senior Citizen,Retired,77235,B006,2023-01-15,deepa.rao991@mail.com,9529555102,High
+C00992,Anitha Kumar,Male,52,Pune,Maharashtra,Senior Citizen,Professional,40047,B014,2022-09-10,anitha.kumar992@mail.com,9764513013,Low
+C00993,Lakshmi Sharma,Male,57,Kochi,Kerala,Mass Affluent,Salaried,78106,B011,2018-04-04,lakshmi.sharma993@mail.com,9711287818,Low
+C00994,Kavya Singh,Male,41,Chennai,Tamil Nadu,Student,Professional,44418,B006,2020-03-01,kavya.singh994@mail.com,9288131372,Low
+C00995,Kavya Nair,Male,38,Mumbai,Maharashtra,Retail,Salaried,32926,B022,2020-09-30,kavya.nair995@mail.com,9955507623,Low
+C00996,Divya Patel,Female,50,Bengaluru,Karnataka,Senior Citizen,Student,23132,B001,2018-10-14,divya.patel996@mail.com,9658096119,Medium
+C00997,Kavya Gupta,Male,22,Kolkata,West Bengal,SME Owner,Professional,62259,B021,2024-10-22,kavya.gupta997@mail.com,9570858471,High
+C00998,Kavya Kumar,Female,36,Kolkata,West Bengal,Senior Citizen,Professional,81913,B017,2026-01-14,kavya.kumar998@mail.com,9560193439,Low
+C00999,Meena Singh,Female,27,Hyderabad,Telangana,Student,Business Owner,72002,B012,2019-11-24,meena.singh999@mail.com,9252417753,Low
+C01000,Lakshmi Patel,Female,31,Hyderabad,Telangana,Retail,Professional,77070,B016,2025-12-14,lakshmi.patel1000@mail.com,9467695264,Medium
+C00150,Sneha Reddy,Male,57,Madurai,Tamil Nadu,Retail,Self Employed,40857,B025,2021-05-04,sneha.reddy150@mail.com,9841139461,Low

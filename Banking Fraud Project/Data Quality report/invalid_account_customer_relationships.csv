@@ -1,0 +1,3 @@
+account_id,customer_id,account_type,branch_id,open_date,current_balance,currency,account_status,last_activity_date,account_tier,monthly_service_cost
+A000221,C99999,Current,B015,2021-07-09,42234.71,INR,Active,2026-02-05,Platinum,123.37
+A000429,C00300,Savings,B006,2022-11-30,44288.74,INR,Dormant,2024-11-29,Silver,150.81

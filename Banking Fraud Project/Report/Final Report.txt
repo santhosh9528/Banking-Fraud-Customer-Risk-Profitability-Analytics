@@ -1,0 +1,982 @@
+BANKING FRAUD, CUSTOMER RISK & PROFITABILITY ANALYTICS
+
+EXECUTIVE ANALYTICS REPORT
+
+Prepared by: Santhosh Kumar M
+Tools Used: Python, SQL, Power BI
+Analysis Areas: Data Preparation, SQL Analysis, Fraud Detection, Loan Risk, Customer Profitability,
+Statistical Analysis and Business Intelligence
+
+
+1. EXECUTIVE SUMMARY
+
+This project presents an end-to-end analytical study of a retail banking environment 
+to identify suspicious transactions, evaluate customer and loan risk, analyze customer profitability,
+and provide management with actionable business insights.
+
+The analysis was performed using multiple banking datasets covering customers, accounts, transactions,
+loans, loan payments, credit scores, branches, complaints, and login/device activity.
+
+Python was used for data cleaning, fraud investigation, loan risk analysis, customer profitability analysis, 
+and statistical testing. SQL was used for advanced banking analysis including transaction trends,
+customer ranking, branch performance, loan defaults, repayment behavior, running totals, and month-over-month growth. 
+Power BI was used to develop interactive Executive, Fraud, and Loan Risk dashboards.
+
+After data preparation, the final analysis contained 999 valid customers and 26,168 valid transactions.
+
+Fraud analysis identified 280 High/Critical suspicious transactions. The dataset contained 140 confirmed 
+fraud transactions, and all 140 confirmed fraud records were captured by the High/Critical fraud-risk criteria. 
+An additional 140 transactions were identified as suspicious but were not labeled as confirmed fraud.
+
+Loan analysis identified 646 valid loans with an overall observed default rate of 21.67%. Statistical
+ analysis found that defaulted customers had an average credit score of 677.80 compared with 699.52 for
+ non-defaulted customers. The hypothesis test produced a p-value of 0.001083, indicating a statistically
+ significant relationship between credit score and loan default.
+
+Customer profitability analysis estimated approximately ₹29.40 million in modeled customer revenue, ₹2.96 million in operational costs, and ₹26.45 million in modeled customer profit.
+
+Overall, the project demonstrates how Python, SQL, statistics, and Power BI can be integrated to support fraud detection, credit-risk management, customer profitability analysis, and management decision-making.
+
+
+2. BUSINESS PROBLEM
+
+The retail bank is experiencing concerns related to suspicious transactions, customer complaints, loan defaults, operational costs, customer risk, and inconsistent profitability.
+
+Management requires a data-driven analytical solution to identify:
+
+• Suspicious transactions and customers
+• High-risk loans and borrowers
+• Branches with elevated default risk
+• Profitable and loss-making customers
+• High-value and high-risk customers
+• Factors associated with loan default
+• Unusual transaction and login behavior
+
+
+3. PROJECT OBJECTIVES
+
+The main objectives of the project were:
+
+• Clean and validate banking datasets.
+• Identify duplicate and inconsistent customer information.
+• Detect invalid transactions.
+• Validate customer, account, transaction, and branch relationships.
+• Analyze transaction volume and transaction value.
+• Identify unusual transaction patterns.
+• Develop a Fraud Risk Score.
+• Identify suspicious transactions and customers.
+• Analyze loan defaults and repayment behavior.
+• Develop a Loan Risk Score.
+• Analyze the relationship between credit score and loan default.
+• Calculate modeled customer profitability.
+• Identify profitable and loss-making customers.
+• Identify High Value – High Risk customers.
+• Perform statistical analysis and hypothesis testing.
+• Develop interactive Power BI dashboards.
+• Provide actionable business recommendations.
+
+
+4. DATASET OVERVIEW
+
+The project used nine banking datasets:
+
+1. Customers
+2. Accounts
+3. Transactions
+4. Loans
+5. Loan Payments
+6. Credit Scores
+7. Branches
+8. Complaints
+9. Login / Device Activity
+
+The datasets contained customer demographics, account balances, banking transactions, loan details, repayment information, credit scores, branch information, 
+customer complaints, and login/device activity.
+
+
+5. DATA PREPARATION AND CLEANING
+
+Python and Pandas were used for data preparation.
+
+The datasets contained several intentional data-quality issues, including:
+
+• Duplicate records
+• Missing customer IDs
+• Missing values
+• Invalid customer references
+• Invalid account references
+• Invalid branch references
+• Negative transaction values
+• Invalid dates
+• Inconsistent currency formats
+• Inconsistent text formats
+• Unusual transaction values
+• Duplicate banking records
+
+An exact duplicate customer record was detected and removed.
+
+After cleaning:
+
+Valid Customers = 999
+Valid Transactions = 26,168
+
+
+6. MISSING VALUE HANDLING
+
+Missing values were identified across the datasets.
+
+Important missing values included:
+
+• Customer ID
+• Annual income
+• Transaction customer ID
+• Loan payment date
+• Complaint resolution date
+
+Annual income was filled using the median where appropriate.
+
+Missing transaction customer IDs were recovered using valid account-to-customer relationships where possible.
+
+Business-valid missing values such as unresolved complaint dates and unpaid payment dates were retained where appropriate.
+
+
+7. DATE AND CURRENCY STANDARDIZATION
+
+Date fields were standardized using Python datetime conversion.
+
+Invalid transaction and login dates were identified and handled.
+
+Currency values were standardized into consistent formats:
+
+INR
+USD
+EUR
+
+This prevented values such as "inr" and "INR" from being treated as different currencies.
+
+
+8. RELATIONSHIP VALIDATION
+
+Customer, account, transaction, and branch relationships were validated.
+
+The analysis detected:
+
+• Accounts linked to invalid customers
+• Accounts linked to invalid branches
+• Transaction/customer mismatches
+• Missing transaction customer references
+
+Validation reports were generated for these issues.
+
+
+9. UNUSUAL TRANSACTION PATTERNS
+
+IQR analysis was used to identify unusual transaction amounts.
+
+Transaction Amount Upper IQR Boundary = ₹19,722.58
+
+Transaction Amount Outliers = 2,199
+
+Additional unusual patterns included:
+
+Rapid transactions within 10 minutes = 81
+Sudden location changes within 3 hours = 25
+Customers with repeated failed transactions = 159
+Multiple-device behavior was also identified.
+High failed-login activity was investigated.
+
+
+10. SQL ANALYSIS
+
+Advanced SQL analysis was performed using MySQL.
+
+The SQL analysis included:
+
+• Daily transaction volume
+• Monthly transaction value
+• Average transaction amount
+• Customer lifetime transaction value
+• Top customers by account balance
+• Top branches by fee revenue
+• Loan default rate
+• Customer repayment rate
+• Dormant accounts
+• Customers with multiple accounts
+• Customers with unusual transaction frequency
+• Running transaction totals
+• Month-over-month growth
+• Branch ranking
+• Customer ranking
+
+Advanced SQL concepts used:
+
+• JOINs
+• CTEs
+• Subqueries
+• CASE WHEN
+• Aggregate Functions
+• Window Functions
+• LAG()
+• DENSE_RANK()
+• Views
+• Indexes
+
+Analytical views were also created for customer transaction summaries and loan risk summaries.
+
+
+11. FRAUD INVESTIGATION
+
+Fraud investigation was performed using Python.
+
+The fraud analysis considered:
+
+• Rapid repeated transactions
+• Unusual transaction amounts
+• Sudden location changes
+• Multiple devices
+• Unusual merchant activity
+• Repeated failed transactions
+• Suspicious login activity
+• High-value transactions after dormant periods
+
+
+12. FRAUD INDICATORS
+
+Rapid Transactions:
+81 transactions occurred within 10 minutes of another customer transaction.
+
+Unusual Transaction Amounts:
+2,199 transactions exceeded the statistical IQR threshold.
+
+Sudden Location Changes:
+25 transactions showed location changes within three hours.
+
+Multiple Devices:
+46 customers met the multiple-device risk criteria.
+
+Unusual Merchant Activity:
+5 unusual merchant concentration patterns were identified.
+
+Repeated Failed Transactions:
+159 customers had three or more failed transactions.
+
+Suspicious Login Activity:
+501 customers met the supporting suspicious-login criteria.
+
+High-Value Transactions After Dormant Period:
+575 transactions met the high-value-after-dormancy condition.
+
+
+13. FRAUD RISK SCORE
+
+A Fraud Risk Score from 0 to 100 was developed.
+
+The score incorporated:
+
+• Unusual transaction amount
+• Rapid transaction activity
+• Sudden location change
+• Multiple devices
+• Unusual merchant activity
+• Repeated failed transactions
+• Suspicious login activity
+• High-value activity after dormant periods
+
+Risk Categories:
+
+Low Risk = 0–19
+Medium Risk = 20–39
+High Risk = 40–69
+Critical Risk = 70–100
+
+Fraud Risk Distribution:
+
+Low Risk = 23,610
+Medium Risk = 2,278
+High Risk = 140
+Critical Risk = 140
+
+Total High/Critical Suspicious Transactions = 280
+
+
+14. CONFIRMED FRAUD ANALYSIS
+
+Confirmed Fraud Transactions = 140
+
+All 140 confirmed fraud transactions were classified within the High/Critical fraud-risk group.
+
+Confirmed Fraud + Flagged Suspicious = 140
+Not Confirmed + Flagged Suspicious = 140
+Confirmed Fraud + Not Flagged = 0
+
+The rule-based framework therefore achieved 100% recall against the synthetic confirmed-fraud labels.
+
+The additional 140 suspicious transactions should be treated as unconfirmed suspicious cases requiring further
+investigation rather than automatically being classified as false positives.
+
+
+15. CUSTOMER FRAUD RISK
+
+Customer Fraud Risk Distribution:
+
+Low Risk = 163
+Medium Risk = 723
+High Risk = 69
+Critical Risk = 45
+
+Total High/Critical Fraud-Risk Customers = 114
+
+
+16. FRAUD BY CUSTOMER SEGMENT
+
+Observed High-Risk Customer Rates:
+
+Student = 12.64%
+Retail = 11.94%
+SME Owner = 11.11%
+Mass Affluent = 10.82%
+Senior Citizen = 10.71%
+Premium = 10.34%
+
+The Student segment had the highest observed high-risk customer rate.
+
+The Retail segment contributed a high absolute number of suspicious transactions because it had a larger customer base.
+
+
+17. LOAN RISK ANALYSIS
+
+Loan risk analysis was performed using:
+
+• Credit score
+• Annual income
+• Loan amount
+• Interest rate
+• Outstanding balance
+• Repayment history
+• Days past due
+• Credit utilization
+• Past-due accounts
+• Hard inquiries
+• Default status
+
+Valid Loans Analyzed = 646
+
+
+18. LOAN RISK SCORE
+
+A Loan Risk Score was developed using borrower and repayment risk indicators.
+
+Loan Risk Distribution:
+
+Low Risk = 9
+Medium Risk = 432
+High Risk = 56
+Critical Risk = 149
+
+High/Critical Risk Loans = 205
+
+
+19. LOAN DEFAULT RATE
+
+Total Valid Loans = 646
+Defaulted Loans = 140
+Observed Loan Default Rate = 21.67%
+
+The observed default rate indicates significant portfolio risk and supports the need for enhanced borrower monitoring and early-warning systems.
+
+
+20. DEFAULT BY CREDIT SCORE
+
+Observed Default Rates:
+
+Poor = 18.18%
+Fair = 28.14%
+Good = 21.63%
+Excellent = 14.19%
+
+The Fair category recorded the highest observed default rate.
+
+The Poor category contained a small number of loans, so its observed default rate should be interpreted cautiously.
+
+
+21. DEFAULT BY CUSTOMER SEGMENT
+
+Observed Default Rates:
+
+Senior Citizen = 29.87%
+Premium = 22.22%
+Retail = 22.05%
+Student = 22.00%
+SME Owner = 18.18%
+Mass Affluent = 17.60%
+
+Senior Citizen customers recorded the highest observed segment-level default rate.
+
+
+22. DEFAULT BY LOAN TYPE
+
+Auto = 25.93%
+Personal = 22.14%
+Business = 21.85%
+Home = 19.17%
+Education = 19.15%
+
+Auto loans recorded the highest observed default rate.
+
+
+23. BRANCH LOAN RISK
+
+B013 – Mumbai Branch 2 recorded one of the highest observed branch default rates.
+
+Observed Default Rate = 39.13%
+
+The branch should be reviewed for differences in:
+
+• Customer profiles
+• Loan mix
+• Underwriting quality
+• Repayment behavior
+• Collection performance
+
+
+24. INTEREST RATE AND DEFAULT
+
+The Very High interest-rate category recorded an observed default rate of approximately 25.84%.
+
+The Moderate category recorded approximately 6.90%.
+
+This does not prove that higher interest rates cause default because higher-risk borrowers may also receive higher interest rates.
+
+
+25. LOAN AMOUNT AND DEFAULT
+
+Observed Default Rates:
+
+Small = 19.14%
+Medium = 19.25%
+Large = 26.09%
+Very Large = 22.22%
+
+Large loans recorded the highest observed default rate.
+
+
+26. CUSTOMER PROFITABILITY ANALYSIS
+
+Customer profitability was modeled using:
+
+Customer Revenue =
+Transaction Fee Revenue + Estimated Annual Loan Interest Revenue
+
+Customer Operational Cost =
+Transaction Operational Cost + Annualized Account Service Cost + Complaint Service Cost
+
+Customer Profit =
+Customer Revenue - Customer Operational Cost
+
+Results:
+
+Modeled Customer Revenue = ₹29.40 Million
+Modeled Operational Cost = ₹2.96 Million
+Modeled Customer Profit = ₹26.45 Million
+Modeled Profit Margin = 89.94%
+
+Profitable Customers = 479
+Loss-Making Customers = 520
+
+These figures represent modeled analytical profitability rather than audited accounting profitability.
+
+
+27. MOST PROFITABLE CUSTOMERS
+
+Most Profitable Customer:
+
+Customer ID: C00265
+Customer Name: Vijay Singh
+Segment: Mass Affluent
+Estimated Customer Profit: ₹352,340.92
+
+Other high-profit customers included:
+
+C00409 – Ajay Verma
+C00769 – Pooja Iyer
+C00734 – Rohit Verma
+C00025 – Vijay Sharma
+
+
+28. LOSS-MAKING CUSTOMERS
+
+Largest Modeled Customer Losses:
+
+C00114 – Sanjay Verma = -₹6,927.63
+C00357 – Priya Verma = -₹6,724.39
+C00661 – Rahul Iyer = -₹6,237.77
+C00779 – Rohit Sharma = -₹5,924.93
+C00493 – Karthik Singh = -₹5,885.71
+
+
+29. CUSTOMER VALUE AND RISK MATRIX
+
+Low Value – Low/Medium Risk = 449
+High Value – Low/Medium Risk = 256
+Low Value – High Risk = 155
+High Value – High Risk = 139
+
+High Value – High Risk Customers = 139
+
+These customers are financially valuable while also presenting elevated fraud or credit risk.
+
+They require enhanced monitoring without unnecessarily damaging valuable banking relationships.
+
+
+30. LOW-RISK HIGH-VALUE CUSTOMERS
+
+Low-Risk High-Value Customers = 12
+
+Several customers in this group were still loss-making under the current profitability model.
+
+This demonstrates that customer value and customer profitability are different concepts.
+
+High-value but low-profit customers may provide opportunities for:
+
+• Cross-selling
+• Premium accounts
+• Fee-based services
+• Loan products
+• Investment products
+• Relationship-based offers
+
+
+31. STATISTICAL ANALYSIS
+
+Statistical analysis included:
+
+• Correlation Analysis
+• Hypothesis Testing
+• Point-Biserial Correlation
+• Confidence Intervals
+• Regression Analysis
+• Outlier Detection
+
+
+32. CORRELATION ANALYSIS
+
+Days Past Due vs Default:
+Correlation = 0.8963
+
+This showed a very strong positive relationship with loan default.
+
+Repayment Rate vs Default:
+Correlation = -0.4810
+
+Higher repayment rates were associated with lower default risk.
+
+Credit Score vs Default:
+Correlation = -0.1236
+
+Higher credit scores were associated with lower probability of default.
+
+
+33. CREDIT SCORE VS LOAN DEFAULT
+
+Defaulted Customers Average Credit Score = 677.80
+Non-Default Customers Average Credit Score = 699.52
+
+Difference = 21.72 Points
+
+Median Credit Score:
+
+Defaulted = 677
+Non-Defaulted = 702
+
+
+34. HYPOTHESIS TESTING
+
+Null Hypothesis (H0):
+
+There is no statistically significant difference in credit scores between defaulted and non-defaulted customers.
+
+Alternative Hypothesis (H1):
+
+There is a statistically significant difference in credit scores between defaulted and non-defaulted customers.
+
+Welch Independent T-Test Results:
+
+T-Statistic = -3.3091
+P-Value = 0.001083
+Significance Level = 0.05
+
+Since:
+
+P-Value < 0.05
+
+Decision:
+
+REJECT H0
+
+Conclusion:
+
+Credit score has a statistically significant relationship with loan default in the analyzed dataset.
+
+
+35. POINT-BISERIAL CORRELATION
+
+Point-Biserial Correlation = -0.1236
+P-Value = 0.001668
+
+Interpretation:
+
+Higher credit scores are statistically associated with a lower probability of loan default.
+
+
+36. 95% CONFIDENCE INTERVALS
+
+Defaulted Customers:
+
+Mean Credit Score = 677.80
+95% Confidence Interval = 666.52 to 689.08
+
+Non-Defaulted Customers:
+
+Mean Credit Score = 699.52
+95% Confidence Interval = 693.14 to 705.90
+
+
+37. REGRESSION ANALYSIS
+
+A Linear Probability Regression was performed using:
+
+• Credit Score
+• Annual Income
+• Loan Amount
+• Interest Rate
+• Days Past Due
+• Repayment Rate
+
+Regression R-Squared = 0.8205
+
+Days past due showed the strongest positive relationship with default in the model.
+
+Repayment rate showed a negative relationship with default.
+
+The multivariable credit-score coefficient should be interpreted cautiously because credit score and interest rate showed strong correlation of approximately -0.908, 
+indicating potential multicollinearity.
+
+Because loan default is a binary outcome, logistic regression would generally be more appropriate for a production predictive model.
+
+
+38. OUTLIER DETECTION
+
+Loan Amount Outliers = 0
+
+Transaction Amount Outliers = 2,199
+
+Transaction Amount Upper IQR Boundary = ₹19,722.58
+
+Credit Score Statistical Outliers = 2
+
+Outliers should be investigated rather than automatically removed because unusual banking transactions may represent either legitimate high-value activity or suspicious behavior.
+
+
+39. DEFAULT RATE CONFIDENCE INTERVAL
+
+Observed Default Rate = 21.67%
+
+95% Confidence Interval = 18.49% to 24.85%
+
+
+40. POWER BI DASHBOARDS
+
+Three interactive Power BI dashboard pages were developed.
+
+
+EXECUTIVE DASHBOARD
+
+KPIs:
+
+• Total Customers
+• Total Transactions
+• Transaction Value
+• Loan Portfolio
+• Default Rate
+• Fraud Amount
+• Customer Profit
+
+Visualizations:
+
+• Loan Risk Distribution
+• Suspicious Transactions by Branch
+• Customer Profit by Segment
+• Monthly Transaction Value Trend
+
+
+FRAUD DASHBOARD
+
+KPIs and Visualizations:
+
+• Suspicious Transactions
+• Average Fraud Risk Score
+• Fraud by Branch
+• Fraud by Customer Segment
+
+
+LOAN DASHBOARD
+
+KPIs and Visualizations:
+
+• Loan Default Rate
+• Loan Portfolio
+• Credit Score Distribution
+• Loan Risk Segments
+• Default Rate by Branch
+
+Interactive slicers:
+
+• Loan Type
+• Loan Risk Level
+• Branch
+
+
+41. KEY BUSINESS FINDINGS
+
+1. 280 transactions were classified as High/Critical fraud risk.
+
+2. All 140 synthetic confirmed-fraud transactions were captured by the High/Critical fraud-risk criteria.
+
+3. 114 customers were classified as High/Critical fraud risk.
+
+4. 2,199 unusual transaction amount outliers were identified.
+
+5. 81 rapid repeated transactions were identified.
+
+6. 25 sudden location changes were identified.
+
+7. The observed loan default rate was 21.67%.
+
+8. 205 loans were classified as High/Critical loan risk.
+
+9. Days past due had a very strong positive relationship with default at approximately 0.8963.
+
+10. Repayment rate had a negative relationship with default at approximately -0.4810.
+
+11. Defaulted customers had an average credit score 21.72 points lower than non-defaulted customers.
+
+12. Credit score had a statistically significant relationship with default, with p-value 0.001083.
+
+13. B013 – Mumbai Branch 2 recorded an observed default rate of approximately 39.13%.
+
+14. Auto loans recorded the highest observed loan-type default rate at approximately 25.93%.
+
+15. Modeled customer profit was approximately ₹26.45 million.
+
+16. 520 customers were loss-making under the profitability model.
+
+17. 139 customers were classified as High Value – High Risk.
+
+
+42. BUSINESS RECOMMENDATIONS
+
+RECOMMENDATION 1 – REAL-TIME FRAUD MONITORING
+
+Implement real-time monitoring for:
+
+• Rapid transactions
+• Unusual transaction amounts
+• Sudden location changes
+• Multiple devices
+• Failed transactions
+• Dormant-account activity
+• Suspicious login behavior
+
+
+RECOMMENDATION 2 – MULTI-FACTOR FRAUD SCORING
+
+Fraud decisions should use multiple risk indicators rather than a single rule.
+
+Transactions showing several simultaneous risk signals should receive higher investigation priority.
+
+
+RECOMMENDATION 3 – HIGH-RISK CUSTOMER MONITORING
+
+The 114 High/Critical fraud-risk customers should receive enhanced monitoring using:
+
+• Transaction alerts
+• Device verification
+• Login monitoring
+• Location checks
+• Step-up authentication
+• Manual review for unusual high-value activity
+
+
+RECOMMENDATION 4 – LOAN EARLY-WARNING SYSTEM
+
+Days past due was strongly associated with default.
+
+The bank should create early-warning alerts for customers showing:
+
+• Increasing days past due
+• Falling repayment rates
+• Multiple past-due accounts
+• High credit utilization
+• Weak credit scores
+
+
+RECOMMENDATION 5 – PRIORITIZE HIGH-RISK LOANS
+
+The 205 High/Critical loan-risk accounts should receive priority in collection and risk-management workflows.
+
+
+RECOMMENDATION 6 – REVIEW HIGH-RISK BRANCHES
+
+Branches with elevated default rates, particularly B013 – Mumbai Branch 2, should be reviewed for:
+
+• Underwriting quality
+• Customer risk profiles
+• Loan mix
+• Repayment performance
+• Collection effectiveness
+
+
+RECOMMENDATION 7 – REVIEW AUTO LOAN UNDERWRITING
+
+Auto loans recorded the highest observed default rate.
+
+The bank should evaluate:
+
+• Credit-score requirements
+• Income verification
+• Loan-to-income ratio
+• Down-payment requirements
+• Previous repayment behavior
+
+
+RECOMMENDATION 8 – PROTECT HIGH-VALUE HIGH-RISK CUSTOMERS
+
+The 139 High Value – High Risk customers should receive enhanced monitoring rather than automatic rejection.
+
+Possible controls include:
+
+• Enhanced authentication
+• Personalized transaction limits
+• Manual verification
+• Relationship-manager review
+• Continuous monitoring
+
+
+RECOMMENDATION 9 – IMPROVE LOSS-MAKING CUSTOMER ECONOMICS
+
+The 520 loss-making customers should be analyzed for opportunities involving:
+
+• Cross-selling
+• Appropriate account products
+• Digital self-service
+• Fee-based services
+• Reduced servicing costs
+• Targeted lending
+
+
+RECOMMENDATION 10 – COMBINE CREDIT SCORE WITH BEHAVIORAL RISK
+
+Credit score should not be used alone for lending decisions.
+
+Credit decisions should also consider:
+
+• Days past due
+• Repayment rate
+• Credit utilization
+• Income
+• Existing debt
+• Past-due accounts
+• Loan amount
+• Customer behavior
+
+
+43. LIMITATIONS
+
+• The datasets used in this project are synthetic and were created for analytical assessment purposes.
+
+• Fraud Risk Scores and Loan Risk Scores are rule-based analytical scores rather than production machine-learning models.
+
+• Confirmed fraud labels were used to validate the fraud framework.
+
+• Known default status contributed to the Loan Risk Score, so the risk score should not be treated as an independently validated predictive model.
+
+• Customer profitability includes estimated annual loan interest revenue and annualized service costs.
+
+• Profitability results therefore represent modeled customer economics rather than audited realized profit.
+
+• The regression used a linear probability model with a binary default outcome. Logistic regression would generally be more suitable for production default prediction.
+
+• Strong correlation between some predictor variables can influence multivariable regression coefficients.
+
+
+44. FUTURE IMPROVEMENTS
+
+The project can be extended using:
+
+• Logistic Regression
+• Machine Learning Fraud Detection
+• Isolation Forest
+• Customer Churn Prediction
+• Probability of Default
+• Loss Given Default
+• Expected Credit Loss
+• Real-Time Fraud Alerts
+• Customer Lifetime Value
+• Branch Benchmarking
+• Automated Power BI Refresh
+• Predictive Risk Dashboards
+
+
+45. CONCLUSION
+
+The Banking Fraud, Customer Risk & Profitability Analytics project demonstrates a complete end-to-end banking analytics workflow using Python, SQL, Statistics, and Power BI.
+
+The project successfully cleaned and validated multiple banking datasets, analyzed customer and transaction behavior, detected suspicious transactions, developed fraud and loan risk scores,
+ analyzed loan defaults, modeled customer profitability, performed statistical testing, and created interactive management dashboards.
+
+Fraud investigation identified 280 High/Critical suspicious transactions, including all 140 synthetic confirmed fraud transactions. Customer-level analysis identified 114 High/Critical fraud-risk customers.
+
+Loan analysis found an observed default rate of 21.67%, with 205 loans classified as High/Critical risk. Days past due emerged as the strongest analyzed indicator associated with default.
+
+Statistical testing demonstrated that credit score had a statistically significant relationship with loan default, with a p-value of 0.001083. 
+Defaulted customers had an average credit score of 677.80 compared with 699.52 for non-defaulted customers.
+
+Customer profitability analysis estimated ₹26.45 million in modeled customer profit and identified 139 High Value – High Risk customers.
+
+The Power BI Executive, Fraud, and Loan dashboards provide management with a consolidated view of banking performance, fraud exposure, loan risk, and customer value.
+
+Overall, this project demonstrates how integrated data analytics can help a retail bank move from reactive problem-solving toward proactive fraud detection, credit-risk monitoring,
+ customer profitability management, and data-driven decision-making.
+
+
+FINAL PROJECT SUMMARY
+
+Project:
+Banking Fraud, Customer Risk & Profitability Analytics
+
+Technologies Used:
+Python | Pandas | NumPy | SciPy | SQL | MySQL | Power BI | DAX | Statistics
+
+Final Results:
+
+Valid Customers = 999
+Valid Transactions = 26,168
+Suspicious Transactions = 280
+Confirmed Fraud Transactions = 140
+High/Critical Fraud-Risk Customers = 114
+Valid Loans = 646
+Defaulted Loans = 140
+Loan Default Rate = 21.67%
+High/Critical Loan-Risk Loans = 205
+Defaulted Customer Average Credit Score = 677.80
+Non-Default Customer Average Credit Score = 699.52
+Hypothesis Test P-Value = 0.001083
+Transaction Amount Outliers = 2,199
+Modeled Customer Revenue = ₹29.40M
+Modeled Operational Cost = ₹2.96M
+Modeled Customer Profit = ₹26.45M
+Loss-Making Customers = 520
+High Value – High Risk Customers = 139
+Power BI Dashboard Pages = 3
+
+PROJECT STATUS: COMPLETED
